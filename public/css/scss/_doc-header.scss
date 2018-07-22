@@ -1,0 +1,21 @@
+header, .header{
+	position:relative;
+	width: 100%;
+	z-index: 999;
+	@include background-image(linear-gradient(to right, #2193b0, #6dd5ed));
+
+	.logo{
+		margin: 1rem;
+	}
+
+	.ms-menu{
+
+		margin: 2rem 1rem;
+
+		a{
+			color: #fff;
+			font-weight: 500;
+			font-size: 1rem;
+		}
+	}
+}

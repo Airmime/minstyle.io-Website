@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>minstyle.io - A Simple CSS framework !</title>
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/doc.css">
+	<link rel="stylesheet" type="text/css" href="css/prism.css">
+</head>
+<body>
+
+	<header class="header">
+		<div class="row no-margin">
+			<div class="ms-float-left">
+				<img src="img/logo.png" alt="Logo" class="logo">
+			</div><!-- /logo -->
+
+			<div class="ms-menu ms-float-right">
+				<nav>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Documentation</a></li>
+					<li><a href="#">Support</a></li>
+					<li><a href="#">Contribute <i class="fab fa-github"></i></a></li>
+				</nav>
+			</div>
+		</div><!-- /row -->
+	</header>
+	
+	<div class="box" style="max-width: 1400px;">
+		<div class="row">
+			<div class="col-s-3">
+      			<div class="left-menu">
+      				<input type="text" value="Search..." id="Search" class="ms-rounded">
+
+					<div class="row">
+						<h2>Get started</h2>
+	      				<ul class="ms-list ms-list-none">
+							<li><a href="">Get started</a></li>
+						</ul>
+					</div>
+
+					<div class="row">
+						<h2>Font</h2>
+	      				<ul class="ms-list ms-list-none">
+							<li><a href="">Typographie</a></li>
+							<li><a href="">Content</a></li>
+							<li><a href="">Heading</a></li>
+						</ul>
+					</div>
+
+					<div class="row">
+						<h2>CSS Components</h2>
+	      				<ul class="ms-list ms-list-none">
+							<li><a href="">Buttuns</a></li>
+							<li><a href="">Blockquote</a></li>
+							<li><a href="">Table</a></li>
+							<li><a href="">Alert</a></li>
+							<li><a href="">List</a></li>
+							<li><a href="">Form</a></li>
+							<li><a href="">Heading</a></li>
+							<li><a href="">Badge</a></li>
+							<li><a href="">Progress Bar</a></li>
+						</ul>
+					</div>
+
+					<div class="row">
+						<h2>CSS Elements</h2>
+	      				<ul class="ms-list ms-list-none">
+							<li><a href="">Card</a></li>
+							<li><a href="">Menu</a></li>
+							<li><a href="">Box</a></li>
+						</ul>
+					</div>
+      			</div>
+			</div>
+
+			<div class="col-s-9">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis facilis ipsa animi, obcaecati recusandae minima, omnis. Voluptate mollitia dolore ducimus possimus veritatis ex, quasi quas laborum quam, earum animi necessitatibus!
+				</p>
+
+				<!-- ALERT RED -->
+		<div class="row">
+			<div class="col-s-12">
+				<div class="ms-alert ms-red">
+					<b><i class="fas fa-exclamation-triangle"></i> Alert</b>, Lorem <span class="colored">ipsum</span> dolor sit amet, consectetur adipisicing elit. Cum culpa numquam asperiores, laudantium esse quas perferendis <span class="colored">ad laborum ipsum facilis</span>, saepe sed. Aperiam sed, inventore excepturi harum eum exercitationem numquam!
+				</div>
+			</div>
+
+			<div class="col-s-12">
+				<pre><code class="language-html"><div class="ms-alert ms-red">
+<b><i class="fas fa-exclamation-triangle"></i> Alert</b>, Lorem <span class="colored">ipsum</span> dolor...
+</div></code></pre>
+			</div>
+		</div>
+			</div>
+		</div>
+	</div>	
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/prism.js"></script>
+	<script type="text/javascript">
+		$('code').each(function(){
+		var el = $(this);
+		el.text(el.html());
+		});
+	</script>
+
+</body>
+</html>
