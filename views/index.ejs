@@ -13,20 +13,7 @@
 
 	<header class="header">
 
-		<div class="row no-margin">
-			<div class="ms-float-left">
-				<img src="img/logo.png" alt="Logo" class="logo">
-			</div><!-- /logo -->
-
-			<div class="ms-menu ms-float-right">
-				<nav>
-					<li><a href="#">Home</a></li>
-					<li><a href="/doc">Documentation</a></li>
-					<li><a href="#">Support</a></li>
-					<li><a href="#">Contribute <i class="fab fa-github"></i></a></li>
-				</nav>
-			</div>
-		</div><!-- /row -->
+		<%- include('elements/menu'); %>
 
 		<div class="container">
 			<div class="row intro" style="margin-top: 60px;">
@@ -50,9 +37,9 @@
 					</div>
 
 					<div class="actions">
-						<a href="" class="ms-btn ms-rounded ms-yellow ms-large"><span class="ms-fw-700">Download</span></a>
+						<a href="https://github.com/Airmime/minstyle.io" target="_blank" class="ms-btn ms-rounded ms-yellow ms-large"><span class="ms-fw-700">Download</span></a>
 
-						<a href="" class="ms-btn ms-rounded ms-large" style="background-color: #263238; border:none; color: #fff;"><span class="ms-fw-600">Get Started</span></a>
+						<a href="/documentation" class="ms-btn ms-rounded ms-large" style="background-color: #263238; border:none; color: #fff;"><span class="ms-fw-600">Get Started</span></a>
 					</div>
 				</div>
 			</div>

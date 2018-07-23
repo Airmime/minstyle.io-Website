@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 
 /* Routes */
 app.use('/', indexRouter);
-app.use('/doc', docRouter);
+app.use('/documentation', docRouter);
 
 /* Server Config */
 app.listen(8080);
