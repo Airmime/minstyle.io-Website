@@ -3,6 +3,8 @@
 	padding-left: 10px;
 
 	.left-menu{
+		margin-top: 5px;
+
 		h2{
 			font-size: 1.4rem;
 			color: #41535c;
@@ -19,6 +21,15 @@
 
 		.row{
 			margin-bottom: 20px;
+		}
+	}
+
+	.content{
+		p{
+			font-size: 1.1rem;
+			line-height: 1.5rem;
+			color: #464747;
+			padding: 0 10px;
 		}
 	}
 }

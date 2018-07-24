@@ -30,7 +30,7 @@
 							</div>
 							<div class="ms-text">
 								<p class="ms-text-white">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta perferendis dolor, accusamus eligendi rem magnam blanditiis voluptates deleniti architecto in atque, inventore quaerat enim porro ab maxime ad esse voluptatum...
+									<%=translation.WELCOME_MSG%>, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta perferendis dolor, accusamus eligendi rem magnam blanditiis voluptates deleniti architecto in atque, inventore quaerat enim porro ab maxime ad esse voluptatum...
 								</p>
 							</div>
 						</div>
@@ -39,7 +39,7 @@
 					<div class="actions">
 						<a href="https://github.com/Airmime/minstyle.io" target="_blank" class="ms-btn ms-rounded ms-yellow ms-large"><span class="ms-fw-700">Download</span></a>
 
-						<a href="/documentation" class="ms-btn ms-rounded ms-large" style="background-color: #263238; border:none; color: #fff;"><span class="ms-fw-600">Get Started</span></a>
+						<a href="/doc" class="ms-btn ms-rounded ms-large" style="background-color: #263238; border:none; color: #fff;"><span class="ms-fw-600">Get Started</span></a>
 					</div>
 				</div>
 			</div>
@@ -105,8 +105,8 @@
 			<div class="row">
 				<div class="doc ms-text-center">
 					<p>
-						<a href="#" class="ms-btn ms-border ms-yellow ms-large"><i class="fas fa-graduation-cap ms-text-yellow"></i> Documentation</a><br/>
-						<a href="#" class="ms-text-gray-font" style="text-decoration: none; display: block;padding-top: 5px;">Contribute on GitHub</a>
+						<a href="/doc" class="ms-btn ms-border ms-yellow ms-large"><i class="fas fa-graduation-cap ms-text-yellow"></i> Documentation</a><br/>
+						<a href="https://github.com/Airmime/minstyle.io" target="_blank" class="ms-text-gray-font" style="text-decoration: none; display: block;padding-top: 5px;">Contribute on GitHub</a>
 					</p>
 				</div>
 			</div>
@@ -115,39 +115,7 @@
 
 	
 	<div class="container">
-		<footer class="footer">
-			<div class="row no-margin">
-				<div class="col-s-2">
-					<h4>minstyle.io</h4>
-
-					<ul>
-						<li><a href="">Contribute</a></li>
-						<li><a href="">Contact</a></li>
-					</ul>
-				</div>
-				<div class="col-s-2">
-					<h4>Help</h4>
-
-					<ul>
-						<li><a href="">Open an issue</a></li>
-						<li><a href="">How contribute</a></li>
-						<li><a href="">Documentation</a></li>
-					</ul>
-				</div>
-				<div class="col-s-2">
-					<h4>Information</h4>
-
-					<ul>
-						<li><a href="">Licence</a></li>
-					</ul>
-				</div>
-				<div class="col-s-6 text">
-					<p>
-						<a href="">minstyle.io</a> is an open source under MIT licence, created by <a href="">@airmime</a> with heart in <a href="http://www.saint-etienne.fr" target="_blank">European Capital of Design</a>.
-					</p>
-				</div>
-			</div>
-		</footer>
+		<%- include('elements/footer'); %>
 	</div>
 	
 
