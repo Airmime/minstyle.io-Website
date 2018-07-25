@@ -17,6 +17,10 @@
 		a{
 			color: #8f8f8f;
 			text-decoration: none;
+
+			&:hover{
+				color: #1dabe7;
+			}
 		}
 
 		.row{
@@ -30,6 +34,10 @@
 			line-height: 1.5rem;
 			color: #464747;
 			padding: 0 10px;
+		}
+
+		h1{
+			margin: 20px 0;
 		}
 	}
 }
