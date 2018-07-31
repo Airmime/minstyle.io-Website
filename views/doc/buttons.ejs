@@ -2,40 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>minstyle.io - A Simple CSS framework !</title>
+	<title>Buttons - Documentation</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../css/doc.css">
-	<link rel="stylesheet" type="text/css" href="css/prism.css">
+	<link rel="stylesheet" type="text/css" href="/css/doc.css">
+	<link rel="stylesheet" type="text/css" href="/css/prism.css">
 </head>
 <body>
 
 	<header class="header">
-		<%- include('elements/menu'); %>
+		<%- include('../elements/menu'); %>
 	</header>
 	
 	<div class="box" style="max-width: 1400px;">
 		<div class="row">
 			<div class="col-s-3">
-      			<%- include('elements/left-menu'); %>
+      			<%- include('../elements/left-menu'); %>
 			</div>
 
 			<div class="col-s-9 content">
 				<div class="row">
 					<span class="ms-badge ms-white"><i class="fas fa-graduation-cap"></i> Doc</span>
-					<h1 class="ms-text-size-3">How to do?</h1>
+					<span class="ms-badge ms-blue">Buttons</span>
+					<h1 class="ms-text-size-3">Buttons</h1>
 				</div>
-
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis facilis ipsa animi, obcaecati recusandae minima, omnis. Voluptate mollitia dolore ducimus possimus veritatis ex, quasi quas laborum quam, earum animi necessitatibus!
-				</p>
 			</div>
 		</div>
 	</div>	
 
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/prism.js"></script>
+	<script type="text/javascript" src="/js/prism.js"></script>
 	<script type="text/javascript">
 		$('code').each(function(){
 		var el = $(this);

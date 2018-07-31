@@ -53,6 +53,30 @@ app.get('/', function(req, res, next) {
 })
 .get('/doc/heading', function(req, res, next) {
   res.render('doc/heading');
+})
+.get('/doc/buttons', function(req, res, next) {
+  res.render('doc/buttons');
+})
+.get('/doc/blockquotes', function(req, res, next) {
+  res.render('doc/blockquotes');
+})
+.get('/doc/tables', function(req, res, next) {
+  res.render('doc/tables');
+})
+.get('/doc/alerts', function(req, res, next) {
+  res.render('doc/alerts');
+})
+.get('/doc/lists', function(req, res, next) {
+  res.render('doc/lists');
+})
+.get('/doc/forms', function(req, res, next) {
+  res.render('doc/forms');
+})
+.get('/doc/badges', function(req, res, next) {
+  res.render('doc/badges');
+})
+.get('/doc/progress-bar', function(req, res, next) {
+  res.render('doc/progress-bar.ejs');
 });
 
 /* Server Config */
