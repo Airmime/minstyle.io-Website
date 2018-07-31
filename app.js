@@ -76,7 +76,16 @@ app.get('/', function(req, res, next) {
   res.render('doc/badges');
 })
 .get('/doc/progress-bar', function(req, res, next) {
-  res.render('doc/progress-bar.ejs');
+  res.render('doc/progress-bar');
+})
+.get('/doc/cards', function(req, res, next) {
+  res.render('doc/cards');
+})
+.get('/doc/menu', function(req, res, next) {
+  res.render('doc/menu');
+})
+.get('/doc/box', function(req, res, next) {
+  res.render('doc/box');
 });
 
 /* Server Config */
