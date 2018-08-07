@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Buttons - Documentation</title>
+	<title>Buttons documentation | minstyle.io</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -22,10 +22,137 @@
 			</div>
 
 			<div class="col-s-9 content">
-				<div class="row">
+				<div class="breadcrumbs">
 					<span class="ms-badge ms-white"><i class="fas fa-graduation-cap"></i> Doc</span>
-					<span class="ms-badge ms-blue">Buttons</span>
-					<h1 class="ms-text-size-3">Buttons</h1>
+					<span class="ms-badge ms-yellow"><%=translation.BUTTONS%></span>
+					<h1 class="ms-text-size-3">Make your buttons great again !</h1>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.BUTTONS_TYPE_TITLE%></h2>
+					<p>
+						<%=translation.BUTTONS_TYPE_CONTENT%>
+					</p>
+					
+					<div class="example">
+						<div class="col-s-12">
+							<button class="ms-btn ms-blue">ms-btn (default)</button>
+							<button class="ms-btn ms-rounded ms-blue">ms-rounded</button>
+							<button class="ms-btn ms-border ms-blue">ms-border</button>
+							<button class="ms-btn ms-border-bottom ms-blue">ms-border-bottom</button>
+							<button class="ms-btn ms-clear ms-blue">ms-clear</button>
+						</div>
+
+						<div class="col-s-12">
+							<pre>
+<code class="language-html"><button class="ms-btn ms-blue">Button</button>
+<button class="ms-btn ms-rounded ms-blue">Rounded</button>
+<button class="ms-btn ms-border ms-blue">Border</button>
+<button class="ms-btn ms-border-bottom ms-blue">Border Bottom</button>
+<button class="ms-btn ms-clear ms-blue">Clear</button></code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.BUTTONS_COLOR_TITLE%></h2>
+					
+					<div class="example">
+						<div class="col-s-12">
+							<button class="ms-btn">Default</button>
+							<button class="ms-btn ms-rounded ms-red">Red</button>
+							<button class="ms-btn ms-rounded ms-yellow">Yellow</button>
+							<button class="ms-btn ms-border ms-blue">Blue</button>
+							<button class="ms-btn ms-border-bottom ms-green">Green</button>
+							<button class="ms-btn ms-clear ms-gradient">Gradient</button>
+						</div>
+
+						<div class="col-s-12">
+							<pre>
+<code class="language-html"><button class="ms-btn">Default</button>
+<button class="ms-btn ms-rounded ms-red">Red</button>
+<button class="ms-btn ms-rounded ms-yellow">Yellow</button>
+<button class="ms-btn ms-border ms-blue">Blue</button>
+<button class="ms-btn ms-border-bottom ms-green">Green</button>
+<button class="ms-btn ms-clear ms-gradient">Gradient</button></code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.BUTTONS_SIZE_TITLE%></h2>
+					
+					<div class="example">
+						<div class="col-s-12">
+							<button class="ms-btn ms-rounded ms-green ms-small">Small</button>
+							<button class="ms-btn ms-rounded ms-green">Normal</button>
+							<button class="ms-btn ms-rounded ms-green ms-large ">Large</button>
+						</div>
+
+						<div class="col-s-12">
+							<pre>
+<code class="language-html"><button class="ms-btn ms-rounded ms-green ms-small">Small</button>
+<button class="ms-btn ms-rounded ms-green">Normal</button>
+<button class="ms-btn ms-rounded ms-green ms-large ">Large</button></code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.BUTTONS_WIDTH_TITLE%></h2>
+					
+					<div class="example">
+						<div class="col-s-12">
+							<div class="col-s-5">
+								<button class="ms-btn ms-yellow ms-block">Block Button</button>
+							</div>
+						</div>
+
+						<div class="col-s-12">
+							<pre>
+<code class="language-html"><button class="ms-btn ms-yellow ms-block">Block Button</button></code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.BUTTONS_ICON_TITLE%></h2>
+
+					<p>
+						<%=translation.BUTTONS_ICON_CONTENT%>
+					</p>
+					
+					<div class="example">
+						<div class="col-s-12">
+							<div class="col-s-5">
+								<button class="ms-btn ms-rounded ms-red"><i class="fas fa-laugh-wink"></i> Use icons</button>
+								<button class="ms-btn ms-rounded ms-green"><i class="fas fa-laugh-squint"></i> Use icons</button>
+							</div>
+						</div>
+
+						<div class="col-s-12">
+							<pre>
+<code class="language-html"><button class="ms-btn ms-rounded ms-red"><i class="fas fa-laugh-wink"></i> Use icons</button>
+<button class="ms-btn ms-rounded ms-green"><i class="fas fa-laugh-squint"></i> Use icons</button></code></pre>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.BUTTONS_MARGIN_TITLE%></h2>
+					
+					<div class="example">
+						<div class="col-s-12">
+							<div class="col-s-5">
+								<button class="ms-btn ms-rounded ms-blue no-margin">No margin</button>
+							</div>
+						</div>
+
+						<div class="col-s-12">
+							<pre>
+<code class="language-html"><button class="ms-btn ms-rounded ms-blue no-margin">No margin</button></code></pre>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>

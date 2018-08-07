@@ -1,3 +1,17 @@
 {
+
+	"BUTTONS" : "Buttons",
+	"BUTTONS_TYPE_TITLE" : "Types of buttons",
+	"BUTTONS_TYPE_CONTENT": "To create a minstyle button, add the class name ms-btn. It is also possible to add a particular style button by adding an additional class as below :",
+
+	"BUTTONS_COLOR_TITLE" : "Button color",
+	"BUTTONS_SIZE_TITLE" : "Button size",
+	"BUTTONS_WIDTH_TITLE" : "Full width button",
+
+	"BUTTONS_ICON_TITLE" : "Use icons",
+	"BUTTONS_ICON_CONTENT" : "To use icons it is necessary to download the library on fontawesome.com",
+
+	"BUTTONS_MARGIN_TITLE" : "No-margin button",
+
 	"WELCOME_MSG": "Hi! Welcome!"
 }
