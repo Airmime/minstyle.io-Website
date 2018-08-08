@@ -1,5 +1,18 @@
 {
+	"LANG": "fr",
+
+	"HOME_META_TITLE": "minstyle.io - framework CSS simple et léger !",
 	
+	"MENU_HOME": "Accueil",
+	"MENU_DOC": "Documentation",
+	"MENU_SUPPORT": "Aide",
+	"MENU_CONTRIBUTE": "Contribuer",
+
+	"HOME_DOWNLOAD": "Télécharger",
+	"HOME_START": "Commencer",
+	"HOME_START_LINK": "Copier coller la ligne suivante dans votre balise HEAD pour intégrer minstyle.io sur votre page HTML. ",
+	"HOME_START_NPM": "minstyle.io est également disponible en package npm.",
+
 	"BUTTONS" : "Boutons",
 	"BUTTONS_TYPE_TITLE" : "Types de boutons",
 	"BUTTONS_TYPE_CONTENT": "Pour créer un bouton minstyle, ajoutez la classe ms-btn. Il est également possible d'ajouter un style particulier sur le bouton en ajoutant une classe supplémentaire comme ci-dessous :",
@@ -13,5 +26,5 @@
 
 	"BUTTONS_MARGIN_TITLE" : "Bouton sans marge",
 
-	"WELCOME_MSG": "Salut mec!"
+	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interaces pour tous types de supports. "
 }

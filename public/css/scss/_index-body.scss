@@ -3,7 +3,7 @@
 
 	.npm{
 		width: 100%;
-		max-width: 675px;
+		max-width: 775px;
 		height: 50px;
 		background-color: #e3e3e3;
 		overflow: hidden;
@@ -28,6 +28,14 @@
 			font-weight: 700;
 			padding: 0 0 0 10px;
 		}
+
+		h4{
+			font-size: 1.3rem;
+		}
+	}
+
+	.download{
+		margin-bottom: 10px;
 	}
 
 	.ms-box .ms-content .ms-text p {

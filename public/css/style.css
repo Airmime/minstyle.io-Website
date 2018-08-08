@@ -103,7 +103,7 @@ header .sublime .coding, .header .sublime .coding {
 
 .started .npm {
   width: 100%;
-  max-width: 675px;
+  max-width: 775px;
   height: 50px;
   background-color: #e3e3e3;
   overflow: hidden;
@@ -132,6 +132,14 @@ header .sublime .coding, .header .sublime .coding {
   font-size: 1.2rem;
   font-weight: 700;
   padding: 0 0 0 10px;
+}
+
+.started .npm h4 {
+  font-size: 1.3rem;
+}
+
+.started .download {
+  margin-bottom: 10px;
 }
 
 .started .ms-box .ms-content .ms-text p {

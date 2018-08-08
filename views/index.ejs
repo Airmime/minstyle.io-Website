@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%=translation.LANG%>">
 <head>
 	<meta charset="UTF-8">
-	<title>minstyle.io - A Simple CSS framework !</title>
+	<title><%=translation.HOME_META_TITLE%></title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/prism.css">
 </head>
 <body>
 	<div class="background"></div>
@@ -30,16 +31,16 @@
 							</div>
 							<div class="ms-text">
 								<p class="ms-text-white">
-									<%=translation.WELCOME_MSG%>, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta perferendis dolor, accusamus eligendi rem magnam blanditiis voluptates deleniti architecto in atque, inventore quaerat enim porro ab maxime ad esse voluptatum...
+									<%=translation.WELCOME_MSG%>
 								</p>
 							</div>
 						</div>
 					</div>
 
 					<div class="actions">
-						<a href="https://github.com/Airmime/minstyle.io" target="_blank" class="ms-btn ms-rounded ms-yellow ms-large"><span class="ms-fw-700">Download</span></a>
+						<a href="https://github.com/Airmime/minstyle.io" target="_blank" class="ms-btn ms-rounded ms-yellow ms-large"><span class="ms-fw-700"><%=translation.HOME_DOWNLOAD%></span></a>
 
-						<a href="/doc" class="ms-btn ms-rounded ms-large" style="background-color: #263238; border:none; color: #fff;"><span class="ms-fw-600">Get Started</span></a>
+						<a href="/doc" class="ms-btn ms-rounded ms-large" style="background-color: #263238; border:none; color: #fff;"><span class="ms-fw-600"><%=translation.HOME_START%></span></a>
 					</div>
 				</div>
 			</div>
@@ -78,26 +79,44 @@
 				<div class="ms-box">
 					<div class="ms-content">
 						<div class="ms-title">
-							<h2 class="ms-text-size-2 ms-text-center"><span class="ms-fw-600" style="color: #263238;">Get Started</span></h2>
+							<h2 class="ms-text-size-2 ms-text-center"><span class="ms-fw-600" style="color: #263238;"><%=translation.HOME_START%></span></h2>
 						</div>
 						<div class="ms-text">
 							<p class="ms-text-center">
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta perferendis dolor, accusamus eligendi rem magnam blanditiis voluptates deleniti architecto in atque, inventore quaerat enim porro ab maxime ad esse voluptatum...
+								<%=translation.HOME_START_LINK%>
 							</p>
 						</div>
 					</div>
-				</div>
-			</div>
 
-			<div class="row">
-				<div class="npm">
-					<div class="icon">
-						<i class="fas fa-terminal"></i>
+					<div class="download col-s-10 col-s-center">
+						<pre>
+<code class="language-html"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</code></pre>
 					</div>
-					<div class="command">
-						<p>
-							npm install minstyle.io
-						</p>
+				</div>
+
+
+				<div class="ms-box">
+					<div class="ms-content">
+						<div class="ms-title">
+							<h3 class="ms-text-center"><span class="ms-fw-600" style="color: #263238; font-size: 1.4rem;">Use npm</span></h3>
+						</div>
+						<div class="ms-text">
+							<p class="ms-text-center">
+								<%=translation.HOME_START_NPM%>
+							</p>
+						</div>
+					</div>
+
+					<div class="npm">
+						<div class="icon">
+							<i class="fas fa-terminal"></i>
+						</div>
+						<div class="command">
+							<p>
+								npm install minstyle.io
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -118,6 +137,14 @@
 		<%- include('elements/footer'); %>
 	</div>
 	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/js/prism.js"></script>
+	<script type="text/javascript">
+		$('code').each(function(){
+		var el = $(this);
+		el.text(el.html());
+		});
+	</script>
 
 </body>
 </html>
