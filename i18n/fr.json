@@ -16,15 +16,16 @@
 	"BUTTONS" : "Boutons",
 	"BUTTONS_TYPE_TITLE" : "Types de boutons",
 	"BUTTONS_TYPE_CONTENT": "Pour créer un bouton minstyle, ajoutez la classe ms-btn. Il est également possible d'ajouter un style particulier sur le bouton en ajoutant une classe supplémentaire comme ci-dessous :",
-
 	"BUTTONS_COLOR_TITLE" : "Couleur des boutons",
 	"BUTTONS_SIZE_TITLE" : "Taille des boutons",
 	"BUTTONS_WIDTH_TITLE" : "Boutton pleine largeur",
-
 	"BUTTONS_ICON_TITLE" : "Utiliser des icones",
 	"BUTTONS_ICON_CONTENT" : "Pour utiliser des icônes il est nécessaire de télécharger la librairie sur fontawesome.com",
-
 	"BUTTONS_MARGIN_TITLE" : "Bouton sans marge",
+
+	"ALERTS" : "Alertes",
+	"ALERTS_TITLE" : "\"La vie ne consiste pas à se trouver soi-même. La vie consiste à créer des alertes.\"",
+	"ALERTS_DESC" : "Les alertes vous permettent d'informer vos utilisateurs des actions qu'ils entreprennent. La class standard des alertes minstyle.io est la suivante : ms-alert. Vous pouvez également définir une couleur avec la class ms-blue, ou une taille avec : ms-large.",
 
 	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interaces pour tous types de supports. "
 }
