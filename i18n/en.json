@@ -23,6 +23,10 @@
 	"BUTTONS_ICON_CONTENT" : "To use icons it is necessary to download the library on fontawesome.com",
 	"BUTTONS_MARGIN_TITLE" : "No-margin button",
 
+	"BLOCKQUOTE" : "Blockquote",
+	"BLOCKQUOTE_TITLE" : "\"Where there is love there is blockquote.\"",
+	"BLOCKQUOTE_DESC" : "Quotes allow you to highlight content, code or anything else. The ms-blockquote class allows you to designate citation blocks.",
+
 	"ALERTS" : "Alerts",
 	"ALERTS_TITLE" : "\"Life isn't about finding yourself. Life is about creating alerts.\"",
 	"ALERTS_DESC" : "Alerts allow you to inform your users of the actions they are taking. The standard class of minstyle.io alerts is ms-alert. You can also define a color with the class ms-blue, or a size with : ms-large.",
