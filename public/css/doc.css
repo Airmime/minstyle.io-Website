@@ -129,6 +129,10 @@ header .ms-menu a, .header .ms-menu a {
   margin: 0 0 20px 0;
 }
 
+.box .content .row {
+  margin-bottom: 30px;
+}
+
 body {
   font-family: 'Nunito', sans-serif;
   color: #263238;

@@ -23,13 +23,17 @@
 	"BUTTONS_ICON_CONTENT" : "Pour utiliser des icônes il est nécessaire de télécharger la librairie sur fontawesome.com",
 	"BUTTONS_MARGIN_TITLE" : "Bouton sans marge",
 
-	"BLOCKQUOTE" : "Citation",
+	"BLOCKQUOTE" : "Citations",
 	"BLOCKQUOTE_TITLE" : "\"Là où il y a de l'amour, il y a des citations.\"",
 	"BLOCKQUOTE_DESC" : "Les citations vous permettent de mettre en avant du contenu, code ou tout autres choses. La class ms-blockquote vous permet de désigner des blocs de citation.",
 
 	"ALERTS" : "Alertes",
 	"ALERTS_TITLE" : "\"La vie ne consiste pas à se trouver soi-même. La vie consiste à créer des alertes.\"",
 	"ALERTS_DESC" : "Les alertes vous permettent d'informer vos utilisateurs des actions qu'ils entreprennent. La class standard des alertes minstyle.io est la suivante : ms-alert. Vous pouvez également définir une couleur avec la class ms-blue, ou une taille avec : ms-large.",
+
+	"TABLE" : "Tableaux",
+	"TABLE_TITLE" : "\"Faites tout avec un tableau.\"",
+	"TABLE_DESC" : "Les tableaux vous permettent de représenter des données de façon structurée. Les éléments préconçus sont accessibles via la class .ms-table. Il est possible de mettre en avant une ligne en utilisant les class .ms-{color} (ex: ms-blue), ajouter des bordures extérieures avec la class .ms-boxed, et également des bordures sur l'ensemble des lignes avec .ms-triped.",
 
 	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interaces pour tous types de supports. "
 }
