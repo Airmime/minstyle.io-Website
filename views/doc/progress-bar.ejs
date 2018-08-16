@@ -2,7 +2,7 @@
 <html lang="<%=translation.LANG%>">
 <head>
 	<meta charset="UTF-8">
-	<title>Progress Bar documentation | minstyle.io</title>
+	<title><%=translation.PROGRESS_BAR%> documentation | minstyle.io</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -24,8 +24,169 @@
 			<div class="col-s-9 content">
 				<div class="row">
 					<span class="ms-badge ms-white"><i class="fas fa-graduation-cap"></i> Doc</span>
-					<span class="ms-badge ms-blue">Progress Bar</span>
-					<h1 class="ms-text-size-3">Progress Bar</h1>
+					<span class="ms-badge ms-blue"><h1><%=translation.PROGRESS_BAR%></h1></span>
+				</div>
+
+				<div class="row">
+					<p>
+						<%=translation.PROGRESS_BAR_DESC%>
+					</p>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill" style="width: 42%;">42%</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+	<div class="ms-progress-fill" style="width: 42%;">42%</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill ms-blue" style="width: 23%;">23%</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+	<div class="ms-progress-fill ms-blue" style="width: 23%;">23%</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill ms-green ms-rounded" style="width: 88%;">88%</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+	<div class="ms-progress-fill ms-green ms-rounded" style="width: 88%;">88%</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill ms-gradient ms-rounded" style="width: 58%;">58%</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+	<div class="ms-progress-fill ms-gradient ms-rounded" style="width: 58%;">58%</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill ms-red" style="width: 65%;">65%</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+	<div class="ms-progress-fill ms-red" style="width: 65%;">65%</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill ms-blue" style="width: 65%;">65%</div>
+							<div class="ms-progress-fill ms-green" style="width: 35%;">35%</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+			<div class="ms-progress-fill ms-blue" style="width: 65%;">65%</div>
+	<div class="ms-progress-fill ms-green" style="width: 35%;">35%</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill ms-green ms-rounded ms-striped" style="width: 67%;">Loading...</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+	<div class="ms-progress-fill ms-green ms-rounded ms-striped" style="width: 67%;">Loading...</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress">
+							<div class="ms-progress-fill ms-red ms-rounded ms-striped" style="width: 12%;">Cancel...</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress">
+	<div class="ms-progress-fill ms-red ms-rounded ms-striped" style="width: 12%;">Cancel...</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress ms-small">
+							<div class="ms-progress-fill ms-blue" style="width: 23%;">Small</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress ms-small">
+	<div class="ms-progress-fill ms-blue" style="width: 23%;">Small</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress ms-large">
+							<div class="ms-progress-fill ms-blue" style="width: 23%;">Large</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress ms-large">
+	<div class="ms-progress-fill ms-blue" style="width: 23%;">Large</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-s-12">
+						<div class="ms-progress ms-rounded">
+							<div class="ms-progress-fill ms-green ms-rounded" style="width: 23%;">Rounded</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre><code class="language-html"><div class="ms-progress ms-rounded">
+	<div class="ms-progress-fill ms-green ms-rounded" style="width: 23%;">Rounded</div>
+</div></code></pre>
+					</div>
 				</div>
 			</div>
 		</div>

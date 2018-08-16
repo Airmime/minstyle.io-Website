@@ -33,12 +33,16 @@
 	"TABLE_DESC" : "Les tableaux vous permettent de représenter des données de façon structurée. Les éléments préconçus sont accessibles via la class .ms-table. Il est possible de mettre en avant une ligne en utilisant les class .ms-{color} (ex: ms-blue), ajouter des bordures extérieures avec la class .ms-boxed, et également des bordures sur l'ensemble des lignes avec .ms-triped.",
 
 	"LIST" : "Listes",
-	"LIST_TITLE" : "Listes",
 	"LIST_DESC" : "Listes",
 
 	"FORM" : "Formulaires",
-	"FORM_TITLE" : "Formulaires",
 	"FORM_DESC" : "Formulaires",
+
+	"BADGE" : "Badges",
+	"BADGE_DESC" : "Badges",
+
+	"PROGRESS_BAR" : "Barre de progression",
+	"PROGRESS_BAR_DESC" : "Barre de progression",
 
 	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interaces pour tous types de supports. "
 }
