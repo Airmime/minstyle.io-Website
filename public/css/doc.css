@@ -110,6 +110,10 @@ header .ms-menu a, .header .ms-menu a {
   margin-top: 5px;
 }
 
+.box .content .ms-badge h1 {
+  font-size: 1rem;
+}
+
 .box .content p {
   font-size: 1.1rem;
   line-height: 1.5rem;
@@ -117,11 +121,6 @@ header .ms-menu a, .header .ms-menu a {
   padding: 0;
   font-weight: 300;
   margin-bottom: 10px;
-}
-
-.box .content h1 {
-  font-size: 1.9rem;
-  margin: 20px 0;
 }
 
 .box .content h2 {
