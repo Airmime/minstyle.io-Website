@@ -33,16 +33,20 @@
 	"TABLE_DESC" : "Tables allow you to represent data in a structured way. Pre-designed elements are accessible via the .ms-table class. It is possible to highlight a line using the class .ms-{color} (ex: ms-blue), outer borders with .ms-boxed class, and also borders on all lines with .ms-triped.",
 
 	"LIST" : "Lists",
-	"LIST_DESC" : "Listes",
+	"LIST_DESC" : "Lists are used to order links or content. The .ms-list class is the default class, you can also surround the list with the .ms-boxed class. The list can also include badges to display a number.",
 
 	"FORM" : "Forms",
-	"FORM_DESC" : "Forms",
+	"FORM_DESC" : "minstyle.io allows you to simply design attractive and complete forms. Different styles are available on the <input>, as shown below:",
+	"FORM_TITLE_SIMPLE" : "Simple <input>",
+	"FORM_TITLE_ROUNDED" : "Rounded <input>",
+	"FORM_TITLE_SIZE" : "<input> Sizes ",
+	"FORM_TITLE_COLOR" : "<input> Colors",
 
 	"BADGE" : "Badges",
 	"BADGE_DESC" : "Badges",
 
 	"PROGRESS_BAR" : "Progress bar",
-	"PROGRESS_BAR_DESC" : "Badges",
+	"PROGRESS_BAR_DESC" : "Progress bar",
 
 	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices."
 }

@@ -33,10 +33,14 @@
 	"TABLE_DESC" : "Les tableaux vous permettent de représenter des données de façon structurée. Les éléments préconçus sont accessibles via la class .ms-table. Il est possible de mettre en avant une ligne en utilisant les class .ms-{color} (ex: ms-blue), ajouter des bordures extérieures avec la class .ms-boxed, et également des bordures sur l'ensemble des lignes avec .ms-triped.",
 
 	"LIST" : "Listes",
-	"LIST_DESC" : "Listes",
+	"LIST_DESC" : "Les lists permettent d'ordonner des liens ou du contenu. La class .ms-list est la class par défaut, vous pouvez également entourer la liste avec la class .ms-boxed. La liste peut également intégrer des badges pour afficher un nombre.",
 
 	"FORM" : "Formulaires",
-	"FORM_DESC" : "Formulaires",
+	"FORM_DESC" : "minstyle.io vous permet de concevoir simplement des formulaires attrayants et complets. Différents styles sont disponibles sur les <input>, comme présenté ci-dessous :",
+	"FORM_TITLE_SIMPLE" : "Element <input>",
+	"FORM_TITLE_ROUNDED" : "<input> arrondi",
+	"FORM_TITLE_SIZE" : "Taille d'un <input>",
+	"FORM_TITLE_COLOR" : "Couleurs d'un<input>",
 
 	"BADGE" : "Badges",
 	"BADGE_DESC" : "Badges",
