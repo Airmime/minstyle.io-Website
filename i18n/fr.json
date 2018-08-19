@@ -59,5 +59,16 @@
 	"PROGRESS_TITLE_SIZE" : "Taille d'une barre de progression",
 	"PROGRESS_TITLE_ROUNDED" : "Barre de progression arrondie",
 
+	"CARD" : "Cartes",
+	"CARD_DESC" : "Les cartes permettent de concevoir un bloc HTML contenant une image, un titre, du texte et un bouton (cf. page des boutons). Chaque élément peut-être ajusté avec les class .ms-center ou .ms-right (par défaut aligné à gauche).",
+
+	"MENU" : "Menu",
+	"MENU_DESC" : "Pour concevoir un menu HTML très simple, vous pouvez utiliser la class .ms-menu accompagnée des elements <nav> et <li>. ",
+
+	"BOX" : "Boite",
+	"BOX_DESC" : "Les boxes permettent de présenter du contenu de façon structurée, entouré par une bordure. La class .ms-box est composée d'un titre et d'une zone de texte. Il est également possible d'ajouter un entête avec la class .ms-header.",
+
+	"FONT_DESC" : "minstyle.io utilise la police d'écriture 'Nunito' disponible sur fonts.google.com. Pour intégrer 'Nunito' à votre projet, vous devez insérer la balise ci-dessous à votre projet, entre les balises <head> de votre page HTML :",
+
 	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interaces pour tous types de supports. "
 }

@@ -2,7 +2,7 @@
 <html lang="<%=translation.LANG%>">
 <head>
 	<meta charset="UTF-8">
-	<title>documentation | minstyle.io</title>
+	<title><%=translation.CARD%> documentation | minstyle.io</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -24,9 +24,152 @@
 			<div class="col-s-9 content">
 				<div class="row">
 					<span class="ms-badge ms-white"><i class="fas fa-graduation-cap"></i> Doc</span>
-					<span class="ms-badge ms-blue">Cards</span>
-					<h1 class="ms-text-size-3">Cards</h1>
+					<span class="ms-badge ms-blue"><%=translation.CARD%></span>
 				</div>
+
+				<div class="row">
+					<p>
+						<%=translation.CARD_DESC%>
+					</p>
+				</div>
+
+				<div class="row">
+					<div class="col-s-10 col-s-center col-m-4 col-m-center">
+						<div class="ms-card">
+							<div class="ms-pic">
+								<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="nodejs">
+							</div>
+
+							<div class="ms-title ms-center">
+								<h5>Quasi, mollitia!</h5>
+							</div>
+
+							<div class="ms-text ms-text-gray-font">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt nostrum minus, distinctio similique enim fugiat, sequi iure provident molestias minima quidem magni velit! Consectetur nesciunt mollitia ipsum, voluptatibus omnis.
+								</p>
+							</div>
+
+							<div class="ms-action ms-center">
+								<a class="ms-btn ms-green ms-large">GO !</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-s-12">
+							<pre><code class="language-html"><div class="ms-card">
+	<div class="ms-pic">
+		<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" alt="nodejs">
+	</div>
+
+	<div class="ms-title ms-center">
+		<h5>Quasi, mollitia!</h5>
+	</div>
+
+	<div class="ms-text ms-text-gray-font">
+		<p>
+			Lorem ipsum dolor sit amet...
+		</p>
+	</div>
+
+	<div class="ms-action ms-center">
+		<a class="ms-btn ms-green ms-large">GO !</a>
+	</div>
+</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+			<div class="col-s-10 col-s-center col-m-5 col-m-center">
+				<div class="ms-card ms-boxed">
+					<div class="ms-pic">
+						<img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="ubuntu">
+					</div>
+
+					<div class="ms-title">
+						<h5>Quasi, mollitia!</h5>
+					</div>
+
+					<div class="ms-text">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt nostrum minus, distinctio similique enim fugiat, sequi iure provident molestias minima quidem magni velit! Consectetur nesciunt mollitia ipsum, voluptatibus omnis.
+						</p>
+					</div>
+
+					<div class="ms-action">
+						<a class="ms-btn ms-yellow no-margin">GO ! (no-margin btn)</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-s-12">
+					<pre><code class="language-html"><div class="ms-card ms-boxed">
+	<div class="ms-pic">
+		<img src="https://assets.ubuntu.com/v1/29985a98-ubuntu-logo32.png" alt="ubuntu">
+	</div>
+
+	<div class="ms-title">
+		<h5>Quasi, mollitia!</h5>
+	</div>
+
+	<div class="ms-text">
+		<p>
+			Lorem ipsum dolor sit amet...
+		</p>
+	</div>
+
+	<div class="ms-action">
+		<a class="ms-btn ms-green no-margin">GO ! (no-margin btn)</a>
+	</div>
+</div></code></pre>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-s-10 col-s-center col-m-4 col-m-center">
+				<div class="ms-card">
+					<div class="ms-pic ms-rounded">
+						<img src="https://www.docker.com/sites/default/files/vertical.png" alt="Docker">
+					</div>
+
+					<div class="ms-title ms-center">
+						<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h5>
+					</div>
+
+					<div class="ms-text ms-center">
+						<p class="ms-text-gray-font">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt nostrum minus, distinctio similique...
+						</p>
+					</div>
+
+					<div class="ms-action ms-right">
+						<a class="ms-btn ms-border-bottom ms-blue">GO !</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-s-12">
+					<pre><code class="language-html"><div class="ms-card">
+	<div class="ms-pic ms-rounded">
+		<img src="https://www.docker.com/sites/default/files/vertical.png" alt="Docker">
+	</div>
+
+	<div class="ms-title ms-center">
+		<h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit!</h5>
+	</div>
+
+	<div class="ms-text ms-center">
+		<p class="ms-text-gray-font">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum sunt nostrum minus, distinctio similique...
+		</p>
+	</div>
+
+	<div class="ms-action ms-right">
+		<a class="ms-btn ms-border-bottom ms-blue">GO !</a>
+	</div>
+</div></code></pre>
+			</div>
+		</div>
 			</div>
 		</div>
 	</div>	

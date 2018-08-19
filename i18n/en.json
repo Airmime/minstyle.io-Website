@@ -59,5 +59,16 @@
 	"PROGRESS_TITLE_SIZE" : "Progress bar sizes",
 	"PROGRESS_TITLE_ROUNDED" : "Progress progress bar",
 
+	"CARD" : "Cards",
+	"CARD_DESC" : "Cards are used to design an HTML block containing an image, a title, text and a button (see the buttons page). Each element can be adjusted with class.ms-center or.ms-right (default left aligned).",
+
+	"MENU" : "Menu",
+	"MENU_DESC" : "To design a very simple HTML menu, you can use the.m-menu class with the elements <nav> and <li>. ",
+
+	"BOX" : "Box",
+	"BOX_DESC" : "The boxes allow content to be presented in a structured manner, surrounded by a border. The .ms-box class consists of a title and a text box. It is also possible to add a header with the .ms-header class.",
+	
+	"FONT_DESC" : "minstyle.io uses the 'Nunito' font available on fonts.google.com. To integrate 'Nunito' in your project, you must insert the tag below in your project, between the tags <head> of your HTML page :",
+
 	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices."
 }
