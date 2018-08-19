@@ -70,5 +70,14 @@
 
 	"FONT_DESC" : "minstyle.io utilise la police d'écriture 'Nunito' disponible sur fonts.google.com. Pour intégrer 'Nunito' à votre projet, vous devez insérer la balise ci-dessous à votre projet, entre les balises <head> de votre page HTML :",
 
+	"TYPOGRAPHY" : "Typographie",
+	"TYPOGRAPHY_DESC" : "minstyle.io propose plusieurs class permettant de modifier le style de vos typographies rapidement et simplement. Ainsi vous pouvez modifier la taille, la largeur ainsi que la couleur d'un text avec les class ci-dessous :",
+	"TYPOGRAPHY_TITLE_COLOR" : "Couleur",
+	"TYPOGRAPHY_TITLE_SIZE" : "Taille",
+	"TYPOGRAPHY_TITLE_WEIGHT" : "Largeur",
+	"TYPOGRAPHY_TITLE_ALIGN" : "Alignement",
+
+	"HEADING" : "Titre",
+
 	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interaces pour tous types de supports. "
 }
