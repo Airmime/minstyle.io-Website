@@ -43,10 +43,21 @@
 	"FORM_TITLE_COLOR" : "<input> Colors",
 
 	"BADGE" : "Badges",
-	"BADGE_DESC" : "Badges",
+	"BADGE_DESC" : "Different types of badges are available with minstyle.io : classic badges with class.ms-badge, badges with github style with class.ms-badge-gh, or notification tags with class.ms-notification. Badges can be used on links <a>, or on tags <span>.",
+	"BADGE_TITLE_COLOR" : "Badge colors",
+	"BADGE_TITLE_SIZE" : "Badge sizes",
+	"BADGE_TITLE_TYPE" : "Badge types",
+	"BADGE_TITLE_GH" : "GitHub Badges",
+	"BADGE_TITLE_GH_DESC" : "To use GitHub badges with icons, it is necessary to integrate fontawesome.com icons into your project.",
+	"BADGE_TITLE_NOTIF" : "Notification badges",
 
 	"PROGRESS_BAR" : "Progress bar",
-	"PROGRESS_BAR_DESC" : "Progress bar",
+	"PROGRESS_BAR_DESC" : "The progress bars indicate to the user that an action is in progress. minstyle.io offers several styles and colors :",
+	"PROGRESS_TITLE_COLOR" : "Colors of a progress bar",
+	"PROGRESS_TITLE_BICOLOR" : "Two colors progress bar",
+	"PROGRESS_TITLE_BICOLOR" : "Striped progress bar",
+	"PROGRESS_TITLE_SIZE" : "Progress bar sizes",
+	"PROGRESS_TITLE_ROUNDED" : "Progress progress bar",
 
 	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices."
 }
