@@ -9,7 +9,7 @@
 	"MENU_CONTRIBUTE": "Contribute",
 
 	"HOME_DOWNLOAD": "Download",
-	"HOME_START": "Get Started",
+	"HOME_START": "Install / Get Started",
 	"HOME_START_LINK": "Copy and paste the following line into your HEAD tag to integrate minstyle.io on your HTML page.",
 	"HOME_START_NPM": "minstyle.io is also available as an npm package.",
 
@@ -68,7 +68,7 @@
 	"BOX" : "Box",
 	"BOX_DESC" : "The boxes allow content to be presented in a structured manner, surrounded by a border. The .ms-box class consists of a title and a text box. It is also possible to add a header with the .ms-header class.",
 	
-	"FONT_DESC" : "minstyle.io use the 'Nunito' font available on fonts.google.com. To integrate 'Nunito' in your project, you must insert the tag below in your project, between the tags <head> of your HTML page :",
+	"FONT_DESC" : "minstyle.io use the 'Nunito' font available on fonts.google.com. To integrate 'Nunito' in your project, you must insert the tag below between the tags <head> of your HTML page :",
 
 	"TYPOGRAPHY" : "Typography",
 	"TYPOGRAPHY_DESC" : "minstyle.io offers several classes to change the style of your typographies quickly and easily. Thus you can modify the size, the width as well as the color of a text with the classes below :",
@@ -79,5 +79,16 @@
 
 	"HEADING" : "Heading",
 
+	"RESPONSIVE" : "Grid Responsive",
+
+	"DOC_STARTED1" : "minstyle.io vous permet de concevoir des interfaces web pour PC, tablette ou mobile. Pour cela un ensemble de class CSS vous permet de concevoir une page HTML avec des éléments préconçus.",
+	"DOC_STARTED2" : "L'architecture du framework est basée sur la concaténation des class. Pour exemple, la class ms-btn permet d'obtenir le design par défaut d'un bouton, la class ms-green permet de colorer le bouton en vers, et la class ms-rounded permet d'arrondir les angles du bouton :",
+	"DOC_STARTED_TITLE_INSTALL" : "Installation",
+	"DOC_STARTED_INSTALL" : "Installation",
+	"DOC_STARTED_INSTALL_DESC" : "Pour installer le framework css, trois options sont disponibles. La première en télécharger directement les sources (fichier CSS) du framework, la seconde utiliser la balise <link> et le CDN, ou alors installer les sources via NPM.",
+	"DOC_STARTED_TITLE_DOWNLOAD" : "Télécharger",
+	"DOC_STARTED_TITLE_CDN" : "CDN",
+	"DOC_STARTED_TITLE_NPM" : "Nodejs - npm",
+	
 	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices."
 }

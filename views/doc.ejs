@@ -2,7 +2,7 @@
 <html lang="<%=translation.LANG%>">
 <head>
 	<meta charset="UTF-8">
-	<title>minstyle.io - A Simple CSS framework !</title>
+	<title>Documentation | minstyle.io</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -24,12 +24,63 @@
 			<div class="col-s-9 content">
 				<div class="row">
 					<span class="ms-badge ms-white"><i class="fas fa-graduation-cap"></i> Doc</span>
-					<h1 class="ms-text-size-3">How to do?</h1>
+					<span class="ms-badge ms-yellow"><h1><%=translation.HOME_START%></h1></span>
 				</div>
 
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis facilis ipsa animi, obcaecati recusandae minima, omnis. Voluptate mollitia dolore ducimus possimus veritatis ex, quasi quas laborum quam, earum animi necessitatibus!
-				</p>
+				<div class="row">
+					<p>
+						<%=translation.DOC_STARTED1%>
+					</p>
+				</div>
+
+				<div class="row">
+					<p>
+						<%=translation.DOC_STARTED2%>
+					</p>
+					<button class="ms-btn">Button</button><br/>
+					<button class="ms-btn ms-green">Button</button><br/>
+					<button class="ms-btn ms-green ms-rounded">Button</button>
+
+					<div class="col-s-12">
+<pre><code class="language-html"><button class="ms-btn">Button</button>
+<button class="ms-btn ms-green">Button</button>
+<button class="ms-btn ms-green ms-rounded">Button</button></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2>
+						<%=translation.DOC_STARTED_TITLE_INSTALL%>
+					</h2>
+					<p>
+						<%=translation.DOC_STARTED_INSTALL_DESC%>
+					</p>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.DOC_STARTED_TITLE_DOWNLOAD%></h2>
+					<a href="https://github.com/Airmime/minstyle.io" target="_blank" class="ms-btn ms-yellow ms-large"><%=translation.DOC_STARTED_TITLE_DOWNLOAD%></a>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.DOC_STARTED_TITLE_CDN%></h2>
+					<p>
+						<%=translation.HOME_START_LINK%>
+					</p>
+					<div class="col-s-12">
+<pre><code class="language-html"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<h2><%=translation.DOC_STARTED_TITLE_NPM%></h2>
+
+					<blockquote class="ms-blockquote ms-blue">
+						<em><code>npm install minstyle.io</code></em>
+					</blockquote>
+				</div>
+
 			</div>
 		</div>
 	</div>	
