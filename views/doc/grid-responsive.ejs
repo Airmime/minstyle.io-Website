@@ -2,12 +2,22 @@
 <html lang="<%=translation.LANG%>">
 <head>
 	<meta charset="UTF-8">
-	<title>Grid Responsive documentation | minstyle.io</title>
+	<title><%=translation.RESPONSIVE%> documentation | minstyle.io</title>
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="http://localhost/minstyle.io/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="/css/doc.css">
 	<link rel="stylesheet" type="text/css" href="/css/prism.css">
+
+	<style>
+		.col-s-2, .col-s-10{
+			background-color: #f2f2f2;
+			color: #434343;
+			height: 40px;
+			line-height: 40px;
+			border: 1px solid #adb5bd;
+		}
+	</style>
 </head>
 <body>
 
@@ -24,9 +34,95 @@
 			<div class="col-s-9 content">
 				<div class="row">
 					<span class="ms-badge ms-white"><i class="fas fa-graduation-cap"></i> Doc</span>
-					<span class="ms-badge ms-blue">Grid Responsive</span>
-					<h1 class="ms-text-size-3">Grid CSS</h1>
+					<span class="ms-badge ms-yellow"><h1><%=translation.RESPONSIVE%></h1></span>
 				</div>
+
+				<div class="row">
+					<p>
+						<%=translation.RESPONSIVE_DESC%>
+					</p>
+
+					<p>
+						<b><%=translation.RESPONSIVE_DESC_B%></b>
+					</p>
+				</div>
+
+				<div class="row">
+					<table>
+						<tbody><tr class="ms-title">
+						  <th></th>
+						  <th>Small <br/> < 640px</th>
+						  <th>Medium <br/> > 1024px</th>
+						  <th>Large <br/> > 1140px</th>
+						</tr>
+						<tr>
+						  <td><b>Class</b></td>
+						  <td>col-s-[0-12]</td>
+						  <td>col-m-[0-12]</td>
+						  <td>col-l-[0-12]</td>
+						</tr>
+						<tr>
+						  <td><b>Number of columns</b></td>
+						  <td colspan="3">12</td>
+						</tr>
+						<tr>
+						  <td><b>Gutter width</b></td>
+						  <td colspan="3">2%</td>
+						</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<div class="row">
+					<p>
+						<%=translation.RESPONSIVE_DESC_CONTAINER%>
+					</p>
+
+					<div class="col-s-12">
+<pre><code class="language-html"><div class="container">...</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<p>
+						<b>Example :</b>
+					</p>
+
+					<div class="col-s-12">
+						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
+					</div>
+
+					<div class="col-s-12">
+					<pre>
+<code class="language-html"><div class="col-s-2 col-m-4 col-l-6">...</div>
+<div class="col-s-2 col-m-4 col-l-6">...</div>
+<div class="col-s-2 col-m-4 col-l-6">...</div>
+<div class="col-s-2 col-m-4 col-l-6">...</div>
+<div class="col-s-2 col-m-4 col-l-6">...</div>
+<div class="col-s-2 col-m-4 col-l-6">...</div></code></pre>
+					</div>
+				</div>
+
+				<div class="row">
+					<p>
+						<b>Center :</b>
+					</p>
+
+					<div class="col-s-12">
+						<div class="col-s-10 col-s-center col-m-4 col-m-center">.col-s-10 .col-s-center .col-m-4 .col-m-center</div>
+					</div>
+
+					<div class="col-s-12">
+						<pre>
+<code class="language-html"><div class="col-s-10 col-s-center col-m-4 col-m-center">.col-s-10 .col-s-center .col-m-4 .col-m-center</div></code></pre>
+					</div>
+				</div>
+
 			</div>
 		</div>
 	</div>	

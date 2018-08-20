@@ -80,12 +80,14 @@
 	"HEADING" : "Titre",
 
 	"RESPONSIVE" : "Grille Responsive",
+	"RESPONSIVE_DESC" : "Le grid responsive permet de concevoir une interface responsive, pour mobile, tablette ou PC.",
+	"RESPONSIVE_DESC_B" : "Afin de garantir le fonctionnement optimal du framework il est nécéssaire d'utiliser le 'Mobile first', à savoir : concevoir un site en concevant en priorité la version mobile (.col-s-[0-9]) et en adaptant progressivement celui-ci pour les écrans plus large. ",
+	"RESPONSIVE_DESC_CONTAINER" : "Le container permet de centrer et contenir les colonnes avec une largeur maximale de 1140px. ",
 
 	"DOC_STARTED1" : "minstyle.io vous permet de concevoir des interfaces web pour PC, tablette ou mobile. Pour cela un ensemble de class CSS vous permet de concevoir une page HTML avec des éléments préconçus.",
-	"DOC_STARTED2" : "L'architecture du framework est basée sur la concaténation des class. Pour exemple, la class ms-btn permet d'obtenir le design par défaut d'un bouton, la class ms-green permet de colorer le bouton en vert, et la class ms-rounded permet d'arrondir les angles du bouton :",
+	"DOC_STARTED2" : "L'architecture du framework est basée sur la concaténation des class. Pour exemple, la class ms-btn permet d'obtenir le design par défaut d'un bouton, la class ms-green permet de colorer le bouton en vers, et la class ms-rounded permet d'arrondir les angles du bouton :",
 	"DOC_STARTED_TITLE_INSTALL" : "Installation",
-	"DOC_STARTED_INSTALL" : "Installation",
-	"DOC_STARTED_INSTALL_DESC" : "Pour installer le framework CSS, trois options sont disponibles. La première en télécharger directement les sources (fichier CSS) du framework, la seconde utiliser la balise <link> et le CDN, ou alors installer les sources via NPM.",
+	"DOC_STARTED_INSTALL_DESC" : "Pour installer le framework css, trois options sont disponibles. La première, télécharger directement les sources (fichier CSS) du framework, la seconde utiliser la balise <link> et le CDN, ou alors installer les sources via NPM.",
 	"DOC_STARTED_TITLE_DOWNLOAD" : "Télécharger",
 	"DOC_STARTED_TITLE_CDN" : "CDN",
 	"DOC_STARTED_TITLE_NPM" : "Nodejs - npm",

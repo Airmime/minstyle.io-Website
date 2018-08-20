@@ -80,15 +80,17 @@
 	"HEADING" : "Heading",
 
 	"RESPONSIVE" : "Grid Responsive",
+	"RESPONSIVE_DESC" : "The responsive grid allows to design a responsive interface, for mobile, tablet or PC.",
+	"RESPONSIVE_DESC_B" : "The responsive grid allows to design a responsive interface, for mobile, tablet or PC.",
+	"RESPONSIVE_DESC_CONTAINER" : "The container allows to center and contain the columns with a maximum width of 1140px. ",
 
-	"DOC_STARTED1" : "minstyle.io vous permet de concevoir des interfaces web pour PC, tablette ou mobile. Pour cela un ensemble de class CSS vous permet de concevoir une page HTML avec des éléments préconçus.",
-	"DOC_STARTED2" : "L'architecture du framework est basée sur la concaténation des class. Pour exemple, la class ms-btn permet d'obtenir le design par défaut d'un bouton, la class ms-green permet de colorer le bouton en vers, et la class ms-rounded permet d'arrondir les angles du bouton :",
-	"DOC_STARTED_TITLE_INSTALL" : "Installation",
-	"DOC_STARTED_INSTALL" : "Installation",
-	"DOC_STARTED_INSTALL_DESC" : "Pour installer le framework css, trois options sont disponibles. La première en télécharger directement les sources (fichier CSS) du framework, la seconde utiliser la balise <link> et le CDN, ou alors installer les sources via NPM.",
-	"DOC_STARTED_TITLE_DOWNLOAD" : "Télécharger",
+	"DOC_STARTED1" : "minstyle.io allows you to design web interfaces for PC, tablet or mobile. For that a set of CSS class allows you to design an HTML page with preconceived elements.",
+	"DOC_STARTED2" : "The architecture of the framework is based on the concatenation of classes. For example, the ms-btn class allows to get the default design of a button, the ms-green class allows to color the button green, and the ms-rounded class allows to round the button angles :",
+	"DOC_STARTED_TITLE_INSTALL" : "Install",
+	"DOC_STARTED_INSTALL_DESC" : "To install the css framework, three options are available. The first download directly the sources (CSS file) of the framework, the second use the <link> tag and the CDN, or install the sources via NPM.",
+	"DOC_STARTED_TITLE_DOWNLOAD" : "Download",
 	"DOC_STARTED_TITLE_CDN" : "CDN",
 	"DOC_STARTED_TITLE_NPM" : "Nodejs - npm",
-	
+
 	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices."
 }
