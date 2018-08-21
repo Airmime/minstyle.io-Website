@@ -81,7 +81,7 @@
 
 	"RESPONSIVE" : "Grid Responsive",
 	"RESPONSIVE_DESC" : "The responsive grid allows to design a responsive interface, for mobile, tablet or PC.",
-	"RESPONSIVE_DESC_B" : "The responsive grid allows to design a responsive interface, for mobile, tablet or PC.",
+	"RESPONSIVE_DESC_B" : "In order to guarantee the optimal functioning of the framework it is necessary to use the 'Mobile first', namely: to design a site by designing in priority the mobile version (.col-s-[0-9]) and by gradually adapting this one for the larger screens.",
 	"RESPONSIVE_DESC_CONTAINER" : "The container allows to center and contain the columns with a maximum width of 1140px. ",
 
 	"DOC_STARTED1" : "minstyle.io allows you to design web interfaces for PC, tablet or mobile. For that a set of CSS class allows you to design an HTML page with preconceived elements.",

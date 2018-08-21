@@ -15,7 +15,7 @@
 
 	"BUTTONS" : "Boutons",
 	"BUTTONS_TYPE_TITLE" : "Types de boutons",
-	"BUTTONS_TYPE_CONTENT": "Pour créer un bouton minstyle, ajoutez la classe ms-btn. Il est également possible d'ajouter un style particulier sur le bouton en ajoutant une classe supplémentaire comme ci-dessous :",
+	"BUTTONS_TYPE_CONTENT": "Pour créer un bouton minstyle, ajoutez la class ms-btn. Il est également possible d'ajouter un style particulier sur le bouton en ajoutant une classe supplémentaire comme ci-dessous :",
 	"BUTTONS_COLOR_TITLE" : "Couleur des boutons",
 	"BUTTONS_SIZE_TITLE" : "Taille des boutons",
 	"BUTTONS_WIDTH_TITLE" : "Boutton pleine largeur",
@@ -33,7 +33,7 @@
 	"TABLE_DESC" : "Les tableaux vous permettent de représenter des données de façon structurée. Les éléments préconçus sont accessibles via la class .ms-table. Il est possible de mettre en avant une ligne en utilisant les class .ms-{color} (ex: ms-blue), ajouter des bordures extérieures avec la class .ms-boxed, et également des bordures sur l'ensemble des lignes avec .ms-triped.",
 
 	"LIST" : "Listes",
-	"LIST_DESC" : "Les lists permettent d'ordonner des liens ou du contenu. La class .ms-list est la class par défaut, vous pouvez également entourer la liste avec la class .ms-boxed. La liste peut également intégrer des badges pour afficher un nombre.",
+	"LIST_DESC" : "Les listes permettent d'ordonner des liens ou du contenu. La class .ms-list est la class par défaut, vous pouvez également entourer la liste avec la class .ms-boxed. La liste peut également intégrer des badges pour afficher un nombre.",
 
 	"FORM" : "Formulaires",
 	"FORM_DESC" : "minstyle.io vous permet de concevoir simplement des formulaires attrayants et complets. Différents styles sont disponibles sur les <input>, comme présenté ci-dessous :",
@@ -81,13 +81,13 @@
 
 	"RESPONSIVE" : "Grille Responsive",
 	"RESPONSIVE_DESC" : "Le grid responsive permet de concevoir une interface responsive, pour mobile, tablette ou PC.",
-	"RESPONSIVE_DESC_B" : "Afin de garantir le fonctionnement optimal du framework il est nécéssaire d'utiliser le 'Mobile first', à savoir : concevoir un site en concevant en priorité la version mobile (.col-s-[0-9]) et en adaptant progressivement celui-ci pour les écrans plus large. ",
+	"RESPONSIVE_DESC_B" : "Afin de garantir le fonctionnement optimal du framework il est nécessaire d'utiliser le 'Mobile first', à savoir : concevoir un site en concevant en priorité la version mobile (.col-s-[0-9]) et en adaptant progressivement celui-ci pour les écrans plus larges.",
 	"RESPONSIVE_DESC_CONTAINER" : "Le container permet de centrer et contenir les colonnes avec une largeur maximale de 1140px. ",
 
 	"DOC_STARTED1" : "minstyle.io vous permet de concevoir des interfaces web pour PC, tablette ou mobile. Pour cela un ensemble de class CSS vous permet de concevoir une page HTML avec des éléments préconçus.",
-	"DOC_STARTED2" : "L'architecture du framework est basée sur la concaténation des class. Pour exemple, la class ms-btn permet d'obtenir le design par défaut d'un bouton, la class ms-green permet de colorer le bouton en vers, et la class ms-rounded permet d'arrondir les angles du bouton :",
+	"DOC_STARTED2" : "L'architecture du framework est basée sur la concaténation des class. Pour exemple, la class ms-btn permet d'obtenir le design par défaut d'un bouton, la class ms-green permet de colorer le bouton en vert, et la class ms-rounded permet d'arrondir les angles du bouton :",
 	"DOC_STARTED_TITLE_INSTALL" : "Installation",
-	"DOC_STARTED_INSTALL_DESC" : "Pour installer le framework css, trois options sont disponibles. La première, télécharger directement les sources (fichier CSS) du framework, la seconde utiliser la balise <link> et le CDN, ou alors installer les sources via NPM.",
+	"DOC_STARTED_INSTALL_DESC" : "Pour installer le framework CSS, trois options sont disponibles. La première, télécharger directement les sources (fichier CSS) du framework, la seconde utiliser la balise <link> et le CDN, ou alors installer les sources via NPM.",
 	"DOC_STARTED_TITLE_DOWNLOAD" : "Télécharger",
 	"DOC_STARTED_TITLE_CDN" : "CDN",
 	"DOC_STARTED_TITLE_NPM" : "Nodejs - npm",
