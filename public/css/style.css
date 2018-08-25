@@ -230,6 +230,9 @@ header #main-menu-resp ul a, header #main-menu-resp li a, .header #main-menu-res
   header .img-sublime, .header .img-sublime {
     display: none;
   }
+  header .mresp, .header .mresp {
+    margin-bottom: 90px;
+  }
 }
 
 @media only screen and (max-width: 640px) {
