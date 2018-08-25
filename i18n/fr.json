@@ -37,7 +37,7 @@
 
 	"FORM" : "Formulaires",
 	"FORM_DESC" : "minstyle.io vous permet de concevoir simplement des formulaires attrayants et complets. Différents styles sont disponibles sur les <input>, comme présenté ci-dessous :",
-	"FORM_TITLE_SIMPLE" : "Element <input>",
+	"FORM_TITLE_SIMPLE" : "Elements <input>",
 	"FORM_TITLE_ROUNDED" : "<input> arrondi",
 	"FORM_TITLE_SIZE" : "Taille d'un <input>",
 	"FORM_TITLE_COLOR" : "Couleurs d'un<input>",
@@ -80,9 +80,9 @@
 	"HEADING" : "Titre",
 
 	"RESPONSIVE" : "Grille Responsive",
-	"RESPONSIVE_DESC" : "Le grid responsive permet de concevoir une interface responsive, pour mobile, tablette ou PC.",
+	"RESPONSIVE_DESC" : "La grille responsive permet de concevoir une interface responsive, pour mobile, tablette ou PC.",
 	"RESPONSIVE_DESC_B" : "Afin de garantir le fonctionnement optimal du framework il est nécessaire d'utiliser le 'Mobile first', à savoir : concevoir un site en concevant en priorité la version mobile (.col-s-[0-9]) et en adaptant progressivement celui-ci pour les écrans plus larges.",
-	"RESPONSIVE_DESC_CONTAINER" : "Le container permet de centrer et contenir les colonnes avec une largeur maximale de 1140px. ",
+	"RESPONSIVE_DESC_CONTAINER" : "La class 'container' permet de centrer et contenir les colonnes avec une largeur maximale de 1140px. ",
 
 	"DOC_STARTED1" : "minstyle.io vous permet de concevoir des interfaces web pour PC, tablette ou mobile. Pour cela un ensemble de class CSS vous permet de concevoir une page HTML avec des éléments préconçus.",
 	"DOC_STARTED2" : "L'architecture du framework est basée sur la concaténation des class. Pour exemple, la class ms-btn permet d'obtenir le design par défaut d'un bouton, la class ms-green permet de colorer le bouton en vert, et la class ms-rounded permet d'arrondir les angles du bouton :",
@@ -91,6 +91,7 @@
 	"DOC_STARTED_TITLE_DOWNLOAD" : "Télécharger",
 	"DOC_STARTED_TITLE_CDN" : "CDN",
 	"DOC_STARTED_TITLE_NPM" : "Nodejs - npm",
+	"DOC_META" : "Comment utiliser le framework CSS minstyle.io | Documentation",
 
-	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interaces pour tous types de supports. "
+	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interfaces pour tous types de supports. "
 }

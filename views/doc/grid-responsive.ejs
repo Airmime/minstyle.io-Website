@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title><%=translation.RESPONSIVE%> documentation | minstyle.io</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Airmime/minstyle.io/d2280724/css/minstyle.io.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
@@ -10,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="/css/prism.css">
 
 	<style>
-		.col-s-2, .col-s-10{
+		.col-example{
 			background-color: #f2f2f2;
 			color: #434343;
 			height: 40px;
@@ -27,14 +28,22 @@
 	<header class="header">
 		<%- include('../elements/menu'); %>
 	</header>
+
+	<div id="resp-menu">
+		<%- include('../elements/left-menu'); %>
+	</div>
 	
 	<div class="box" style="max-width: 1400px;">
 		<div class="row">
-			<div class="col-s-3">
+			<div class="col-s-3 left-menu">
       			<%- include('../elements/left-menu'); %>
 			</div>
 
-			<div class="col-s-9 content">
+			<a id="doc-menu">
+				<i class="fas fa-bars"></i>
+			</a>
+
+			<div class="col-s-12 col-m-9 content">
 				<div class="row">
 					<span class="ms-badge ms-white"><i class="fas fa-graduation-cap"></i> Doc</span>
 					<span class="ms-badge ms-yellow"><h1><%=translation.RESPONSIVE%></h1></span>
@@ -91,13 +100,13 @@
 						<b>Example :</b>
 					</p>
 
-					<div class="col-s-12">
-						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
-						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
-						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
-						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
-						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
-						<div class="col-s-2 col-m-4 col-l-6">.col-s-2 .col-m-4 .col-l-6</div>
+					<div class="col-s-12 exemple">
+						<div class="col-s-2 col-m-4 col-l-6 col-example">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6 col-example">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6 col-example">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6 col-example">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6 col-example">.col-s-2 .col-m-4 .col-l-6</div>
+						<div class="col-s-2 col-m-4 col-l-6 col-example">.col-s-2 .col-m-4 .col-l-6</div>
 					</div>
 
 					<div class="col-s-12">
@@ -116,7 +125,7 @@
 				<div class="row">
 
 					<div class="col-s-12">
-						<div class="col-s-10 col-s-center col-m-4 col-m-center">.col-s-10 .col-s-center .col-m-4 .col-m-center</div>
+						<div class="col-s-10 col-s-center col-m-4 col-m-center col-example">.col-s-10 .col-s-center .col-m-4 .col-m-center</div>
 					</div>
 
 					<div class="col-s-12">
@@ -141,6 +150,7 @@
 		el.text(el.html());
 		});
 	</script>
+	<script src="/js/menu.js"></script>
 
 </body>
 </html>

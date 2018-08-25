@@ -10,7 +10,7 @@
 
 	"HOME_DOWNLOAD": "Download",
 	"HOME_START": "Install / Get Started",
-	"HOME_START_LINK": "Copy and paste the following line into your HEAD tag to integrate minstyle.io on your HTML page.",
+	"HOME_START_LINK": "Copy and paste the following line into your <head> tag to integrate minstyle.io on your HTML page.",
 	"HOME_START_NPM": "minstyle.io is also available as an npm package.",
 
 	"BUTTONS" : "Buttons",
@@ -82,7 +82,7 @@
 	"RESPONSIVE" : "Grid Responsive",
 	"RESPONSIVE_DESC" : "The responsive grid allows to design a responsive interface, for mobile, tablet or PC.",
 	"RESPONSIVE_DESC_B" : "In order to guarantee the optimal functioning of the framework it is necessary to use the 'Mobile first', namely: to design a site by designing in priority the mobile version (.col-s-[0-9]) and by gradually adapting this one for the larger screens.",
-	"RESPONSIVE_DESC_CONTAINER" : "The container allows to center and contain the columns with a maximum width of 1140px. ",
+	"RESPONSIVE_DESC_CONTAINER" : "The 'container' class allows to center and contain the columns with a maximum width of 1140px. ",
 
 	"DOC_STARTED1" : "minstyle.io allows you to design web interfaces for PC, tablet or mobile. For that a set of CSS class allows you to design an HTML page with preconceived elements.",
 	"DOC_STARTED2" : "The architecture of the framework is based on the concatenation of classes. For example, the ms-btn class allows to get the default design of a button, the ms-green class allows to color the button green, and the ms-rounded class allows to round the button angles :",
@@ -91,6 +91,8 @@
 	"DOC_STARTED_TITLE_DOWNLOAD" : "Download",
 	"DOC_STARTED_TITLE_CDN" : "CDN",
 	"DOC_STARTED_TITLE_NPM" : "Nodejs - npm",
+	"DOC_META" : "How to use the CSS framework minstyle.io | Documentation",
+
 
 	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices."
 }

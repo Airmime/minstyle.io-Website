@@ -12,24 +12,24 @@ header, .header{
 	animation: AnimationName 4s ease infinite;
 
 	@-webkit-keyframes AnimationName {
-    0%{background-position:10% 0%}
-    50%{background-position:91% 100%}
-    100%{background-position:10% 0%}
+		0%{background-position:10% 0%}
+		50%{background-position:91% 100%}
+		100%{background-position:10% 0%}
 	}
 	@-moz-keyframes AnimationName {
-	    0%{background-position:10% 0%}
-	    50%{background-position:91% 100%}
-	    100%{background-position:10% 0%}
+		0%{background-position:10% 0%}
+		50%{background-position:91% 100%}
+		100%{background-position:10% 0%}
 	}
 	@-o-keyframes AnimationName {
-	    0%{background-position:10% 0%}
-	    50%{background-position:91% 100%}
-	    100%{background-position:10% 0%}
+		0%{background-position:10% 0%}
+		50%{background-position:91% 100%}
+		100%{background-position:10% 0%}
 	}
 	@keyframes AnimationName { 
-	    0%{background-position:10% 0%}
-	    50%{background-position:91% 100%}
-	    100%{background-position:10% 0%}
+		0%{background-position:10% 0%}
+		50%{background-position:91% 100%}
+		100%{background-position:10% 0%}
 	}
 
 	.logo{
