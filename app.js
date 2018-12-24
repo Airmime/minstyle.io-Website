@@ -33,9 +33,12 @@ app.use(i18n({
 }));
 
 /* Routes */
+//HOME
 app.get('/', function(req, res, next) {
   res.render('index');
 })
+
+//DOCUMENTATION
 .get('/doc', function(req, res, next) {
   res.render('doc');
 })
@@ -86,6 +89,11 @@ app.get('/', function(req, res, next) {
 })
 .get('/doc/box', function(req, res, next) {
   res.render('doc/box');
+})
+
+//THEMES
+.get('/themes', function(req, res, next) {
+  res.render('themes');
 });
 
 /* Server Config */
