@@ -1,0 +1,29 @@
+.themes{
+	margin: 20px 0 0 0;
+
+	.ms-text-gray-font{
+		font-size: 1.1rem;
+		line-height: 1.5rem;
+		color: #656668;
+	}
+
+	.list{
+
+		.theme{
+			margin: 0 0 20px 0;
+			padding: 10px;
+
+			.picture{
+				@include border-radius(5px);
+				height: 300px;
+				overflow: hidden;
+				margin: 0;
+				padding: 0;
+
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+}

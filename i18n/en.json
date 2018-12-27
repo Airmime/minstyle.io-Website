@@ -94,5 +94,10 @@
 	"DOC_META" : "How to use the CSS framework minstyle.io | Documentation",
 
 
-	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices."
+	"WELCOME_MSG": "minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices.",
+
+	"THEMES":"Themes",
+	"THEMES_META":"Themes and templates to download, developed from the minstyle.io framework",
+	"THEMES_TITLE":"What i can do with minstyle.io ?",
+	"THEMES_DESC":"Themes and websites build with minstyle.io."
 }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="<%=translation.LANG%>">
+<head>
+	<meta charset="UTF-8">
+	<title>Preview | minstyle.io</title>
+	<meta name="description" content="Template for minstyle.io.">
+	<meta name="keywords" content="Theme,framework, css, minstyle, minstyle.io, sass, scss, design, website, mobile, tablet, webdesign, documentation, doc" />
+
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
+	<%- include('elements/msLink'); %>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../../css/preview.css">
+
+	<%- include('elements/ga'); %>
+</head>
+<body>
+	
+	<header class="header">
+		<div class="ms-float-left">
+			<a href="/"><img src="/img/logo_dark.png" alt="Logo" class="logo"></a>
+		</div><!-- /logo -->
+
+		<div class="actions ms-float-right">
+			<a href="/themes" class="back ms-text-gray-font"><i class="fas fa-arrow-left"></i> Back</a>
+			<a href="/examples/<%=template%>.zip" class="ms-btn ms-blue ms-large"><i class="fas fa-cloud-download-alt"></i> Download</a>
+		</div><!-- /action -->
+	</header>
+
+	<iframe src="/examples/<%=template%>/index.html" frameborder="0" class="preview" width="100%"></iframe>
+
+</body>
+</html>
