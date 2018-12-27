@@ -2,16 +2,15 @@
 <html lang="<%=translation.LANG%>">
 <head>
 	<meta charset="UTF-8">
-	<title>Documentation | minstyle.io</title>
-	<meta name="description" content="<%=translation.DOC_META%>">
-	<meta name="keywords" content="framework, css, minstyle, minstyle.io, sass, scss, design, website, mobile, tablet, webdesign, documentation, doc" />
+	<title><%=translation.THEMES%> | minstyle.io</title>
+	<meta name="description" content="<%=translation.THEMES_META%>">
+	<meta name="keywords" content="Themes, template, télécharger, framework, css, minstyle, minstyle.io, sass, scss, design, website, mobile, tablet, webdesign, documentation, doc" />
 
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 	<link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700,800,900" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/Airmime/minstyle.io/d2280724/css/minstyle.io.css">
+	<%- include('elements/msLink'); %>
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="css/themes.css">
-	<link rel="stylesheet" type="text/css" href="css/prism.css">
 
 	<%- include('elements/ga'); %>
 </head>
@@ -24,6 +23,7 @@
 	<div class="container">
 		<div class="row">
 
+			<!-- Themes -->
 			<div class="themes col-s-12">
 				<div class="titletheme col-s-12">
 					<div class="ms-card">
@@ -34,12 +34,12 @@
 						</div>
 
 						<div class="ms-title ms-center">
-							<h5 class="ms-fw-700">What i can do with minstyle.io ?</h5>
+							<h5 class="ms-fw-700"><%=translation.THEMES_TITLE%></h5>
 						</div>
 
 						<div class="ms-text ms-center">
 							<p class="ms-text-gray-font">
-								Themes and websites build with minstyle.io.
+								<%=translation.THEMES_DESC%>
 							</p>
 						</div>
 					</div>
@@ -51,8 +51,8 @@
 							<div class="theme col-s-12 col-m-6">
 								<div class="ms-card">
 									<div class="ms-pic ms-rounded">
-										<a href="">
-											<img src="img/themes/tchat.png" alt="Tchat">
+										<a href="/themes/preview/web-messenger-module">
+											<img src="img/themes/web-messenger-module.png" alt="Tchat">
 										</a>
 									</div>
 
@@ -67,20 +67,23 @@
 									</div>
 
 									<div class="ms-action ms-right">
-										<a class="ms-btn ms-border-bottom ms-blue">Live preview</a>
-										<a class="ms-btn ms-blue ms-rounded">Download</a>
+										<a href="/themes/preview/web-messenger-module" class="ms-btn ms-border-bottom ms-blue">Live preview</a>
+										<a href="/examples/web-messenger-module.zip" class="ms-btn ms-blue ms-rounded">Download</a>
 									</div>
-								</div>
-							</div>
+								</div><!-- ms-card -->
+							</div><!-- theme -->
 						</li>
 					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+				</div><!-- list -->
+			</div><!-- /Themes -->
+		</div><!-- row -->
+	</div><!-- container -->
 
 	<div class="container">
 		<%- include('elements/footer'); %>
 	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="/js/menu.js"></script>
 </body>
 </html>

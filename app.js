@@ -94,6 +94,11 @@ app.get('/', function(req, res, next) {
 //THEMES
 .get('/themes', function(req, res, next) {
   res.render('themes');
+})
+
+//PREVIEW
+.get('/themes/preview/:template', function(req, res, next) {
+  res.render('preview',{template: req.params.template});
 });
 
 /* Server Config */

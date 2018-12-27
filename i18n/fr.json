@@ -93,5 +93,10 @@
 	"DOC_STARTED_TITLE_NPM" : "Nodejs - npm",
 	"DOC_META" : "Comment utiliser le framework CSS minstyle.io | Documentation",
 
-	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interfaces pour tous types de supports. "
+	"WELCOME_MSG": "minstyle.io est un framework CSS open source simple et léger. Il intègre un ensemble d'éléments HTML préconçu, permettant de développer rapidement et simplement des interfaces pour tous types de supports.",
+
+	"THEMES":"Thèmes",
+	"THEMES_META":"Thèmes et templates à télécharger, développés à partir du framework minstyle.io",
+	"THEMES_TITLE":"Que puis-je faire avec minstyle.io ?",
+	"THEMES_DESC":"Thèmes et templates développés avec minstyle.io."
 }
