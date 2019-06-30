@@ -9,21 +9,42 @@
   
   <link rel="stylesheet" href="http://localhost/minstyle.io/css/minstyle.io.css" type="text/css"/>
   <link rel="stylesheet" href="_css/vue-ow.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
   
 </head>
 <body>
+  
   <div id="app"></div>
+  
   <script>
     window.$docsify = {
       name: 'minstyle.io',
-      repo: 'https://github.com/Airmime/minstyle.io',
+      //repo: 'https://github.com/Airmime/minstyle.io',
       loadNavbar: true,
       loadSidebar: true,
       subMaxLevel: 2,
       themeColor: '#fa4d60',
       logo: '/_media/logo.png',  
+      version : '1.0.0',
+      
+      plugins: [
+      function(hook, vm) {
+        hook.beforeEach(function(html) {
+          var url =
+          'https://github.com/Airmime/minstyle.io-Website/docs/' +
+          vm.route.file;
+          var editHtml = '[📝 Contribute](' + url + ')\n';
+          
+          return (
+          editHtml +
+          html
+          );
+        });
+      }
+      ]
     }
   </script>
+  
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
   <script src="//unpkg.com/docsify-copy-code"></script>
 </body>

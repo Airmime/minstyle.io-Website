@@ -1,22 +1,22 @@
 * GETTING STARTED
-    * [Installation](installation.md)
-    * [Content](content.md)
-    * [Browser support](browser-support.md)
-    * [Cover page](cover.md)
+    * [Installation](gertting-started/installation.md)
+    * [Content](gertting-started/content.md)
+    * [Browser support](gertting-started/browser-support.md)
 
 * LAYOUT
     * [Grid](grid.md)
 
 * CONTENT
     * [Typography](typography.md)
+    * [Icons](icons.md)
 
 * COMPONENTS
-    * [Buttons](buttons.md)
-    * [Alerts](alerts.md)
-    * [Progress Bar](progress-bar.md)
-    * [Forms](forms.md)
-    * [Labels](labels.md)
-    * [Tables](tables.md)
+    * [Buttons](components/buttons.md)
+    * [Alerts](components/alerts.md)
+    * [Progress Bar](components/progress-bars.md)
+    * [Forms](components/forms.md)
+    * [Labels](components/labels.md)
+    * [Tables](components/tables.md)
 
 * CHANGE LOG
     * [Changelog](Changelog.md)
