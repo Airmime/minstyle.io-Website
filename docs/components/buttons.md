@@ -1,4 +1,4 @@
-# Buttons
+## Buttons
 
 Buttons `ms-btn` or links dedicated to actions, are customizable, by **colors**, **sizes** and **shapes**.
 
@@ -33,7 +33,7 @@ The `.ms-btn` classe can be used on the `<button>` and also on the `<a>` or `<in
 <button class="ms-btn ms-success"><i class="fas fa-mug-hot"></i> Coffee time !</button>
 ___
 
-### Sizes
+## Sizes
 
 The buttons come in **different sizes** with the classes `.ms-small`, `.ms-medium` and `.ms-large`.
 
@@ -58,7 +58,7 @@ It is possible to extend the button to **100% of the width** with the classe `.m
 ```
 ___
 
-### Outline buttons
+## Outline
 
 The class `.ms-outline-*` allows you to obtain a button **without background color**. 
 The colors are identical to those used on the classe `.ms-btn`.
@@ -72,7 +72,7 @@ The colors are identical to those used on the classe `.ms-btn`.
 ```
 ___
 
-### Rounded buttons
+## Rounded
 
 You can also change the appearance of the buttons, by **changing their angles** with the `.ms-rounded` classe.
 
@@ -85,7 +85,7 @@ You can also change the appearance of the buttons, by **changing their angles** 
 ```
 ___
 
-### Shadow
+## Shadow
 
 To give more depth to your design, the `.ms-shadow` class allows you to add a **shadow** to the buttons.
 
@@ -98,7 +98,7 @@ To give more depth to your design, the `.ms-shadow` class allows you to add a **
 ```
 ___
 
-### Disabled buttons
+## Disabled
 
 If you want to **disable a button** with the `disabled` attribute, it will have its opacity reduced by half. You can also use the `.ms-disabled` class on `<a>` to disable a link.
 

@@ -1,4 +1,4 @@
-# Alerts
+## Alerts
 
 Alerts `.ms-alert` allow you to **display a contextual message** about your users' actions. They are available in several **shapes**, **colours** and **sizes**.
 
@@ -56,7 +56,7 @@ As with all components, **different colours** are available.
 
 ___
 
-### Sizes
+## Sizes
 
 In order to adapt the alerts to your content, it is possible to display them in different sizes  with classes `ms-medium` and `ms-large`.
 

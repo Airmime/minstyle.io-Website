@@ -1,4 +1,4 @@
-# Progress Bars
+## Progress Bars
 
 The progress bar allows you to display the progress of the completion of a task. This can be done in different ways, by changing the shape, size or color. 
 
@@ -69,7 +69,7 @@ It is also possible to integrate **several colours into a single loading bar**.
 ```
 ___
 
-### Sizes
+## Sizes
 
 Progress bars can be generated with different sizes, with `.ms-medium` and `.ms-large` classes. The class must be integrated in the parent element.
 
