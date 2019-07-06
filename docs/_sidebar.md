@@ -7,8 +7,9 @@
     * [Grid](grid.md)
 
 * CONTENT
-    * [Typography](typography.md)
-    * [Icons](icons.md)
+    * [Typography](content/typography.md)
+    * [Tables](content/tables.md)
+    * [Icons](content/icons.md)
 
 * COMPONENTS
     * [Buttons](components/buttons.md)
@@ -16,7 +17,6 @@
     * [Progress Bar](components/progress-bars.md)
     * [Forms](components/forms.md)
     * [Labels](components/labels.md)
-    * [Tables](components/tables.md)
 
 * CHANGE LOG
     * [Changelog](Changelog.md)

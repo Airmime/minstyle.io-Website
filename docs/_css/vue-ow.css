@@ -52,7 +52,6 @@ body{
 	-webkit-font-smoothing:antialiased;
 	color:#34495e;
 	font-family:Source Sans Pro,Helvetica Neue,Arial,sans-serif;
-	font-size:15px;
 	letter-spacing:0;
 	margin:0;
 	overflow-x:hidden
@@ -312,25 +311,7 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{
 	width:1px;
 	min-width:100%
 }
-.markdown-section table{
-	border-collapse:collapse;
-	border-spacing:0;
-	display:block;
-	margin-bottom:1rem;
-	overflow:auto;
-	width:100%
-}
-.markdown-section th{
-	font-weight:700
-}
-.markdown-section td,.markdown-section th{
-	border:1px solid #ddd;
-	padding:6px 13px
-}
-.markdown-section tr{
-	border-top:1px solid #ccc
-}
-.markdown-section p.tip,.markdown-section tr:nth-child(2n){
+.markdown-section p.tip{
 	background-color:#f8f8f8
 }
 .markdown-section p.tip{
