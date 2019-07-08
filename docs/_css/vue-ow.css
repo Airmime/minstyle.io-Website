@@ -63,16 +63,6 @@ a[disabled]{
 	cursor:not-allowed;
 	opacity:.6
 }
-kbd{
-	border:1px solid #ccc;
-	border-radius:3px;
-	display:inline-block;
-	font-size:12px!important;
-	line-height:12px;
-	margin-bottom:3px;
-	padding:3px 5px;
-	vertical-align:middle
-}
 li input[type=checkbox]{
 	margin:0 .2em .25em 0;
 	vertical-align:middle
@@ -618,15 +608,7 @@ section.cover blockquote>p>a:hover{
 .markdown-section em{
 	color:#7f8c8d
 }
-.markdown-section code{
-	border-radius:2px;
-	color:#e96900;
-	font-size:.8rem;
-	margin:0 2px;
-	padding:3px 5px;
-	white-space:pre-wrap
-}
-.markdown-section code,.markdown-section pre{
+v-pre code,.markdown-section pre{
 	background-color:#f8f8f8;
 	font-family:Roboto Mono,Monaco,courier,monospace
 }
