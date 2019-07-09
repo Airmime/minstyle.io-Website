@@ -71,3 +71,47 @@ In order to adapt the alerts to your content, it is possible to display them in 
 <div class="ms-alert ms-large">
     Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
+
+___
+
+## Light alerts
+
+Alerts can also have a more **discreet background**, using the `ms-outline-**` tag.
+
+<div class="ms-alert ms-outline-info">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+
+<div class="ms-alert ms-outline-danger">
+    <span class="ms-close"></span>
+    <i class="fas fa-exclamation-circle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+
+<div class="ms-alert ms-outline-success">
+    <span class="ms-close"></span>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+
+<div class="ms-alert ms-outline-warning">
+    <i class="fas fa-exclamation-triangle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+
+```html
+<div class="ms-alert ms-outline-info">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+
+<div class="ms-alert ms-outline-danger">
+    <span class="ms-close"></span>
+    <i class="fas fa-exclamation-circle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+
+<div class="ms-alert ms-outline-success">
+    <span class="ms-close"></span>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+
+<div class="ms-alert ms-outline-warning">
+    <i class="fas fa-exclamation-triangle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+```
