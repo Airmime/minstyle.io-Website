@@ -69,6 +69,13 @@ ___
 | <code>code</code>  |  `<code>` |
 | <mark>Mark</mark> | `<mark>` |
 | <kbd>terminal</kbd> | `<kbd>` |
-|   |   |
-|   |   |
-|   |   |
+| <del>delete</del> | `<del>` |
+| <s>delete</s> | `<s>` |
+| <ins>underline</ins> | `<ins>` |
+| <u>underline</u> | `<u>` |
+| <small>small text</small> | `<small>` |
+| <b>bold text</b> | `<b>` |
+| <strong>bold text</strong> | `<strong>` |
+| <cite>bold text</cite> | `<cite>` |
+| text <sup>sup</sup> | `<sup>` |
+| text <sub>sub</sub> | `<sub>` |
