@@ -4,20 +4,16 @@
     * [Browser support](gertting-started/browser-support.md)
 
 * LAYOUT
-    * [Grid](grid.md)
+    * [Grid](layout/grid.md)
 
 * CONTENT
-    * [Typography](content/typography.md)
-    * [Tables](content/tables.md)
     * [Icons](content/icons.md)
+    * [Tables](content/tables.md)
+    * [Typography](content/typography.md)
 
 * COMPONENTS
-    * [Buttons](components/buttons.md)
     * [Alerts](components/alerts.md)
-    * [Progress Bar](components/progress-bars.md)
+    * [Buttons](components/buttons.md)
     * [Forms](components/forms.md)
     * [Labels](components/labels.md)
-
-* CHANGE LOG
-    * [Changelog](Changelog.md)
-    * [Newsletter](newsletter.md)
+    * [Progress Bar](components/progress-bars.md)
