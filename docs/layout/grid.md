@@ -150,10 +150,10 @@ In order to **adapt your content to mobiles and tablets**, you can use the follo
 
 As mentioned above, we use the CSS [Toast](https://daneden.github.io/Toast) grid, for more information follow the links below :
 
-<form action="https://daneden.github.io/Toast" style="display: inline-block;">
+<form action="https://github.com/daneden/Toast" style="display: inline-block;">
     <input type="submit" value="GitHub" class="ms-btn"/>
 </form>
 
-<form action="https://github.com/daneden/Toast" style="display: inline-block;">
+<form action="https://daneden.github.io/Toast" style="display: inline-block;">
     <input type="submit" value="Website" class="ms-btn ms-info"/>
 </form>

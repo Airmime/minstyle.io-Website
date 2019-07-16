@@ -1,7 +1,6 @@
 * GETTING STARTED
-    * [Installation](gertting-started/installation.md)
-    * [Content](gertting-started/content.md)
-    * [Browser support](gertting-started/browser-support.md)
+    * [Installation](getting-started/installation.md)
+    * [Browser support](getting-started/browser-support.md)
 
 * LAYOUT
     * [Grid](layout/grid.md)

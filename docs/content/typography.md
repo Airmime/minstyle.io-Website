@@ -79,3 +79,35 @@ ___
 | <cite>bold text</cite> | `<cite>` |
 | text <sup>sup</sup> | `<sup>` |
 | text <sub>sub</sub> | `<sub>` |
+
+## Lists
+
+<ul>
+  <li>list item 1</li>
+  <li>list item 2
+    <ul>
+      <li>list item 2.1</li>
+      <li>list item 2.2</li>
+      <li>list item 2.3</li>
+    </ul>
+  </li>
+  <li>list item 3</li>
+</ul>
+
+<ol>
+    <li>list item 1</li>
+    <li>list item 2
+        <ol>
+            <li>list item 2.1</li>
+            <li>list item 2.2</li>
+            <li>list item 2.3</li>
+        </ol>
+    </li>
+    <li>list item 3</li>
+</ol>
+
+<!-- description list -->
+<dl>
+  <dt>description list term</dt>
+  <dd>description list description</dd>
+</dl>
