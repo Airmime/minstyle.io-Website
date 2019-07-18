@@ -1,4 +1,4 @@
-## Browers support
+#### Browers support
 
 minstyle.io is compatible with all modern browsers such as Chrome, Firefox or Edge. All styles are designed to display correctly on the different devices. For more accounting, minstyle.io integrates [normalize.css](https://necolas.github.io/normalize.css/).
 

@@ -1,6 +1,7 @@
 * GETTING STARTED
     * [Installation](getting-started/installation.md)
     * [Browser support](getting-started/browser-support.md)
+    * [Changelog](getting-started/changelog.md)
 
 * LAYOUT
     * [Grid](layout/grid.md)

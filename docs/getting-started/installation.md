@@ -1,3 +1,8 @@
+
+minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices.
+
+The architecture of the framework is based on the concatenation of classes. For example, the ms-btn class allows to get the default design of a button, the ms-green class allows to color the button green, and the ms-rounded class allows to round the button angles 
+
 ## Installation
 
 To install the CSS framework, you have 4 options.
