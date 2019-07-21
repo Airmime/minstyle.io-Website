@@ -80,34 +80,134 @@ ___
 | text <sup>sup</sup> | `<sup>` |
 | text <sub>sub</sub> | `<sub>` |
 
+___
+
 ## Lists
 
+**Default list:**
+
 <ul>
-  <li>list item 1</li>
-  <li>list item 2
+  <li>Item</li>
+  <li>Item
     <ul>
-      <li>list item 2.1</li>
-      <li>list item 2.2</li>
-      <li>list item 2.3</li>
+      <li>Sub item</li>
+      <li>Sub item</li>
     </ul>
   </li>
-  <li>list item 3</li>
+  <li>Item</li>
+</ul><br/>
+
+**Summary:**
+
+<ol>
+    <li>Item</li>
+    <li>Item
+        <ol>
+            <li>Sub item</li>
+            <li>Sub item</li>
+        </ol>
+    </li>
+    <li>Item</li>
+</ol><br/>
+
+**List descrition:**
+
+<dl>
+  <dt>List descrition</dt>
+  <dd>descrition...</dd>
+</dl>
+
+```html
+<ul>
+  <li>Item</li>
+  <li>Item
+    <ul>
+      <li>Sub item</li>
+      <li>Sub item</li>
+    </ul>
+  </li>
+  <li>Item</li>
 </ul>
 
 <ol>
-    <li>list item 1</li>
-    <li>list item 2
+    <li>Item</li>
+    <li>Item
         <ol>
-            <li>list item 2.1</li>
-            <li>list item 2.2</li>
-            <li>list item 2.3</li>
+            <li>Sub item</li>
+            <li>Sub item</li>
         </ol>
     </li>
-    <li>list item 3</li>
+    <li>Item</li>
 </ol>
 
-<!-- description list -->
 <dl>
-  <dt>description list term</dt>
-  <dd>description list description</dd>
+  <dt>List descrition</dt>
+  <dd>descrition</dd>
 </dl>
+```
+
+___
+
+## Blockquote
+
+<blockquote class="ms-blockquote" style="border-color: #e1e1e1;">
+  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-info">
+  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-success">
+  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-warning">
+  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-error">
+  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+```html
+<blockquote class="ms-blockquote">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-info">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-success">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-warning">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+
+<blockquote class="ms-blockquote ms-error">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+  <i>Jhon Doe</i>
+</blockquote>
+```
+
+___
+
+## Thematic break
+
+<hr>
+
+```html
+<hr>
+```
