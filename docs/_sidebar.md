@@ -17,3 +17,5 @@
     * [Forms](components/forms.md)
     * [Labels](components/labels.md)
     * [Progress Bar](components/progress-bars.md)
+    * [Avatars](components/avatars.md)
+    * [User](components/user.md)

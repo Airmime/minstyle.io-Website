@@ -1,6 +1,6 @@
 ## Labels
 
-Labels `.ms-label` allow you to display highlighted text, they are available in different shapes and colors.
+Labels `.ms-label` allow you to display highlighted text, they are available in different sizes, shapes and colors.
 
 <span class="ms-label">label</span>
 
