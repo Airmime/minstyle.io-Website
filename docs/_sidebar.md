@@ -13,9 +13,9 @@
 
 * COMPONENTS
     * [Alerts](components/alerts.md)
+    * [Avatars](components/avatars.md)
     * [Buttons](components/buttons.md)
     * [Forms](components/forms.md)
     * [Labels](components/labels.md)
     * [Progress Bar](components/progress-bars.md)
-    * [Avatars](components/avatars.md)
-    * [User](components/user.md)
+    * [Users](components/users.md)

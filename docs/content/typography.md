@@ -55,11 +55,13 @@ ___
 <p class="ms-text-left">Lorem ipsum dolor - ms-text-left</p>
 <p class="ms-text-center">Lorem ipsum dolor - ms-text-center</p>
 <p class="ms-text-right">Lorem ipsum dolor - ms-text-right</p>
+<p class="ms-text-justify">Lorem ipsum dolor - ms-text-justify</p>
 
 ```html
 <p class="ms-text-left">Lorem ipsum dolor - ms-text-left</p>
 <p class="ms-text-center">Lorem ipsum dolor - ms-text-center</p>
 <p class="ms-text-right">Lorem ipsum dolor - ms-text-right</p>
+<p class="ms-text-right">Lorem ipsum dolor - ms-text-justify</p>
 ```
 
 **Text semantic**.

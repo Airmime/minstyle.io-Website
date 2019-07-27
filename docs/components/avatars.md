@@ -60,8 +60,16 @@ For users who do not have a profile picture, it is possible to display the initi
     <span class="ms-text">RM</span>
 </div>
 
+<div class="ms-avatar ms-medium" style="display:inline-block;">
+    <span class="ms-text">RM</span>
+</div>
+
 ```html
-<div class="ms-avatar" style="display:inline-block;">
+<div class="ms-avatar">
+    <span class="ms-text">RM</span>
+</div>
+
+<div class="ms-avatar ms-medium">
     <span class="ms-text">RM</span>
 </div>
 ```
