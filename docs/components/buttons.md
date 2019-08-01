@@ -28,7 +28,7 @@ The `.ms-btn` classe can be used on the `<button>` and also on the `<a>` or `<in
 <input type="submit" class="ms-success" value="Button">
 ```
 
-> You can integrate icons in your buttons such as [fontawesome](https://fontawesome.com), for more informations, consult the icons [page](content/icons.md).
+> You can integrate icons in your buttons, for more informations, consult the icons [page](content/icons.md).
 
 <button class="ms-btn ms-success"><i class="fas fa-mug-hot"></i> Coffee time !</button>
 ___

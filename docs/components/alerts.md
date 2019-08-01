@@ -48,7 +48,7 @@ As with all components, **different colours** are available.
 </div>
 ```
 
-> You can integrate icons in your alerts such as [fontawesome](https://fontawesome.com), for more informations, consult the icons [page](content/icons.md).
+> You can integrate icons in your alerts, for more informations, consult the icons [page](content/icons.md).
 
 <div class="ms-alert ms-danger">
     <i class="fas fa-exclamation-triangle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit...

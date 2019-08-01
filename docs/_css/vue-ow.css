@@ -57,7 +57,7 @@ body{
 	overflow-x:hidden
 }
 .app-name-link img{
-	max-width:75px;
+	max-width:55px;
 }
 a[disabled]{
 	cursor:not-allowed;
@@ -267,6 +267,7 @@ main.hidden{
 	height:2px
 }
 body.sticky .sidebar,body.sticky .sidebar-toggle{
+	background-color: #f8f8f8;
 	position:fixed
 }
 .content{
@@ -581,9 +582,6 @@ section.cover blockquote>p>a:hover{
 .markdown-section h6{
 	color:#777;
 	font-size:1rem
-}
-.markdown-section figure,.markdown-section p{
-	margin:1.2em 0
 }
 .markdown-section ol,.markdown-section p,.markdown-section ul{
 	line-height:1.6rem;
