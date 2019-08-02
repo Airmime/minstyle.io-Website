@@ -6,7 +6,7 @@ The `ms-card` component allows you to build a content container, from several el
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
         <div class="ms-card">
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1460046205962-bd8fa3a96a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
             </div>
@@ -31,7 +31,7 @@ The `ms-card` component allows you to build a content container, from several el
                 <span>Utah</span>
             </div>
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
             </div>
@@ -52,7 +52,7 @@ The `ms-card` component allows you to build a content container, from several el
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
         <div class="ms-card">
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1460046205962-bd8fa3a96a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
             </div>
@@ -77,7 +77,7 @@ The `ms-card` component allows you to build a content container, from several el
                 <span>Utah</span>
             </div>
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
             </div>
@@ -113,7 +113,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
                 </p>
             </div>
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1526915202413-5ddfb855b35e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
                 <div class="ms-card-pic-stick ms-text-white"><b>123</b> <i class="fas fa-comment"></i></div>
@@ -126,7 +126,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
         <div class="ms-card">
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1524849954958-f4e5fa0d4c11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="...">
                 </a>
                 <div class="ms-card-pic-stick">
@@ -163,7 +163,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
                 </p>
             </div>
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1526915202413-5ddfb855b35e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
                 <div class="ms-card-pic-stick ms-text-white"><b>123</b> <i class="fas fa-comment"></i></div>
@@ -176,7 +176,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
         <div class="ms-card">
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1524849954958-f4e5fa0d4c11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="...">
                 </a>
                 <div class="ms-card-pic-stick">
@@ -270,11 +270,11 @@ In order to delimit spaces within the card, it is possible to add one or more se
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
         <div class="ms-card">
             <div class="ms-card-title">
-                <a href="">Denali National Park</a>
+                <a href="#">Denali National Park</a>
                 <span>Alaska</span>
             </div>
             <div class="ms-card-pic">
-                <a href="" target="_blank">
+                <a href="#" target="_blank">
                     <img src="https://images.unsplash.com/photo-1515369902974-1ee693ba6ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="...">
                 </a>
             </div>
@@ -334,11 +334,11 @@ In order to delimit spaces within the card, it is possible to add one or more se
         <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
             <div class="ms-card">
                 <div class="ms-card-title">
-                    <a href="">Denali National Park</a>
+                    <a href="#">Denali National Park</a>
                     <span>Alaska</span>
                 </div>
                 <div class="ms-card-pic">
-                    <a href="" target="_blank">
+                    <a href="#" target="_blank">
                         <img src="https://images.unsplash.com/photo-1515369902974-1ee693ba6ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="...">
                     </a>
                 </div>

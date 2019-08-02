@@ -39,18 +39,19 @@ The `ms-avatar` classe allows you to create a profile image, from an `img` tag o
 It is also possible to add a link to the profile picture, with an `a` tag.
 
 <div class="ms-avatar">
-    <a href="">
+    <a href="#">
         <img class="ms-avatar-img" src="https://randomuser.me/api/portraits/men/63.jpg" alt="...">
     </a>
 </div>
 
 ```html
 <div class="ms-avatar">
-    <a href="">
+    <a href="#">
         <img class="ms-avatar-img" src="https://randomuser.me/api/portraits/men/63.jpg" alt="...">
     </a>
 </div>
 ```
+___
 
 ## Text
 
@@ -73,6 +74,7 @@ For users who do not have a profile picture, it is possible to display the initi
     <span class="ms-text">RM</span>
 </div>
 ```
+___
 
 ## Status
 
@@ -129,6 +131,7 @@ The presence indicator is used to highlight the user's status. The `ms-status` c
     <span class="ms-status ms-warning"></span>
 </div>
 ```
+___
 
 ## Shadow
 

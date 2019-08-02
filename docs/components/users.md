@@ -12,15 +12,15 @@ The `ms-user` element formats a user card, with an [avatar](components/avatars.m
             <p style="margin:0; line-height:1.3;">
                 <b>John Doe</b><br/>
                 <i>Software Engineer</i><br/>
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </p>
         </div>
         <div class="ms-user-content">
             <button class="ms-btn ms-fullwidth">Message</button>
         </div>
         <div class="ms-user-pined">
-            <a href=""><i class="fas fa-cog"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
         </div>
     </div>
 </div>
@@ -36,19 +36,20 @@ The `ms-user` element formats a user card, with an [avatar](components/avatars.m
             <p>
                 <b>John Doe</b><br/>
                 <i>Software Engineer</i><br/>
-                <a href=""><i class="fab fa-github"></i></a>
-                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
             </p>
         </div>
         <div class="ms-user-content">
             <button class="ms-btn ms-fullwidth">Message</button>
         </div>
         <div class="ms-user-pined">
-            <a href=""><i class="fas fa-cog"></i></a>
+            <a href="#"><i class="fas fa-cog"></i></a>
         </div>
     </div>
 </div>
 ```
+___
 
 ## Compact
 
@@ -97,6 +98,7 @@ A more compact display is also possible with the `ms-compact` classe.
     </div>
 </div>
 ```
+___
 
 ## Borderless
 
