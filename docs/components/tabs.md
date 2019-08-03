@@ -1,6 +1,6 @@
 ## Tabs
 
-The `ms-tab` classe allows you to display a simple menu, containing several tabs. Different shapes and colours are available. It is also possible to add a search bar to the right of the tabs, and also a logo on the left.
+The `ms-tab` classe allows you to display a simple menu, containing several tabs. Different shapes and colours are available.
 
 <style>
     
@@ -109,6 +109,35 @@ The classe `ms-fullwidth` allows you to take the **entire width** of the contain
         <li><a href="#"><i class="fas fa-igloo"></i> Home</a></li>
         <li><a href="#" class="ms-active"><i class="far fa-file-word"></i> Doc</a></li>
         <li><a href="#"><i class="far fa-envelope"></i> Contact</a></li>
+    </ul>
+</div>
+```
+___
+
+## Logo
+
+To customize the tabs with your logo, the `.ms-logo` classe allows you to **display an image**.
+
+<div class="ms-tab ms-error">
+    <ul style="padding:0;">
+        <li class="ms-logo"><a href="#"><img src="_media/logo2.png" alt="Logo"></a></li>
+        <li><a href="#" class="ms-active" style="color: inherit; font-weight:normal;">Soccer</a></li>
+        <li><a href="#" style="color: inherit; font-weight:normal;">Basket-ball</a></li>
+        <li><a href="#" style="color: inherit; font-weight:normal;">Golf</a></li>
+        <li><a href="#" style="color: inherit; font-weight:normal;">VTT</a></li>
+        <li><a href="#" style="color: inherit; font-weight:normal;">Baseball</a></li>
+    </ul>
+</div>
+
+```html
+<div class="ms-tab ms-error">
+    <ul>
+        <li class="ms-logo"><a href="#"><img src="_media/logo2.png" alt="Logo"></a></li>
+        <li><a href="#" class="ms-active">Soccer</a></li>
+        <li><a href="#">Basket-ball</a></li>
+        <li><a href="#">Golf</a></li>
+        <li><a href="#">VTT</a></li>
+        <li><a href="#">Baseball</a></li>
     </ul>
 </div>
 ```
