@@ -2,6 +2,8 @@
 
 The `ms-user` element formats a user card, with an [avatar](components/avatars.md), user informations, and content like a button. It is also possible to attach an element, possibly a link with an [icon](content/icons.md), to the top right of the card.
 
+> For more informations on the icons used, consult the dedicated [page](content/icons.md).
+
 <div class="ms_col ms_col--2-of-5">
     <div class="ms-user">
         <div class="ms-avatar ms-large">

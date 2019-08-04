@@ -57,6 +57,8 @@ ___
 
 The inputs can also take a different color depending on the state of the inputs. It is also possible to add a message under the input with the classe `.ms-under-input`.
 
+> For more informations on the icons used, consult the dedicated [page](content/icons.md).
+
 <div class="ms-form-group">
 	<label for="Email"><i class="far fa-envelope-open"></i> Email</label>
 	<input type="email" class="ms-success" id="Email" value="mail@minstyle.io">

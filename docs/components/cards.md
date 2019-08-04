@@ -98,7 +98,7 @@ The `ms-card` component allows you to build a content container, from several el
 
 You can add content stucked on the image with the `ms-card-pic-stick` classe, such as an icon or text.
 
-> You can integrate icons in your content stucked, for more informations, consult the icons [page](content/icons.md).
+> For more informations on the icons used, consult the dedicated [page](content/icons.md).
 
 <div class="container">
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">

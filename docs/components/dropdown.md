@@ -2,6 +2,8 @@
 
 The `.ms-dropdown` classe allows you to merge a [button](components/buttons.md) with an icon (down arrow) through the `.ms-btn classe`, and a list of links.
 
+> For more informations on the icons used, consult the dedicated [page](content/icons.md).
+
 <div class="ms-dropdown">
     <button class="ms-btn">Versions <i class="fas fa-sort-down"></i></button>
     <div class="ms-dropdown-content">

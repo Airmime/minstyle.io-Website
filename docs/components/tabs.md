@@ -93,7 +93,7 @@ ___
 
 The classe `ms-fullwidth` allows you to take the **entire width** of the container.
 
-> You can integrate icons in your tabs, for more informations, consult the icons [page](content/icons.md).
+> For more informations on the icons used, consult the dedicated [page](content/icons.md).
 
 <div class="ms-tab ms-fullwidth ms-info">
     <ul style="padding:0;">
