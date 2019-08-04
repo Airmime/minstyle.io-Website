@@ -590,8 +590,6 @@ section.cover blockquote>p>a:hover{
 }
 .markdown-section blockquote{
 	border-left:2px solid var(--theme-color,#42b983);
-	color:#858585;
-	margin:2em 0;
 }
 .markdown-section blockquote p{
 	font-weight:600;
