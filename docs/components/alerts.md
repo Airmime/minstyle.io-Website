@@ -3,7 +3,7 @@
 Alerts `.ms-alert` allow you to **display a contextual message** about your users' actions. They are available in several **shapes**, **colours** and **sizes**.
 
 <div class="ms-alert">
-Lorem ipsum dolor sit amet consectetur adipisicing elit...
+    Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
 
 ```html
@@ -15,19 +15,19 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit...
 As with all components, **different colours** are available. 
 
 <div class="ms-alert ms-info">
-<b>.ms-info :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+    <b>.ms-info :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
 
 <div class="ms-alert ms-success">
-<b>.ms-success :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+    <b>.ms-success :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
 
 <div class="ms-alert ms-danger">
-<b>.ms-danger :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+    <b>.ms-danger :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
 
 <div class="ms-alert ms-warning">
-<b>.ms-warning :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+    <b>.ms-warning :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
 
 ```html
@@ -63,11 +63,11 @@ In order to adapt the alerts to your content, it is possible to display them in 
 <div class="ms-alert">
     Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
-			
+
 <div class="ms-alert ms-medium">
     Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
-			
+
 <div class="ms-alert ms-large">
     Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
@@ -113,5 +113,59 @@ Alerts can also have a more **discreet background**, using the `ms-outline-**` t
 
 <div class="ms-alert ms-outline-warning">
     <i class="fas fa-exclamation-triangle"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit...
+</div>
+```
+
+___
+
+## Content
+
+The `.ms-content` classe allows you to write alerts containing a header composed of a title and text, as well as content placed under the header.
+
+<div class="ms-alert ms-content ms-outline-danger">
+    <span class="ms-close"></span>
+    <h3>Title</h3>
+    <p>
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit...</i>
+    </p>
+    <hr style="border: none;">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit pariatur assumenda obcaecati voluptates dolor nobis, quasi eveniet hic alias ipsam facere illo dicta sequi. Voluptatibus sunt animi numquam magni eaque?
+    </p>
+</div>
+
+<div class="ms-alert ms-content ms-success">
+    <h3>Title</h3>
+    <p>
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit...</i>
+    </p>
+    <hr style="border: none;">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit pariatur assumenda obcaecati voluptates dolor nobis, quasi eveniet hic alias ipsam facere illo dicta sequi. Voluptatibus sunt animi numquam magni eaque?
+    </p>
+</div>
+
+```html
+<div class="ms-alert ms-content ms-outline-danger">
+    <span class="ms-close"></span>
+    <h3>Title</h3>
+    <p>
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit...</i>
+    </p>
+    <hr style="border: none;">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit pariatur assumenda obcaecati voluptates dolor nobis, quasi eveniet hic alias ipsam facere illo dicta sequi. Voluptatibus sunt animi numquam magni eaque?
+    </p>
+</div>
+
+<div class="ms-alert ms-content ms-success">
+    <h3>Title</h3>
+    <p>
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit...</i>
+    </p>
+    <hr style="border: none;">
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit pariatur assumenda obcaecati voluptates dolor nobis, quasi eveniet hic alias ipsam facere illo dicta sequi. Voluptatibus sunt animi numquam magni eaque?
+    </p>
 </div>
 ```

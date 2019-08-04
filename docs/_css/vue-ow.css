@@ -51,7 +51,6 @@ body{
 	-moz-osx-font-smoothing:grayscale;
 	-webkit-font-smoothing:antialiased;
 	color:#34495e;
-	font-family:Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 	letter-spacing:0;
 	margin:0;
 	overflow-x:hidden
@@ -179,7 +178,7 @@ main.hidden{
 	text-decoration:underline
 }
 .sidebar{
-	border-right:1px solid #fdf0f0;
+	border-right:1px solid #eee;
 	overflow-y:auto;
 	padding:20px 0 0 10px;
 	position:absolute;
@@ -217,6 +216,7 @@ main.hidden{
 }
 .sidebar li>p{
 	font-weight:700;
+	font-size: 0.9rem;
 	margin:0
 }
 .sidebar ul,.sidebar ul li{
@@ -318,7 +318,6 @@ body.sticky .sidebar,body.sticky .sidebar-toggle{
 	border-radius:100%;
 	color:#fff;
 	content:"!";
-	font-family:Dosis,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 	font-size:14px;
 	font-weight:700;
 	left:-12px;
@@ -559,7 +558,6 @@ section.cover blockquote>p>a:hover{
 }
 .markdown-section a{
 	color:var(--theme-color,#42b983);
-	font-weight:600
 }
 .markdown-section h1{
 	font-size:2rem;
@@ -607,7 +605,6 @@ section.cover blockquote>p>a:hover{
 }
 v-pre code,.markdown-section pre{
 	background-color:#f8f8f8;
-	font-family:Roboto Mono,Monaco,courier,monospace
 }
 .markdown-section pre{
 	-moz-osx-font-smoothing:initial;
@@ -687,8 +684,6 @@ v-pre code,.markdown-section pre{
 	border-radius:2px;
 	color:#525252;
 	display:block;
-	font-family:Roboto Mono,Monaco,courier,monospace;
-	font-size:.8rem;
 	line-height:inherit;
 	margin:0 2px;
 	max-width:inherit;
@@ -717,4 +712,8 @@ pre:after{
 	text-align:right;
 	top:0
 }
-
+#version-menu{
+	position: absolute;
+	top: 55px;
+	right: 40px;
+}
