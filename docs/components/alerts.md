@@ -15,6 +15,7 @@ Alerts `.ms-alert` allow you to **display a contextual message** about your user
 As with all components, **different colours** are available. 
 
 <div class="ms-alert ms-info">
+    <span class="ms-close"></span>
     <b>.ms-info :</b> Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
 
@@ -32,6 +33,7 @@ As with all components, **different colours** are available.
 
 ```html
 <div class="ms-alert ms-info">
+    <span class="ms-close"></span>
     Lorem ipsum dolor sit amet consectetur adipisicing elit...
 </div>
 
