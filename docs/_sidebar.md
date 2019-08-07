@@ -14,6 +14,7 @@
 * COMPONENTS
     * [Alerts](components/alerts.md)
     * [Avatars](components/avatars.md)
+    * [Breadcrumbs](components/breadcrumbs.md)
     * [Buttons](components/buttons.md)
     * [Cards](components/cards.md)
     * [Dropdown](components/dropdown.md)

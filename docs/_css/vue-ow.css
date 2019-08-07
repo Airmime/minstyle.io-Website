@@ -581,12 +581,9 @@ section.cover blockquote>p>a:hover{
 	color:#777;
 	font-size:1rem
 }
-.markdown-section ol,.markdown-section p,.markdown-section ul{
+.markdown-section ol,.markdown-section p{
 	line-height:1.6rem;
 	word-spacing:.05rem
-}
-.markdown-section ol,.markdown-section ul{
-	padding-left:1.5rem
 }
 .markdown-section blockquote{
 	border-left:2px solid var(--theme-color,#42b983);
