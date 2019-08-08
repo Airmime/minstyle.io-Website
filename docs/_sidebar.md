@@ -20,6 +20,7 @@
     * [Dropdown](components/dropdown.md)
     * [Forms](components/forms.md)
     * [Labels](components/labels.md)
+    * [Pagination](components/pagination.md)
     * [Progress Bar](components/progress-bars.md)
     * [Tabs](components/tabs.md)
     * [Users](components/users.md)
