@@ -1,3 +1,3 @@
-* [HOME](https://github.com/Airmime/minstyle.io)
+* [HOME](http://localhost/minstyle.io-Website/)
 * [DOC](/)
 * [CONTRIBUTE](https://github.com/Airmime/minstyle.io)
