@@ -62,6 +62,7 @@ code,.ms-code{
 
 .navigationSlider .slidingNav ul li a{
     color: #34495e;
+    font-weight: 500;
     margin: 0 0.1rem;
 }
 .navigationSlider .slidingNav ul li > a:focus, .navigationSlider .slidingNav ul li > a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive > a, .navigationSlider .slidingNav ul li.siteNavGroupActive > a{
@@ -70,6 +71,8 @@ code,.ms-code{
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px;
+    color: #e04540;
+    background-color: transparent;
 }
 input#search_input_react{
     background-color: #fff;
