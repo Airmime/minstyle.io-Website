@@ -1,0 +1,8 @@
+{
+  "docs": {
+    "Getting started": ["installation","browsers-support","changelog"],
+    "Layout": ["grid"],
+    "Content": ["icons","tables","typographie"],
+    "Components": ["alerts","avatars","breadcrumbs","buttons","cards","dropdown","forms","labels","pagination","progress-bars","tabs","users"]
+  }
+}
