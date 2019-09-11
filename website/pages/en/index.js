@@ -14,11 +14,13 @@ class Index extends React.Component {
           <p>            
             minstyle.io integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces, for all devices.
           </p>
+          <button class="ms-btn ms-outline ms-medium"><i class="fas fa-book"></i> Doc</button>&nbsp;
+          <button class="ms-btn ms-outline ms-medium"><i class="fab fa-github"></i> GitHub</button>
         </div>
       </div>
 
       <div class="actions">
-        
+
       </div>
     </div>
     );
