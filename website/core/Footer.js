@@ -13,7 +13,9 @@ class Footer extends React.Component {
     <footer className="ms-footer">
       <div class="container">
         <div class="ms_col ms_col--11-of-12 ms_col--centered" >
-            <section className="copyright">{this.props.config.copyright}</section>
+          <span>minstyle.io is an open source CSS framework, under <a href="https://github.com/Airmime/minstyle.io/blob/master/LICENSE">MIT licence</a>, created by <a href="https://remi-marion.fr">Rémi MARION</a></span>
+          <br/>
+          <section className="copyright">{this.props.config.copyright}</section>
         </div>
       </div>
     </footer>

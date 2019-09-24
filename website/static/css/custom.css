@@ -51,6 +51,10 @@ code,.ms-code{
     border-radius: 3px;
 }
 
+.wrapper{
+    max-width: 1400px;
+}
+
 .fixedHeaderContainer{
     background-color: #f3f3f3; 
 }
@@ -124,7 +128,7 @@ input#search_input_react::placeholder {
     }
     
     .navigationSlider .slidingNav ul li > a:focus, .navigationSlider .slidingNav ul li > a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive > a, .navigationSlider .slidingNav ul li.siteNavGroupActive > a {
-        color: #fff;
+        color: #e04540;
     }
 }
 
