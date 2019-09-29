@@ -33,7 +33,7 @@ The dropdown allows you to merge a button with an icon (down arrow), and a list 
 </div>
 ```
 
-The dropdown is largely based on the `ms-btn` classe, so it is possible to use the styles applied to this class, this can be used to change the [button](components/buttons.md) colors.
+The dropdown is largely based on the `ms-btn` classe, so it is possible to use the styles applied to this class, this can be used to change the [button](buttons.md) colors.
 
 <div class="ms-dropdown">
     <button class="ms-btn ms-success">Versions <i class="fas fa-sort-down"></i></button>
@@ -80,7 +80,7 @@ The dropdown is largely based on the `ms-btn` classe, so it is possible to use t
 </div>
 ```
 
-It is also possible to change the dropdown size, from the [button](components/buttons.md) classes.
+It is also possible to change the dropdown size, from the [button](buttons.md) classes.
 
 <div class="ms-dropdown">
     <button class="ms-btn ms-info ms-large">Versions <i class="fas fa-sort-down"></i></button>
