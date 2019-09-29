@@ -68,7 +68,7 @@ const siteConfig = {
   
   /* Externals CSS */
   stylesheets: [
-    'http://localhost/minstyle.io/css/minstyle.io.css'
+    'https://cdn.jsdelivr.net/npm/minstyle.io@0.2.3/css/minstyle.io.min.css'
   ],
   
   algolia: {

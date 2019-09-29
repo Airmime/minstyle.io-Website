@@ -26,7 +26,7 @@ The compiled sources are available for download. You just have to add the `<link
 It is also possible to add the `link` tag, importing sources from a CDN.
 
 ```html
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/minstyle.io@1.0.0/css/minstyle.io.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/minstyle.io@0.2.3/css/minstyle.io.min.css">
 ```
 
 #### NPM
