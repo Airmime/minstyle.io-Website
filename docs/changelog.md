@@ -10,4 +10,4 @@ What's news on minstyle.io ?
 
 
 ## V0.0.1 (beta)
-* Beta version
+* Beta version - [documentation](https://v0.minstyle.io)
