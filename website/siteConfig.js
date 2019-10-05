@@ -31,6 +31,8 @@ const siteConfig = {
   ],
   
   users,
+
+  gaTrackingId: 'UA-124609315-1',
   
   /* Images */
   headerIcon: 'img/logo.png',
