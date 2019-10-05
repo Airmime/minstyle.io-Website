@@ -71,13 +71,7 @@ const siteConfig = {
   /* Externals CSS */
   stylesheets: [
     'https://cdn.jsdelivr.net/npm/minstyle.io@1.0.0/css/minstyle.io.css',
-  ],
-  
-  algolia: {
-    apiKey: 'my-api-key',
-    indexName: 'my-index-name',
-    algoliaOptions: {} // Optional, if provided by Algolia
-  },
+  ]
 };
 
 module.exports = siteConfig;
