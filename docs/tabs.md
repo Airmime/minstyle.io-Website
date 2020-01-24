@@ -5,9 +5,6 @@ title: Tabs
 
 The tab component allows you to display a simple menu, containing several tabs. Different shapes and colours are available.
 
-<style>
-    
-</style>
 <div class="ms-tab">
     <ul style="padding:0;">
         <li><a href="#" class="ms-active" style="color: inherit; font-weight:normal;">Soccer</a></li>

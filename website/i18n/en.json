@@ -8,10 +8,13 @@
       "alerts": {
         "title": "Alerts"
       },
+      "articles": {
+        "title": "Articles"
+      },
       "avatars": {
         "title": "Avatars"
       },
-      "breadcrumb": {
+      "breadcrumbs": {
         "title": "Breadcrumb"
       },
       "browsers-support": {

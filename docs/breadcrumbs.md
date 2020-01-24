@@ -1,5 +1,5 @@
 ---
-id: breadcrumb
+id: breadcrumbs
 title: Breadcrumb
 ---
 
