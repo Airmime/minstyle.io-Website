@@ -20,8 +20,8 @@ class Index extends React.Component {
             <br/>
             <a href="/docs/installation" class="ms-btn"><i class="fas fa-book"></i> Doc</a>
             &nbsp;
-            <a href="https://github.com/Airmime/minstyle.io" class="ms-btn"><i class="fab fa-github"></i> GitHub</a>
-            
+            <a href="https://github.com/Airmime/minstyle.io" class="ms-btn"><i class="fab fa-github"></i> GitHub</a><br/>
+            <span class="home-version">V1.0.2</span>
           </p>
         </div>
         
