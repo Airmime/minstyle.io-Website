@@ -3,7 +3,7 @@ id: cards
 title: Cards
 ---
 
-The card component allows you to build a content container, from several elements such as an image, a title and text. The card is generally used with the responsive grid to adapt to the devices.
+The card component allows you to build a content container, from several elements such as an image, a title and content. The card is generally used with the responsive grid to adapt to the devices.
 
 > Take a look at the [grid](grid.md) page to get all the necessary information.
 
@@ -19,7 +19,7 @@ The card component allows you to build a content container, from several element
                 <h2>Yosemite national park</h2>
                 <span>California</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -40,7 +40,7 @@ The card component allows you to build a content container, from several element
                     <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -65,7 +65,7 @@ The card component allows you to build a content container, from several element
                 <h2>Yosemite national park</h2>
                 <span>California</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -86,7 +86,7 @@ The card component allows you to build a content container, from several element
                     <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
                 </a>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -112,7 +112,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
                 <h2>Mont-blanc</h2>
                 <span>France</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -142,7 +142,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
                 <h2>Aiguille du Midi</h2>
                 <span>Chamonix, France</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -162,7 +162,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
                 <h2>Mont-blanc</h2>
                 <span>France</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -192,7 +192,7 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
                 <h2>Aiguille du Midi</h2>
                 <span>Chamonix, France</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -216,7 +216,7 @@ It is also possible to add a border to the card with the `ms-border` classe.
                 <h2>Cervin</h2>
                 <span>France</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -228,7 +228,7 @@ It is also possible to add a border to the card with the `ms-border` classe.
     </div>
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
         <div class="ms-card ms-border">
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit</mark>. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -245,7 +245,7 @@ It is also possible to add a border to the card with the `ms-border` classe.
                 <h2>Cervin</h2>
                 <span>France</span>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -257,7 +257,7 @@ It is also possible to add a border to the card with the `ms-border` classe.
     </div>
     <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
         <div class="ms-card ms-border">
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit</mark>. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -283,7 +283,7 @@ In order to delimit spaces within the card, it is possible to add one or more se
                     <img src="https://images.unsplash.com/photo-1515369902974-1ee693ba6ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="...">
                 </a>
             </div>
-            <div class="ms-card-text">
+            <div class="ms-card-content">
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                 </p>
@@ -347,7 +347,7 @@ In order to delimit spaces within the card, it is possible to add one or more se
                         <img src="https://images.unsplash.com/photo-1515369902974-1ee693ba6ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="...">
                     </a>
                 </div>
-                <div class="ms-card-text">
+                <div class="ms-card-content">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
                     </p>

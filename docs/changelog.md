@@ -5,12 +5,15 @@ title: Changelog
 
 What's news on minstyle.io ?
 
-## V1.0.1 (current version)
-* Added article element
-* Fix breadcrumbs
+## V1.0.2 (current version)
+* Change on card element : rename .ms-card-text to .ms-card-content.
+
+## V1.0.1
+* Added article element.
+* Fix breadcrumbs.
 
 ## V1.0.0
-* Initial commit 
+* Initial commit.
 
 
 ## V0.0.1 (beta)
