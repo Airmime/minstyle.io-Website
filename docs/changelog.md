@@ -7,6 +7,7 @@ What's news on minstyle.io ?
 
 ## V1.0.2 (current version)
 * Change on card element : rename .ms-card-text to .ms-card-content.
+* Added menu item.
 
 ## V1.0.1
 * Added article element.
