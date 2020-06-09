@@ -70,7 +70,7 @@ const siteConfig = {
   
   /* Externals CSS */
   stylesheets: [
-    'https://cdn.jsdelivr.net/npm/minstyle.io@1.0.1/css/minstyle.io.css',
+    'https://cdn.jsdelivr.net/npm/minstyle.io@1.0.2/css/minstyle.io.css',
   ]
 };
 

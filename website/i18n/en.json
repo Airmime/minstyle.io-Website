@@ -47,6 +47,9 @@
       "labels": {
         "title": "Labels"
       },
+      "menu": {
+        "title": "Menu"
+      },
       "pagination": {
         "title": "Pagination"
       },

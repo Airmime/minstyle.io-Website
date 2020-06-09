@@ -13,7 +13,7 @@ After registration, copy your kit's code into the `<head>` of each template or p
 <script src="https://kit.fontawesome.com/my-kit.js"></script>
 ```
 
-## Exemples
+## Examples
 
 Font Awesome is designed to be used with inline elements and we recommend sticking with a consistent HTML element to reference them by in your project. We like the `<i>` tag for brevity and for the fact that most folks are using `<em></em>` for emphasized/italicized semantic text these days. If that’s not your cup of tea, using a `<span>` is more semantically correct.
 
