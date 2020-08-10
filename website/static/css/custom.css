@@ -43,6 +43,10 @@ hr{
     text-decoration: none;
 }
 
+.blog .wrapper {
+    max-width: 1400px;
+}
+
 code,.ms-code{
     background-color: #fdf0f0;
     color: #e04540;
