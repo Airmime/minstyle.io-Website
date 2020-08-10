@@ -38,6 +38,11 @@ hr{
     margin: 1rem 0;
 }
 
+.fixedHeaderContainer header h3{
+    color: #34495e;
+    text-decoration: none;
+}
+
 code,.ms-code{
     background-color: #fdf0f0;
     color: #e04540;

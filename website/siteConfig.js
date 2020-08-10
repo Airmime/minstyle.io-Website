@@ -26,6 +26,7 @@ const siteConfig = {
   headerLinks: [
     {page: 'index', label: 'Home'},
     {doc: 'installation', label: 'Docs'},
+    {blog: true, label: 'Blog'},
     {href: 'https://github.com/Airmime/minstyle.io', label: 'Contribute'},
     { languages: true },
   ],

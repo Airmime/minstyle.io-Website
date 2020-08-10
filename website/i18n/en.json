@@ -67,11 +67,192 @@
       },
       "users": {
         "title": "Users"
+      },
+      "version-1.0.0/version-1.0.0-alerts": {
+        "title": "Alerts"
+      },
+      "version-1.0.0/version-1.0.0-avatars": {
+        "title": "Avatars"
+      },
+      "version-1.0.0/version-1.0.0-breadcrumbs": {
+        "title": "Breadcrumb"
+      },
+      "version-1.0.0/version-1.0.0-browsers-support": {
+        "title": "Browsers support"
+      },
+      "version-1.0.0/version-1.0.0-buttons": {
+        "title": "Buttons"
+      },
+      "version-1.0.0/version-1.0.0-cards": {
+        "title": "Cards"
+      },
+      "version-1.0.0/version-1.0.0-changelog": {
+        "title": "Changelog"
+      },
+      "version-1.0.0/version-1.0.0-dropdown": {
+        "title": "Dropdown"
+      },
+      "version-1.0.0/version-1.0.0-forms": {
+        "title": "Forms"
+      },
+      "version-1.0.0/version-1.0.0-grid": {
+        "title": "Grid"
+      },
+      "version-1.0.0/version-1.0.0-icons": {
+        "title": "Icons"
+      },
+      "version-1.0.0/version-1.0.0-installation": {
+        "title": "Installation"
+      },
+      "version-1.0.0/version-1.0.0-labels": {
+        "title": "Labels"
+      },
+      "version-1.0.0/version-1.0.0-pagination": {
+        "title": "Pagination"
+      },
+      "version-1.0.0/version-1.0.0-progress-bars": {
+        "title": "Progress Bars"
+      },
+      "version-1.0.0/version-1.0.0-tables": {
+        "title": "Tables"
+      },
+      "version-1.0.0/version-1.0.0-tabs": {
+        "title": "Tabs"
+      },
+      "version-1.0.0/version-1.0.0-typographie": {
+        "title": "Typographie"
+      },
+      "version-1.0.0/version-1.0.0-users": {
+        "title": "Users"
+      },
+      "version-1.0.1/version-1.0.1-alerts": {
+        "title": "Alerts"
+      },
+      "version-1.0.1/version-1.0.1-articles": {
+        "title": "Articles"
+      },
+      "version-1.0.1/version-1.0.1-avatars": {
+        "title": "Avatars"
+      },
+      "version-1.0.1/version-1.0.1-breadcrumbs": {
+        "title": "Breadcrumb"
+      },
+      "version-1.0.1/version-1.0.1-browsers-support": {
+        "title": "Browsers support"
+      },
+      "version-1.0.1/version-1.0.1-buttons": {
+        "title": "Buttons"
+      },
+      "version-1.0.1/version-1.0.1-cards": {
+        "title": "Cards"
+      },
+      "version-1.0.1/version-1.0.1-changelog": {
+        "title": "Changelog"
+      },
+      "version-1.0.1/version-1.0.1-dropdown": {
+        "title": "Dropdown"
+      },
+      "version-1.0.1/version-1.0.1-forms": {
+        "title": "Forms"
+      },
+      "version-1.0.1/version-1.0.1-grid": {
+        "title": "Grid"
+      },
+      "version-1.0.1/version-1.0.1-icons": {
+        "title": "Icons"
+      },
+      "version-1.0.1/version-1.0.1-installation": {
+        "title": "Installation"
+      },
+      "version-1.0.1/version-1.0.1-labels": {
+        "title": "Labels"
+      },
+      "version-1.0.1/version-1.0.1-pagination": {
+        "title": "Pagination"
+      },
+      "version-1.0.1/version-1.0.1-progress-bars": {
+        "title": "Progress Bars"
+      },
+      "version-1.0.1/version-1.0.1-tables": {
+        "title": "Tables"
+      },
+      "version-1.0.1/version-1.0.1-tabs": {
+        "title": "Tabs"
+      },
+      "version-1.0.1/version-1.0.1-typographie": {
+        "title": "Typographie"
+      },
+      "version-1.0.1/version-1.0.1-users": {
+        "title": "Users"
+      },
+      "version-1.0.2/version-1.0.2-alerts": {
+        "title": "Alerts"
+      },
+      "version-1.0.2/version-1.0.2-articles": {
+        "title": "Articles"
+      },
+      "version-1.0.2/version-1.0.2-avatars": {
+        "title": "Avatars"
+      },
+      "version-1.0.2/version-1.0.2-breadcrumbs": {
+        "title": "Breadcrumb"
+      },
+      "version-1.0.2/version-1.0.2-browsers-support": {
+        "title": "Browsers support"
+      },
+      "version-1.0.2/version-1.0.2-buttons": {
+        "title": "Buttons"
+      },
+      "version-1.0.2/version-1.0.2-cards": {
+        "title": "Cards"
+      },
+      "version-1.0.2/version-1.0.2-changelog": {
+        "title": "Changelog"
+      },
+      "version-1.0.2/version-1.0.2-dropdown": {
+        "title": "Dropdown"
+      },
+      "version-1.0.2/version-1.0.2-forms": {
+        "title": "Forms"
+      },
+      "version-1.0.2/version-1.0.2-grid": {
+        "title": "Grid"
+      },
+      "version-1.0.2/version-1.0.2-icons": {
+        "title": "Icons"
+      },
+      "version-1.0.2/version-1.0.2-installation": {
+        "title": "Installation"
+      },
+      "version-1.0.2/version-1.0.2-labels": {
+        "title": "Labels"
+      },
+      "version-1.0.2/version-1.0.2-menu": {
+        "title": "Menu"
+      },
+      "version-1.0.2/version-1.0.2-pagination": {
+        "title": "Pagination"
+      },
+      "version-1.0.2/version-1.0.2-progress-bars": {
+        "title": "Progress Bars"
+      },
+      "version-1.0.2/version-1.0.2-tables": {
+        "title": "Tables"
+      },
+      "version-1.0.2/version-1.0.2-tabs": {
+        "title": "Tabs"
+      },
+      "version-1.0.2/version-1.0.2-typographie": {
+        "title": "Typographie"
+      },
+      "version-1.0.2/version-1.0.2-users": {
+        "title": "Users"
       }
     },
     "links": {
       "Home": "Home",
       "Docs": "Docs",
+      "Blog": "Blog",
       "Contribute": "Contribute"
     },
     "categories": {
