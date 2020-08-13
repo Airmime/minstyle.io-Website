@@ -54,28 +54,6 @@ function Versions(props) {
             This is the version that is configured automatically when you first
             install this project.
           </p>
-          <h3 id="rc">Pre-release versions</h3>
-          <table className="versions">
-            <tbody>
-              <tr>
-                <th>master</th>
-                <td>
-                  {/* You are supposed to change this href where appropriate
-                        Example: href="<baseUrl>/docs(/:language)/next/:id" */}
-                  <a
-                    href={`${siteConfig.baseUrl}${siteConfig.docsUrl}/${
-                      props.language ? props.language + '/' : ''
-                    }next/installation`}>
-                    Documentation
-                  </a>
-                </td>
-                <td>
-                  <a href={repoUrl}>Source Code</a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <p>Other text describing this section.</p>
           <h3 id="archive">Past Versions</h3>
           <p>Here you can find previous versions of the documentation.</p>
           <table className="versions">
@@ -107,7 +85,7 @@ function Versions(props) {
           </table>
           <p>
             You can find past versions of this project on{' '}
-            <a href={repoUrl}>GitHub</a>.
+            <a href="https://github.com/Airmime/minstyle.io">GitHub</a>.
           </p>
         </div>
       </Container>

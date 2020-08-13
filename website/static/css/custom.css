@@ -1,15 +1,13 @@
-
-body{
-    color: #34495e;
-}
-
 p{
-    color: #34495e;
     font-size: 1rem;
     line-height: 1.6rem;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     word-spacing: 0.05rem;
     font-weight: 400;
+}
+
+pre{
+    font-size: 1.1rem;
 }
 
 table{
@@ -111,6 +109,42 @@ input#search_input_react::placeholder {
     padding-left: 12px;
 }
 
+/* Footer */
+.ms-footer{
+    background-color: #fff;
+    padding: 2rem 0;
+}
+.ms-footer span{
+    color: #69798a;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.ms-footer .copyright{
+    color: #69798a;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.ms-footer .switch-theme{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    text-align: center;
+    line-height: 40px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
@@ -141,8 +175,71 @@ input#search_input_react::placeholder {
     }
 }
 
-@media only screen and (min-width: 1400px) {
-}
+@media (prefers-color-scheme: dark) {
+    h1, h2, h3, h4, h5, h6{
+        color: rgba(255, 255, 255, 1);
+    }
 
-@media only screen and (min-width: 1500px) {
+    body{
+        background-color: #25282c;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .fixedHeaderContainer{
+        background-color: #111417;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .navigationSlider .slidingNav ul li a, .fixedHeaderContainer header h3{
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .toc .toggleNav .navGroup .navGroupCategoryTitle{
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .toc .toggleNav ul li a {
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    .hljs{
+        background-color: #111417;
+    }
+
+    blockquote{
+        color: rgba(255, 255, 255, 0.9);
+        background-color: #111417;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .onPageNav > .toc-headings{
+        border-left: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .onPageNav a{
+        color: rgba(255, 255, 255, 0.7);
+    }
+
+    code,.ms-code{
+        background-color: #e04540;
+        color: #fff;
+
+    }
+
+    hr{
+        background-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .ms-footer{
+        background-color: #111417;
+    }
+
+    .ms-footer span, .ms-footer .copyright{
+        color: rgba(255, 255, 255, 0.25);
+    }
+
+    .ms-footer .switch-theme{
+        background-color: #111417;
+    }
 }

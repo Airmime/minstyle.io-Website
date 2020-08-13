@@ -17,6 +17,9 @@
       "breadcrumbs": {
         "title": "Breadcrumb"
       },
+      "browser": {
+        "title": "Browser"
+      },
       "browsers-support": {
         "title": "Browsers support"
       },
@@ -246,6 +249,72 @@
         "title": "Typographie"
       },
       "version-1.0.2/version-1.0.2-users": {
+        "title": "Users"
+      },
+      "version-1.1.0/version-1.1.0-alerts": {
+        "title": "Alerts"
+      },
+      "version-1.1.0/version-1.1.0-articles": {
+        "title": "Articles"
+      },
+      "version-1.1.0/version-1.1.0-avatars": {
+        "title": "Avatars"
+      },
+      "version-1.1.0/version-1.1.0-breadcrumbs": {
+        "title": "Breadcrumb"
+      },
+      "version-1.1.0/version-1.1.0-browser": {
+        "title": "Browser"
+      },
+      "version-1.1.0/version-1.1.0-browsers-support": {
+        "title": "Browsers support"
+      },
+      "version-1.1.0/version-1.1.0-buttons": {
+        "title": "Buttons"
+      },
+      "version-1.1.0/version-1.1.0-cards": {
+        "title": "Cards"
+      },
+      "version-1.1.0/version-1.1.0-changelog": {
+        "title": "Changelog"
+      },
+      "version-1.1.0/version-1.1.0-dropdown": {
+        "title": "Dropdown"
+      },
+      "version-1.1.0/version-1.1.0-forms": {
+        "title": "Forms"
+      },
+      "version-1.1.0/version-1.1.0-grid": {
+        "title": "Grid"
+      },
+      "version-1.1.0/version-1.1.0-icons": {
+        "title": "Icons"
+      },
+      "version-1.1.0/version-1.1.0-installation": {
+        "title": "Installation"
+      },
+      "version-1.1.0/version-1.1.0-labels": {
+        "title": "Labels"
+      },
+      "version-1.1.0/version-1.1.0-menu": {
+        "title": "Menu"
+      },
+      "version-1.1.0/version-1.1.0-pagination": {
+        "title": "Pagination"
+      },
+      "version-1.1.0/version-1.1.0-progress-bars": {
+        "title": "Progress Bars"
+      },
+      "version-1.1.0/version-1.1.0-tables": {
+        "title": "Tables"
+      },
+      "version-1.1.0/version-1.1.0-tabs": {
+        "title": "Tabs"
+      },
+      "version-1.1.0/version-1.1.0-typographie": {
+        "title": "Typographie"
+      },
+      "version-1.1.0/version-1.1.0-users": {
         "title": "Users"
       }
     },
