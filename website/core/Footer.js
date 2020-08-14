@@ -8,6 +8,7 @@
 const React = require('react');
 
 class Footer extends React.Component {
+
   render() {
     return (
     <footer className="ms-footer">
@@ -18,7 +19,6 @@ class Footer extends React.Component {
           <section className="copyright">{this.props.config.copyright}</section>
         </div>
       </div>
-      <div className="switch-theme"><i class="fas fa-moon"></i></div>
     </footer>
     );
   }

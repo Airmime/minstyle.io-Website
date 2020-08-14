@@ -1,7 +1,38 @@
+/* Variables */
+html{
+    --default-bg: #ffffff;
+    --defautl-bg-darker: #f3f3f3;
+    --default-font-color: rgba(0,0,0,.85);
+    --default-font-color-title: rgba(0, 0, 0, 0.9);
+    --default-font-color-link: rgba(0, 0, 0, 0.7);
+    --default-bg-code: #fdf0f0;
+    --default-font-color-code: #e04540;
+    --default-bg-blockquote: transparent;
+    --default-color-border_sidbar: #e0e0e0;
+}
+
+html[data-theme='dark'] {
+    --default-bg: #25282c;
+    --defautl-bg-darker: #111417;;
+    --default-font-color: #ffffff;
+    --default-font-color-title: rgba(255, 255, 255, 0.9);
+    --default-font-color-link: rgba(255, 255, 255, 0.7);
+    --default-bg-code: #e04540;
+    --default-font-color-code: #ffffff;
+    --default-bg-blockquote: var(--defautl-bg-darker);
+    --default-color-border_sidbar: rgba(255, 255, 255, 0.15);
+}
+
+/* Global */
+body{
+    background-color: var(--default-bg);
+    color: var(--default-font-color);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+}
+
 p{
     font-size: 1rem;
     line-height: 1.6rem;
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     word-spacing: 0.05rem;
     font-weight: 400;
 }
@@ -25,7 +56,8 @@ table tr:nth-child(2n) {
 }
 
 blockquote{
-    background-color: inherit;
+    background-color: var(--default-bg-blockquote);
+    color: var(--default-font-color-link);
 }
 
 hr{
@@ -36,8 +68,24 @@ hr{
     margin: 1rem 0;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Layout */
+.fixedHeaderContainer{
+    background-color: var(--defautl-bg-darker);
+}
+
+.navigationSlider .slidingNav ul li a{
+    color: var(--default-font-color-title);
+    font-weight: 500;
+    margin: 0 0.1rem;
+}
+
 .fixedHeaderContainer header h3{
-    color: #34495e;
+    color: var(--default-font-color-title);
     text-decoration: none;
 }
 
@@ -46,36 +94,22 @@ hr{
 }
 
 code,.ms-code{
-    background-color: #fdf0f0;
-    color: #e04540;
+    background-color: var(--default-bg-code);
+    color: var(--default-font-color-code);
     font-size: 90%;
     font-family: Courier, monospace;
-    padding: 0.1rem 0.2rem;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -ms-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
+    padding: 0.1rem 0.3rem;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
 }
 
 .wrapper{
     max-width: 1400px;
 }
 
-.fixedHeaderContainer{
-    background-color: #f3f3f3; 
-}
-
-.hljs{
-    background-color: #f3f3f3;
-    margin: 1.5rem 0;
-}
-
-.navigationSlider .slidingNav ul li a{
-    color: #34495e;
-    font-weight: 500;
-    margin: 0 0.1rem;
-}
 .navigationSlider .slidingNav ul li > a:focus, .navigationSlider .slidingNav ul li > a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive > a, .navigationSlider .slidingNav ul li.siteNavGroupActive > a{
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -109,9 +143,39 @@ input#search_input_react::placeholder {
     padding-left: 12px;
 }
 
+.hljs{
+    background-color: var(--defautl-bg-darker);
+    color: var(--default-font-color);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+    margin: 1.5rem 0;
+}
+
+/* Sidebar */
+.toc .toggleNav .navGroup .navGroupCategoryTitle {
+    color: var(--default-font-color-title);
+}
+
+.toc .toggleNav ul li a{
+    color: var(--default-font-color-link);
+    font-size: 1rem;;
+}
+
+.onPageNav > .toc-headings{
+    border-left: 1px solid var(--default-color-border_sidbar);
+}
+
+.onPageNav a {
+    color: var(--default-font-color-link);
+    font-size: 0.8rem;;
+}
+
 /* Footer */
 .ms-footer{
-    background-color: #fff;
+    background-color: var(--defautl-bg-darker);
     padding: 2rem 0;
 }
 .ms-footer span{
@@ -125,27 +189,6 @@ input#search_input_react::placeholder {
     font-size: 0.8rem;
     line-height: 1.6rem;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
-
-.ms-footer .switch-theme{
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    overflow: hidden;
-    background-color: #f3f3f3;
-    text-align: center;
-    line-height: 40px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
 @media only screen and (min-width: 1024px) {
@@ -175,71 +218,72 @@ input#search_input_react::placeholder {
     }
 }
 
+/*
 @media (prefers-color-scheme: dark) {
     h1, h2, h3, h4, h5, h6{
         color: rgba(255, 255, 255, 1);
     }
-
+    
     body{
         background-color: #25282c;
         color: rgba(255, 255, 255, 0.8);
     }
-
+    
     .fixedHeaderContainer{
         background-color: #111417;
         color: rgba(255, 255, 255, 0.9);
     }
-
+    
     .navigationSlider .slidingNav ul li a, .fixedHeaderContainer header h3{
         color: rgba(255, 255, 255, 0.9);
     }
-
+    
     .toc .toggleNav .navGroup .navGroupCategoryTitle{
         color: rgba(255, 255, 255, 0.9);
     }
-
+    
     .toc .toggleNav ul li a {
         color: rgba(255, 255, 255, 0.7);
     }
-
+    
     .hljs{
         background-color: #111417;
     }
-
+    
     blockquote{
         color: rgba(255, 255, 255, 0.9);
         background-color: #111417;
         border-top-right-radius: 5px;
         border-bottom-right-radius: 5px;
     }
-
+    
     .onPageNav > .toc-headings{
         border-left: 1px solid rgba(255, 255, 255, 0.15);
     }
-
+    
     .onPageNav a{
         color: rgba(255, 255, 255, 0.7);
     }
-
+    
     code,.ms-code{
         background-color: #e04540;
         color: #fff;
-
+        
     }
-
+    
     hr{
         background-color: rgba(255, 255, 255, 0.15);
     }
-
+    
     .ms-footer{
         background-color: #111417;
     }
-
+    
     .ms-footer span, .ms-footer .copyright{
         color: rgba(255, 255, 255, 0.25);
     }
-
+    
     .ms-footer .switch-theme{
         background-color: #111417;
     }
-}
+}*/

@@ -6,6 +6,33 @@ original_id: avatars
 
 The avatar component allows you to create a profile image, from a picture or text. Different sizes are available.
 
+## Basic usage
+
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms_col ms_col--1-of-3">
+            <div class="ms-dot red"></div>
+            <div class="ms-dot yellow"></div>
+            <div class="ms-dot green"></div>
+        </div>
+    </div>
+    <div class="ms-content">
+        <div class="ms-avatar" style="margin:0 auto">
+            <img class="ms-avatar-img" src="https://randomuser.me/api/portraits/women/60.jpg" alt="...">
+        </div>
+    </div>
+</div>
+
+```html
+<div class="ms-avatar ms-small">
+    <img class="ms-avatar-img" src="https://randomuser.me/api/portraits/women/60.jpg" alt="...">
+</div>
+```
+
+## Size
+
+The size of the avatar is modifiable with the classes `ms-small`, `ms-medium` and `ms-large`.
+
 <div class="ms-avatar ms-small" style="display:inline-block;">
     <img class="ms-avatar-img" src="https://randomuser.me/api/portraits/women/60.jpg" alt="...">
 </div>
@@ -40,7 +67,7 @@ The avatar component allows you to create a profile image, from a picture or tex
 </div>
 ```
 
-It is also possible to add a link to the profile picture, with an `a` tag.
+It is also possible to add a link to the profile picture, with an `<a>` tag.
 
 <div class="ms-avatar">
     <a href="#">

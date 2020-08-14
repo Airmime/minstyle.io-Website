@@ -18,3 +18,7 @@ What's news on minstyle.io ?
 
 #### Browser
 * Added browser element.
+
+#### Typographie
+* Change blockquote appearance.
+

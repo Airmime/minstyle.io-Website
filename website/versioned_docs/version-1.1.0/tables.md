@@ -6,32 +6,45 @@ original_id: tables
 
 The table element allows to display set of datas, through rows, cells and headers.
 
-<table class="ms-table">
-    <thead>
-        <tr>
-            <th>Rank</th>
-            <th>Team</th>
-            <th>Point(s)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>1</td>
-            <td>FC Barcelona</td>
-            <td>98</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Real Madrid</td>
-            <td>87</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Atletico Madrid</td>
-            <td>80</td>
-        </tr>
-    </tbody>
-</table>
+## Basic usage
+
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms_col ms_col--1-of-3">
+            <div class="ms-dot red"></div>
+            <div class="ms-dot yellow"></div>
+            <div class="ms-dot green"></div>
+        </div>
+    </div>
+    <div class="ms-content">
+        <table class="ms-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Team</th>
+                    <th>Point(s)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>FC Barcelona</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Real Madrid</td>
+                    <td>87</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Atletico Madrid</td>
+                    <td>80</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
 
 ```html
 <table class="ms-table">

@@ -18,6 +18,7 @@ Alerts allow you to display a contextual message about your users actions. These
     </div>
     <div class="ms-content">
         <div class="ms-alert">
+            <span class="ms-close"></span>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
         </div>
     </div>

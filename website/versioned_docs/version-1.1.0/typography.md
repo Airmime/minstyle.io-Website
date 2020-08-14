@@ -10,12 +10,12 @@ ___
 
 ## Heading
 
-<h1 style="margin:0 0 1rem 0; font-size: 35px; font-weight: 500; color: #34495e;">Title h1 (35px)</h1>
-<h2 style="margin:0 0 1rem 0; font-size: 32px; font-weight: 500; color: #34495e;">Title h2 (32px)</h2>
-<h3 style="margin:0 0 1rem 0; font-size: 29px; font-weight: 500; color: #34495e;">Title h3 (29px)</h3>
-<h4 style="margin:0 0 1rem 0; font-size: 26px; font-weight: 500; color: #34495e;">Title h4 (26px)</h4>
-<h5 style="margin:0 0 1rem 0; font-size: 22px; font-weight: 500; color: #34495e;">Title h5 (22px)</h5>
-<h6 style="margin:0 0 1rem 0; font-size: 19px; font-weight: 500; color: #34495e;">Title h6 (19px)</h6>
+<h1 style="margin:0 0 1rem 0; font-size: 35px; font-weight: 500;">Title h1 (35px)</h1>
+<h2 style="margin:0 0 1rem 0; font-size: 32px; font-weight: 500;">Title h2 (32px)</h2>
+<h3 style="margin:0 0 1rem 0; font-size: 29px; font-weight: 500;">Title h3 (29px)</h3>
+<h4 style="margin:0 0 1rem 0; font-size: 26px; font-weight: 500;">Title h4 (26px)</h4>
+<h5 style="margin:0 0 1rem 0; font-size: 22px; font-weight: 500;">Title h5 (22px)</h5>
+<h6 style="margin:0 0 1rem 0; font-size: 19px; font-weight: 500;">Title h6 (19px)</h6>
 
 ```html
 <h1>Title h1 (35px)</h1>
@@ -158,7 +158,6 @@ ___
 
 <blockquote class="ms-blockquote" style="border-color: #e1e1e1;">
   <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-  <i>Jhon Doe</i>
 </blockquote>
 
 <blockquote class="ms-blockquote ms-info">
@@ -177,14 +176,12 @@ ___
 </blockquote>
 
 <blockquote class="ms-blockquote ms-error">
-  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-  <i>Jhon Doe</i>
+  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur <a href="">adipisicing</a> elit...</p>
 </blockquote>
 
 ```html
 <blockquote class="ms-blockquote">
   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-  <i>Jhon Doe</i>
 </blockquote>
 
 <blockquote class="ms-blockquote ms-info">
@@ -203,8 +200,7 @@ ___
 </blockquote>
 
 <blockquote class="ms-blockquote ms-error">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-  <i>Jhon Doe</i>
+  <p style="margin: 0 0 0.5rem 0;">Lorem ipsum dolor sit amet, consectetur <a href="">adipisicing</a> elit...</p>
 </blockquote>
 ```
 
