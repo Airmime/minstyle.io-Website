@@ -8,46 +8,57 @@ The card component allows you to build a content container, from several element
 
 > Take a look at the [grid](grid.md) page to get all the necessary information.
 
-<div class="container">
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1460046205962-bd8fa3a96a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
-                </a>
-            </div>
-            <div class="ms-card-title">
-                <h2>Yosemite national park</h2>
-                <span>California</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
-            </div>
+## Basic usage
+
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms_col ms_col--1-of-3">
+            <div class="ms-dot red"></div>
+            <div class="ms-dot yellow"></div>
+            <div class="ms-dot green"></div>
         </div>
     </div>
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-title">
-                <h2>Zion national park</h2>
-                <span>Utah</span>
+    <div class="ms-content">
+        <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
+            <div class="ms-card">
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1460046205962-bd8fa3a96a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
+                    </a>
+                </div>
+                <div class="ms-card-title">
+                    <h2>Yosemite national park</h2>
+                    <span>California</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
+                </div>
             </div>
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
-                </a>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
+        </div>
+        <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
+            <div class="ms-card">
+                <div class="ms-card-title">
+                    <h2>Zion national park</h2>
+                    <span>Utah</span>
+                </div>
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
+                    </a>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
+                </div>
             </div>
         </div>
     </div>

@@ -1,3 +1,26 @@
+/* Variables */
+html{
+    --defautl-bg-darker: #f3f3f3;
+    --default-font-color: rgba(0,0,0,.85);
+    --default-font-color-title: rgba(0, 0, 0, 0.9);
+    --default-font-color-link: rgba(0, 0, 0, 0.7);
+    --default-bg-code: #fdf0f0;
+    --default-font-color-code: #e04540;
+    --default-bg-blockquote: transparent;
+    --default-color-border_sidbar: #e0e0e0;
+}
+
+html[data-theme='dark'] {
+    --defautl-bg-darker: #111417;;
+    --default-font-color: #ffffff;
+    --default-font-color-title: rgba(255, 255, 255, 0.9);
+    --default-font-color-link: rgba(255, 255, 255, 0.7);
+    --default-bg-code: #e04540;
+    --default-font-color-code: #ffffff;
+    --default-bg-blockquote: var(--defautl-bg-darker);
+    --default-color-border_sidbar: rgba(255, 255, 255, 0.15);
+}
+
 /* Home */
 .welcome{
     margin: 5rem 0;
@@ -32,7 +55,7 @@
 }
 
 .actions{
-    background-color: #f3f3f3;
+    background-color: var(--defautl-bg-darker);
 }
 .actions .ms-card{
     text-align: center;

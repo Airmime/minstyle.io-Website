@@ -68,14 +68,10 @@ hr{
     margin: 1rem 0;
 }
 
-::-webkit-scrollbar {
-    width: 10px;
-}
-
-
 /* Layout */
 .fixedHeaderContainer{
     background-color: var(--defautl-bg-darker);
+    box-sizing: border-box;
 }
 
 .navigationSlider .slidingNav ul li a{
@@ -119,19 +115,19 @@ code,.ms-code{
     color: #e04540;
     background-color: transparent;
 }
-input#search_input_react{
-    background-color: #fff;
-    color: #34495e;
+.reactNavSearchWrapper input#search_input_react{
+    background-color: var(--default-bg);
+    color: var(--default-font-color-title);
 }
 input#search_input_react:active {
-    color: #34495e;
+    color: var(--default-font-color-title);
 }
 input#search_input_react:focus {
-    color: #34495e;
+    color: var(--default-font-color-title);
     box-shadow: none;
 }
 input#search_input_react::placeholder {
-    color: #e1e1e1;
+    color: var(--default-font-color-link);
 }
 .navSearchWrapper:before {
     display: none;
@@ -191,19 +187,7 @@ input#search_input_react::placeholder {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
-@media only screen and (min-width: 1024px) {
-    .reactNavSearchWrapper input#search_input_react {
-        background-color: #fff;
-        color: #34495e;
-    }
-}
-
 @media only screen and (max-width: 1023px) {
-    .reactNavSearchWrapper input#search_input_react {
-        background-color: #fff;
-        color: #34495e;
-    }
-    
     .navigationSlider .slidingNav ul li a {
         font-size: 1rem;
     }

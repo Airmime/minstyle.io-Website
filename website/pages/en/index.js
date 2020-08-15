@@ -12,7 +12,7 @@ class Index extends React.Component {
             Your web interface<br/> simply and quickly!
           </h2>
           <h1>
-            <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework.
+            <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework, whith <span className="color">dark theme</span>.
           </h1>
           <p>            
             minstyle.io integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces, for all devices.
@@ -69,15 +69,15 @@ class Index extends React.Component {
           <div className="ms_col--2-of-6 ms_col--m-4-of-4 ms_col">
             <div className="ms-card">
               <div className="ms-card-pic">
-                <i className="far fa-grin-hearts fa-3x"></i>
+                <i className="fas fa-moon fa-3x"></i>
               </div>
               <div className="ms-card-title">
-                <h2>Easy to use</h2>
-                <span>Easy to handle</span>
+                <h2>Dark Theme</h2>
+                <span>Designated for dark theme.</span>
               </div>
               <div className="ms-card-text">
                 <p>
-                  minstyle.io is developed to simplify your web interface creation.
+                  minstyle.io automatically adapts the theme to that of the user's system.
                 </p>
               </div>
             </div>

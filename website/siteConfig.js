@@ -30,6 +30,11 @@ const siteConfig = {
     {href: 'https://github.com/Airmime/minstyle.io', label: 'Contribute'},
     { languages: true },
   ],
+
+  algolia: {
+    apiKey: 'e35a97664bc9cd2ef9b3d3a74c4ed80e',
+    indexName: 'minstyle',
+  },
   
   users,
 
@@ -57,7 +62,7 @@ const siteConfig = {
   usePrism: ['html'],
   
   /* Externals JS */
-  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js'],
+  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js','http://localhost/dark.js'],
   
   /* Navigation */
   onPageNav: 'separate',
@@ -71,7 +76,7 @@ const siteConfig = {
   
   /* Externals CSS */
   stylesheets: [
-    'https://cdn.jsdelivr.net/npm/minstyle.io@1.0.2/css/minstyle.io.css',
+    'http://localhost/minstyle.io/css/minstyle.io.css',
   ]
 };
 
