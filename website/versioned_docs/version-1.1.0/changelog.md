@@ -22,3 +22,8 @@ What's news on minstyle.io ?
 #### Typographie
 * Change blockquote appearance.
 
+#### User card
+* Added card with background.
+
+#### Buttons
+* Fix padding.

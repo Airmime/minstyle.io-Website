@@ -6,7 +6,22 @@ original_id: buttons
 
 Buttons or links dedicated to actions, are customizable, by colors, sizes and shapes.
 
-<button class="ms-btn">default</button>
+## Basic usage
+
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms_col ms_col--1-of-3">
+            <div class="ms-dot red"></div>
+            <div class="ms-dot yellow"></div>
+            <div class="ms-dot green"></div>
+        </div>
+    </div>
+    <div class="ms-content">
+        <div class="ms_col ms_col--2-of-12 ms_col--centered">
+            <button class="ms-btn">default</button>
+        </div>
+    </div>
+</div>
 
 ```html
 <button class="ms-btn">default</button>
@@ -81,7 +96,7 @@ ___
 
 You can also change the appearance of the buttons, by **changing their angles** with the `.ms-rounded` classe.
 
-<button class="ms-btn ms-danger">Button</button>
+<button class="ms-btn ms-danger ms-rounded">Button</button>
 <button class="ms-btn ms-outline-success ms-rounded">Button</button>
 
 ```html

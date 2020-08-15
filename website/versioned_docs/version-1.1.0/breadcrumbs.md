@@ -6,8 +6,51 @@ original_id: breadcrumbs
 
 Breadcrumbs `ms-breadcrumb` allow you to view the current page, within the hierarchy, by adding a separator.
 
+## Basic usage
+
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms_col ms_col--1-of-3">
+            <div class="ms-dot red"></div>
+            <div class="ms-dot yellow"></div>
+            <div class="ms-dot green"></div>
+        </div>
+    </div>
+    <div class="ms-content">
+        <div class="ms-breadcrumb">
+            <ul>
+                <li>Home</li>
+                <li>Buttons</li>
+                <li><a href="#">Colors</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+```html
 <div class="ms-breadcrumb">
     <ul>
+        <li>Home</li>
+        <li>Buttons</li>
+        <li><a href="#">Colors</a></li>
+    </ul>
+</div>
+```
+
+## Position
+
+The position of links is adjustable with the classes `ms-text-center` and `ms-text-right`. By default, the links are on the left.
+
+<div class="ms-breadcrumb">
+    <ul class="ms-text-center">
+        <li>Home</li>
+        <li>Buttons</li>
+        <li><a href="#">Colors</a></li>
+    </ul>
+</div>
+
+<div class="ms-breadcrumb">
+    <ul class="ms-text-right">
         <li>Home</li>
         <li>Buttons</li>
         <li><a href="#">Colors</a></li>
@@ -16,7 +59,15 @@ Breadcrumbs `ms-breadcrumb` allow you to view the current page, within the hiera
 
 ```html
 <div class="ms-breadcrumb">
-    <ul>
+    <ul class="ms-text-center">
+        <li>Home</li>
+        <li>Buttons</li>
+        <li><a href="#">Colors</a></li>
+    </ul>
+</div>
+
+<div class="ms-breadcrumb">
+    <ul class="ms-text-right">
         <li>Home</li>
         <li>Buttons</li>
         <li><a href="#">Colors</a></li>

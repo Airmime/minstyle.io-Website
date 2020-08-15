@@ -179,13 +179,13 @@ input#search_input_react::placeholder {
     padding: 2rem 0;
 }
 .ms-footer span{
-    color: #69798a;
+    color: var(--default-font-color-link);
     font-size: 0.9rem;
     line-height: 1.6rem;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 .ms-footer .copyright{
-    color: #69798a;
+    color: var(--default-font-color-link);
     font-size: 0.8rem;
     line-height: 1.6rem;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
