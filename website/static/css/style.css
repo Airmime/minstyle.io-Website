@@ -22,13 +22,8 @@ html[data-theme='dark'] {
 }
 
 /* Home */
-.home-bloc{
-    background: url('../img/bg.png') no-repeat right;
-    background-position: right top;
-    background-size: 50% auto;
-}
 .welcome{
-    margin: 2.5rem 0;
+    margin: 5rem 0;
     padding: 0 30px;
 }
 .welcome .color{
@@ -52,7 +47,7 @@ html[data-theme='dark'] {
     text-align: right;
 }
 .picture{
-    margin: 5rem 0;
+    margin: 8rem 0;
     padding: 0 30px;
 }
 .home-version{

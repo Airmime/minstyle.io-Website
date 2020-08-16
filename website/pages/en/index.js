@@ -6,25 +6,27 @@ class Index extends React.Component {
   render() {
     return (
     <div>
-      <div className="home-bloc">
-        <div className="container">
-          <div className="welcome ms_col--3-of-6 ms_col--m-4-of-4 ms_col"> 
-            <h2>
-              Your web interface<br/> simply and quickly!
-            </h2>
-            <h1>
-              <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework, whith <span className="color">dark theme</span>.
-            </h1>
-            <p>            
-              minstyle.io integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces, for all devices.
-              <br/>
-              <br/>
-              <a href="/docs/installation" className="ms-btn"><i className="fas fa-book"></i> Doc</a>
-              &nbsp;
-              <a href="https://github.com/Airmime/minstyle.io" className="ms-btn"><i className="fab fa-github"></i> GitHub</a><br/>
-              <span className="home-version">V1.0.2</span>
-            </p>
-          </div>
+      <div className="container">
+        <div className="welcome ms_col--3-of-6 ms_col--m-4-of-4 ms_col"> 
+          <h2>
+            Your web interface<br/> simply and quickly!
+          </h2>
+          <h1>
+            <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework, whith <span className="color">dark mode</span>.
+          </h1>
+          <p>            
+            minstyle.io integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces, for all devices.
+            <br/>
+            <br/>
+            <a href="/docs/installation" className="ms-btn"><i className="fas fa-book"></i> Doc</a>
+            &nbsp;
+            <a href="https://github.com/Airmime/minstyle.io" className="ms-btn"><i className="fab fa-github"></i> GitHub</a><br/>
+            <span className="home-version">V1.0.2</span>
+          </p>
+        </div>
+        
+        <div className="picture ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
+          <img src="https://nsa40.casimages.com/img/2020/08/16/200816083512162642.png" alt="" />
         </div>
       </div>
       

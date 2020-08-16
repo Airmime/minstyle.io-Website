@@ -74,15 +74,44 @@ hr{
     box-sizing: border-box;
 }
 
+.navigationSlider .slidingNav ul{
+    background-color: var(--defautl-bg-darker);
+}
+
 .navigationSlider .slidingNav ul li a{
     color: var(--default-font-color-title);
     font-weight: 500;
     margin: 0 0.1rem;
 }
 
+.docsNavContainer .toc .navBreadcrumb{
+    background-color: var(--default-bg);
+    color: var(--default-font-color-title);
+}
+
+.navBreadcrumb a, .navBreadcrumb span{
+    color: var(--default-font-color-title);
+}
+
+.docsSliderActive .toc .navBreadcrumb, .tocActive .navBreadcrumb{
+    border-color: var(--default-color-border_sidbar);
+}
+
+.line1, .line2, .line3{
+    background-color: var(--default-font-color-title);
+}
+
 .fixedHeaderContainer header h3{
     color: var(--default-font-color-title);
     text-decoration: none;
+}
+
+.docsSliderActive .toc section .navGroups{
+    background-color: var(--default-bg);
+}
+
+.tocActive .onPageNav{
+    background-color: var(--default-bg);
 }
 
 .blog .wrapper {
@@ -169,6 +198,11 @@ input#search_input_react::placeholder {
     font-size: 0.8rem;;
 }
 
+/* Algolia */
+.algolia-autocomplete .ds-dropdown-menu {
+    background-color: purple;
+  }
+
 /* Footer */
 .ms-footer{
     background-color: var(--defautl-bg-darker);
@@ -196,78 +230,4 @@ input#search_input_react::placeholder {
         right: 8px;
         top: 8px;
     }
-    
-    .navigationSlider .slidingNav ul li > a:focus, .navigationSlider .slidingNav ul li > a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive > a, .navigationSlider .slidingNav ul li.siteNavGroupActive > a {
-        color: #e04540;
-    }
 }
-
-/*
-@media (prefers-color-scheme: dark) {
-    h1, h2, h3, h4, h5, h6{
-        color: rgba(255, 255, 255, 1);
-    }
-    
-    body{
-        background-color: #25282c;
-        color: rgba(255, 255, 255, 0.8);
-    }
-    
-    .fixedHeaderContainer{
-        background-color: #111417;
-        color: rgba(255, 255, 255, 0.9);
-    }
-    
-    .navigationSlider .slidingNav ul li a, .fixedHeaderContainer header h3{
-        color: rgba(255, 255, 255, 0.9);
-    }
-    
-    .toc .toggleNav .navGroup .navGroupCategoryTitle{
-        color: rgba(255, 255, 255, 0.9);
-    }
-    
-    .toc .toggleNav ul li a {
-        color: rgba(255, 255, 255, 0.7);
-    }
-    
-    .hljs{
-        background-color: #111417;
-    }
-    
-    blockquote{
-        color: rgba(255, 255, 255, 0.9);
-        background-color: #111417;
-        border-top-right-radius: 5px;
-        border-bottom-right-radius: 5px;
-    }
-    
-    .onPageNav > .toc-headings{
-        border-left: 1px solid rgba(255, 255, 255, 0.15);
-    }
-    
-    .onPageNav a{
-        color: rgba(255, 255, 255, 0.7);
-    }
-    
-    code,.ms-code{
-        background-color: #e04540;
-        color: #fff;
-        
-    }
-    
-    hr{
-        background-color: rgba(255, 255, 255, 0.15);
-    }
-    
-    .ms-footer{
-        background-color: #111417;
-    }
-    
-    .ms-footer span, .ms-footer .copyright{
-        color: rgba(255, 255, 255, 0.25);
-    }
-    
-    .ms-footer .switch-theme{
-        background-color: #111417;
-    }
-}*/

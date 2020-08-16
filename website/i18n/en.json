@@ -32,6 +32,9 @@
       "changelog": {
         "title": "Changelog"
       },
+      "dark": {
+        "title": "Dark Mode"
+      },
       "dropdown": {
         "title": "Dropdown"
       },
@@ -277,6 +280,9 @@
       },
       "version-1.1.0/version-1.1.0-changelog": {
         "title": "Changelog"
+      },
+      "version-1.1.0/version-1.1.0-dark": {
+        "title": "Dark Mode"
       },
       "version-1.1.0/version-1.1.0-dropdown": {
         "title": "Dropdown"
