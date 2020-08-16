@@ -17,7 +17,7 @@ const users = [
 const siteConfig = {
   /* Infos */
   title: 'minstlye.io',
-  tagline: 'Simple and light open source CSS framework',
+  tagline: 'Simple and light open source CSS framework, with dark theme.',
   url: 'https://minstyle.io/', // Your website URL
   baseUrl: '/', 
   projectName: 'minstyle.io',

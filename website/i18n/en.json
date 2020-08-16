@@ -3,7 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "Simple and light open source CSS framework",
+    "tagline": "Simple and light open source CSS framework, with dark theme.",
     "docs": {
       "alerts": {
         "title": "Alerts"

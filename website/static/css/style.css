@@ -22,8 +22,13 @@ html[data-theme='dark'] {
 }
 
 /* Home */
+.home-bloc{
+    background: url('../img/bg.png') no-repeat right;
+    background-position: right top;
+    background-size: 50% auto;
+}
 .welcome{
-    margin: 5rem 0;
+    margin: 2.5rem 0;
     padding: 0 30px;
 }
 .welcome .color{
@@ -39,7 +44,7 @@ html[data-theme='dark'] {
     font-size: 3.5rem;
     line-height: 3.5rem;
     text-align: right;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .welcome p{
     font-size: 1.2rem;

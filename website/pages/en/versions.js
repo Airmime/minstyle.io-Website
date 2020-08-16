@@ -22,8 +22,7 @@ function Versions(props) {
     siteConfig.projectName
   }`;
   return (
-    <div className="docMainWrapper wrapper">
-      <Container className="mainContainer versionsContainer">
+    <div className="container">
         <div className="post">
           <header className="postHeader">
             <h1>{siteConfig.title} Versions</h1>
@@ -88,7 +87,6 @@ function Versions(props) {
             <a href="https://github.com/Airmime/minstyle.io">GitHub</a>.
           </p>
         </div>
-      </Container>
     </div>
   );
 }

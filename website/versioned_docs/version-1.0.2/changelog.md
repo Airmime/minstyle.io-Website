@@ -6,7 +6,7 @@ original_id: changelog
 
 What's news on minstyle.io ?
 
-## V1.0.2 (current version)
+## V1.0.2
 * Change on card element : rename .ms-card-text to .ms-card-content.
 * Added menu element.
 * Fix grid responsive.
