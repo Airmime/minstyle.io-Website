@@ -8,40 +8,67 @@ Designing an effective form is not easy, to help you, the main elements like inp
 
 The input must necessarily be surrounded by the `.ms-form-group` tag. 
 
-<div class="ms-form-group">
-    <label for="Login">Login</label>
-	<input type="text" placeholder="Login" id="Login">	
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms_col ms_col--1-of-3">
+            <div class="ms-dot red"></div>
+            <div class="ms-dot yellow"></div>
+            <div class="ms-dot green"></div>
+        </div>
+    </div>
+    <div class="ms-content">
+        <form>
+			<div class="ms_col ms_col--1-of-2">
+				<div class="ms-form-group">
+					<label for="Login">Login</label>
+					<input type="text" placeholder="Login" id="Login">	
+				</div>		
+				<div class="ms-form-group">
+					<label for="Mail">Mail</label>
+					<input type="text" placeholder="Mail" id="Mail">	
+				</div>
+			</div>
+			<div class="ms_col ms_col--1-of-2">
+				<div class="ms-form-group">
+					<label for="Password">Password</label>
+					<input type="password" placeholder="Password" id="Password">
+				</div>		
+				<div class="ms-form-group">
+					<label for="Password">Retype password</label>
+					<input type="password" placeholder="Password" id="Password">
+				</div>
+			</div>
+			<div class="ms_col ms_col--2-of-2">
+				<div><button class="ms-btn ms-success ms-fullwidth ms-medium">Login</button></div>
+			</div>
+		</form>
+    </div>
 </div>
-		
-<div class="ms-form-group">
-    <label for="Password">Password</label>
-	<input type="password" placeholder="Password" id="Password">
-</div>
-
-<div class="ms-form-group-inline">
-    <input type="checkbox" id="Checkbox">
-    <label for="Checkbox">Remember</label>
-</div>
-
-<div><button class="ms-btn ms-success">Login</button></div>
 
 ```html
-<div class="ms-form-group">
-    <label for="Login">Login</label>
-	<input type="text" placeholder="Login" id="Login">	
+<div class="ms_col ms_col--1-of-2">
+    <div class="ms-form-group">
+        <label for="Login">Login</label>
+        <input type="text" placeholder="Login" id="Login">	
+    </div>		
+    <div class="ms-form-group">
+        <label for="Mail">Mail</label>
+        <input type="text" placeholder="Mail" id="Mail">	
+    </div>
 </div>
-		
-<div class="ms-form-group">
-    <label for="Password">Password</label>
-	<input type="password" placeholder="Password" id="Password">
+<div class="ms_col ms_col--1-of-2">
+    <div class="ms-form-group">
+        <label for="Password">Password</label>
+        <input type="password" placeholder="Password" id="Password">
+    </div>		
+    <div class="ms-form-group">
+        <label for="Password">Retype password</label>
+        <input type="password" placeholder="Password" id="Password">
+    </div>
 </div>
-
-<div class="ms-form-group-inline">
-    <input type="checkbox" id="Checkbox">
-    <label for="Checkbox">Remember</label>
+<div class="ms_col ms_col--2-of-2">
+    <div><button class="ms-btn ms-success ms-fullwidth ms-medium">Login</button></div>
 </div>
-
-<button class="ms-btn ms-success">Login</button>
 ```
 ___
 

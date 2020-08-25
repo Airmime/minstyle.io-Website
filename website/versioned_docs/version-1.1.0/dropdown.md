@@ -6,18 +6,31 @@ original_id: dropdown
 
 The dropdown allows you to merge a button with an icon (down arrow), and a list of links.
 
+## Basic usage
+
 > For more informations on the icons used, consult the dedicated [page](icons.md).
 
 > Take a look at the [button](buttons.md) page to get all the necessary information.
 
-<div class="ms-dropdown" style="margin:0;">
-    <button class="ms-btn">Versions <i class="fas fa-sort-down"></i></button>
-    <div class="ms-dropdown-content">
-        <ul class="ms-dropdown-content-list">
-            <li><a href="">V0.X</a></li>
-            <li><a href="">V1.X</a></li>
-            <li><a href="">V2.X</a></li>
-        </ul>
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms_col ms_col--1-of-3">
+            <div class="ms-dot red"></div>
+            <div class="ms-dot yellow"></div>
+            <div class="ms-dot green"></div>
+        </div>
+    </div>
+    <div class="ms-content">
+        <div class="ms-dropdown" style="margin:0;">
+            <button class="ms-btn">Versions <i class="fas fa-sort-down"></i></button>
+            <div class="ms-dropdown-content">
+                <ul class="ms-dropdown-content-list">
+                    <li><a href="">V0.X</a></li>
+                    <li><a href="">V1.X</a></li>
+                    <li><a href="">V2.X</a></li>
+                </ul>
+            </div>
+        </div><br/><br/><br/><br/><br/><br/>
     </div>
 </div>
 

@@ -62,7 +62,7 @@ const siteConfig = {
   usePrism: ['html'],
   
   /* Externals JS */
-  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js','http://localhost/dark.js'],
+  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js','http://localhost/dark-mode-switcher/dist/dark.min.js'],
   
   /* Navigation */
   onPageNav: 'separate',
