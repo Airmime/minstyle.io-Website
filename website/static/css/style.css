@@ -23,7 +23,7 @@ html[data-theme='dark'] {
 
 /* Home */
 .welcome{
-    margin: 5rem 0;
+    margin: 4rem 0;
     padding: 0 30px;
 }
 .welcome .color{
@@ -64,4 +64,19 @@ html[data-theme='dark'] {
 .actions .ms-card i{
     text-align: center;
     color: #fa4d60;
+}
+
+@media only screen and (max-width: 960px) {
+    .picture{
+        display: none;
+    }
+
+    .welcome p, .welcome h1, .welcome h2{
+        text-align: center;
+        margin: 0;
+    }
+
+    .welcome p, .welcome h1, .welcome h2{
+        margin-bottom: 2rem;
+    }
 }

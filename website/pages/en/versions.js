@@ -23,6 +23,7 @@ function Versions(props) {
   }`;
   return (
     <div className="container">
+      <div className="row">
         <div className="post">
           <header className="postHeader">
             <h1>{siteConfig.title} Versions</h1>
@@ -87,6 +88,7 @@ function Versions(props) {
             <a href="https://github.com/Airmime/minstyle.io">GitHub</a>.
           </p>
         </div>
+      </div>
     </div>
   );
 }

@@ -16,6 +16,9 @@ What's news on minstyle.io ?
 * Fix margin bottom on `<p>`.
 * Fix colors for outline alerts.
 
+#### Grid
+* Now, minstyle.io use [boostrap](https://getbootstrap.com/docs/4.5/layout/grid/) grid (V5.0.0).
+
 #### Browser
 * Added browser element.
 
@@ -27,3 +30,6 @@ What's news on minstyle.io ?
 
 #### Buttons
 * Fix padding.
+
+#### Labels
+* change padding.
