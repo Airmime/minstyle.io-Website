@@ -15,7 +15,11 @@ Buttons or links dedicated to actions, are customizable, by colors, sizes and sh
         <div class="ms-dot green"></div>
     </div>
     <div class="ms-content">
-        <button class="ms-btn">default</button>
+        <div class="row justify-content-center">
+            <div class="col-3">
+                <button class="ms-btn">default</button>
+            </div>
+        </div>
     </div>
 </div>
 

@@ -92,6 +92,8 @@ The dropdown is largely based on the `ms-btn` classe, so it is possible to use t
 </div>
 ```
 
+## Sizes
+
 It is also possible to change the dropdown size, from the [button](buttons.md) classes.
 
 <div class="ms-dropdown">
