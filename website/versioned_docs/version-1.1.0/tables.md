@@ -10,11 +10,9 @@ The table element allows to display set of datas, through rows, cells and header
 
 <div class="ms-browser">
     <div class="ms-tab-browser">
-        <div class="ms_col ms_col--1-of-3">
-            <div class="ms-dot red"></div>
-            <div class="ms-dot yellow"></div>
-            <div class="ms-dot green"></div>
-        </div>
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
     </div>
     <div class="ms-content">
         <table class="ms-table">

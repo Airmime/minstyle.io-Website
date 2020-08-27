@@ -6,7 +6,16 @@ original_id: labels
 
 Labels allow you to display highlighted text. These are available in different sizes, shapes and colors.
 
-<span class="ms-label">label</span>
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
+    </div>
+    <div class="ms-content">
+        This is a <span class="ms-label">label</span>
+    </div>
+</div>
 
 ```html
 <span class="ms-label">label</span>

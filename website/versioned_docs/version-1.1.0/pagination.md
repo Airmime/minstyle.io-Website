@@ -6,18 +6,27 @@ original_id: pagination
 
 The pagination component allows you to display number of pages, and to navigate between them. 
 
-<div class="ms-pagination">
-    <ul>
-        <li><a href="#/components/pagination?id=pagination">Prev</a></li>
-        <li><span>...</span></li>
-        <li><a href="#/components/pagination?id=pagination">11</a></li>
-        <li><a href="#/components/pagination?id=pagination">12</a></li>
-        <li><a class="ms-active" href="#/components/pagination?id=pagination">13</a></li>
-        <li><a href="#/components/pagination?id=pagination">14</a></li>
-        <li><a href="#/components/pagination?id=pagination">15</a></li>
-        <li><span>...</span></li>
-        <li><a href="#/components/pagination?id=pagination" class="ms-disabled">Next</a></li>
-    </ul>
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
+    </div>
+    <div class="ms-content">
+        <div class="ms-pagination">
+            <ul>
+                <li><a href="#/components/pagination?id=pagination">Prev</a></li>
+                <li><span>...</span></li>
+                <li><a href="#/components/pagination?id=pagination">11</a></li>
+                <li><a href="#/components/pagination?id=pagination">12</a></li>
+                <li><a class="ms-active" href="#/components/pagination?id=pagination">13</a></li>
+                <li><a href="#/components/pagination?id=pagination">14</a></li>
+                <li><a href="#/components/pagination?id=pagination">15</a></li>
+                <li><span>...</span></li>
+                <li><a href="#/components/pagination?id=pagination" class="ms-disabled">Next</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 ```html

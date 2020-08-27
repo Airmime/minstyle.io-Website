@@ -10,65 +10,65 @@ The input must necessarily be surrounded by the `.ms-form-group` tag.
 
 <div class="ms-browser">
     <div class="ms-tab-browser">
-        <div class="ms_col ms_col--1-of-3">
-            <div class="ms-dot red"></div>
-            <div class="ms-dot yellow"></div>
-            <div class="ms-dot green"></div>
-        </div>
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
     </div>
     <div class="ms-content">
         <form>
-			<div class="ms_col ms_col--1-of-2">
-				<div class="ms-form-group">
-					<label for="Login">Login</label>
-					<input type="text" placeholder="Login" id="Login">	
-				</div>		
-				<div class="ms-form-group">
-					<label for="Mail">Mail</label>
-					<input type="text" placeholder="Mail" id="Mail">	
+			<div class="row">
+				<div class="col-sm">
+					<div class="ms-form-group">
+						<label for="Login">Login</label>
+						<input type="text" placeholder="Login" id="Login">	
+					</div>		
+					<div class="ms-form-group">
+						<label for="Mail">Mail</label>
+						<input type="text" placeholder="Mail" id="Mail">	
+					</div>
 				</div>
-			</div>
-			<div class="ms_col ms_col--1-of-2">
-				<div class="ms-form-group">
-					<label for="Password">Password</label>
-					<input type="password" placeholder="Password" id="Password">
-				</div>		
-				<div class="ms-form-group">
-					<label for="Password">Retype password</label>
-					<input type="password" placeholder="Password" id="Password">
+				<div class="col-sm">
+					<div class="ms-form-group">
+						<label for="Password">Password</label>
+						<input type="password" placeholder="Password" id="Password">
+					</div>		
+					<div class="ms-form-group">
+						<label for="Password">Retype password</label>
+						<input type="password" placeholder="Password" id="Password">
+					</div>
 				</div>
-			</div>
-			<div class="ms_col ms_col--2-of-2">
-				<div><button class="ms-btn ms-success ms-fullwidth ms-medium">Login</button></div>
+				<div><button class="ms-btn ms-success ms-fullwidth ms-medium">Register</button></div>
 			</div>
 		</form>
     </div>
 </div>
 
 ```html
-<div class="ms_col ms_col--1-of-2">
-    <div class="ms-form-group">
-        <label for="Login">Login</label>
-        <input type="text" placeholder="Login" id="Login">	
-    </div>		
-    <div class="ms-form-group">
-        <label for="Mail">Mail</label>
-        <input type="text" placeholder="Mail" id="Mail">	
+<form>
+    <div class="row">
+        <div class="col-sm">
+            <div class="ms-form-group">
+                <label for="Login">Login</label>
+                <input type="text" placeholder="Login" id="Login">	
+            </div>		
+            <div class="ms-form-group">
+                <label for="Mail">Mail</label>
+                <input type="text" placeholder="Mail" id="Mail">	
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="ms-form-group">
+                <label for="Password">Password</label>
+                <input type="password" placeholder="Password" id="Password">
+            </div>		
+            <div class="ms-form-group">
+                <label for="Password">Retype password</label>
+                <input type="password" placeholder="Password" id="Password">
+            </div>
+        </div>
+        <div><button class="ms-btn ms-success ms-fullwidth ms-medium">Register</button></div>
     </div>
-</div>
-<div class="ms_col ms_col--1-of-2">
-    <div class="ms-form-group">
-        <label for="Password">Password</label>
-        <input type="password" placeholder="Password" id="Password">
-    </div>		
-    <div class="ms-form-group">
-        <label for="Password">Retype password</label>
-        <input type="password" placeholder="Password" id="Password">
-    </div>
-</div>
-<div class="ms_col ms_col--2-of-2">
-    <div><button class="ms-btn ms-success ms-fullwidth ms-medium">Login</button></div>
-</div>
+</form>
 ```
 ___
 

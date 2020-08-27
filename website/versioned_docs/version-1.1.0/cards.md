@@ -16,9 +16,9 @@ The card component allows you to build a content container, from several element
         <div class="ms-dot yellow"></div>
         <div class="ms-dot green"></div>
     </div>
-    <div class="ms-content container">
+    <div class="ms-content">
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-sm-12">
                 <div class="ms-card">
                     <div class="ms-card-pic">
                         <a href="#" target="_blank">
@@ -39,7 +39,7 @@ The card component allows you to build a content container, from several element
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6 col-sm-12">
                 <div class="ms-card">
                     <div class="ms-card-title">
                         <h2>Zion national park</h2>
@@ -66,45 +66,47 @@ The card component allows you to build a content container, from several element
 
 ```html
 <div class="container">
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1460046205962-bd8fa3a96a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
-                </a>
-            </div>
-            <div class="ms-card-title">
-                <h2>Yosemite national park</h2>
-                <span>California</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card">
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1460046205962-bd8fa3a96a35?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
+                    </a>
+                </div>
+                <div class="ms-card-title">
+                    <h2>Yosemite national park</h2>
+                    <span>California</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-title">
-                <h2>Zion national park</h2>
-                <span>Utah</span>
-            </div>
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
-                </a>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card">
+                <div class="ms-card-title">
+                    <h2>Zion national park</h2>
+                    <span>Utah</span>
+                </div>
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1533953263536-c12fa38d0bf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
+                    </a>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
+                </div>
             </div>
         </div>
     </div>
@@ -118,49 +120,51 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
 > For more informations on the icons used, consult the dedicated [page](icons.md).
 
 <div class="container">
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-title">
-                <h2>Mont-blanc</h2>
-                <span>France</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1526915202413-5ddfb855b35e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
-                </a>
-                <div class="ms-card-pic-stick ms-text-white"><b>123</b> <i class="fas fa-comment"></i></div>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
-            </div>
-        </div>
-    </div>
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1524849954958-f4e5fa0d4c11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="...">
-                </a>
-                <div class="ms-card-pic-stick">
-                    <span class="ms-text-gray"><b>15th Jan, 2019</b></span>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card">
+                <div class="ms-card-title">
+                    <h2>Mont-blanc</h2>
+                    <span>France</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1526915202413-5ddfb855b35e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
+                    </a>
+                    <div class="ms-card-pic-stick ms-text-white"><b>123</b> <i class="fas fa-comment"></i></div>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
                 </div>
             </div>
-            <div class="ms-card-title">
-                <h2>Aiguille du Midi</h2>
-                <span>Chamonix, France</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card">
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1524849954958-f4e5fa0d4c11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="...">
+                    </a>
+                    <div class="ms-card-pic-stick">
+                        <span class="ms-text-gray"><b>15th Jan, 2019</b></span>
+                    </div>
+                </div>
+                <div class="ms-card-title">
+                    <h2>Aiguille du Midi</h2>
+                    <span>Chamonix, France</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
+                </div>
             </div>
         </div>
     </div>
@@ -168,49 +172,51 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
 
 ```html
 <div class="container">
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-title">
-                <h2>Mont-blanc</h2>
-                <span>France</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1526915202413-5ddfb855b35e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
-                </a>
-                <div class="ms-card-pic-stick ms-text-white"><b>123</b> <i class="fas fa-comment"></i></div>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
-            </div>
-        </div>
-    </div>
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1524849954958-f4e5fa0d4c11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="...">
-                </a>
-                <div class="ms-card-pic-stick">
-                    <span class="ms-text-gray"><b>15th Jan, 2019</b></span>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card">
+                <div class="ms-card-title">
+                    <h2>Mont-blanc</h2>
+                    <span>France</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1526915202413-5ddfb855b35e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="...">
+                    </a>
+                    <div class="ms-card-pic-stick ms-text-white"><b>123</b> <i class="fas fa-comment"></i></div>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
                 </div>
             </div>
-            <div class="ms-card-title">
-                <h2>Aiguille du Midi</h2>
-                <span>Chamonix, France</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline">Read</button>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card">
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1524849954958-f4e5fa0d4c11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80" alt="...">
+                    </a>
+                    <div class="ms-card-pic-stick">
+                        <span class="ms-text-gray"><b>15th Jan, 2019</b></span>
+                    </div>
+                </div>
+                <div class="ms-card-title">
+                    <h2>Aiguille du Midi</h2>
+                    <span>Chamonix, France</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline">Read</button>
+                </div>
             </div>
         </div>
     </div>
@@ -222,28 +228,30 @@ You can add content stucked on the image with the `ms-card-pic-stick` classe, su
 It is also possible to add a border to the card with the `ms-border` classe.
 
 <div class="container">
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card ms-border">
-            <div class="ms-card-title">
-                <h2>Cervin</h2>
-                <span>France</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline-warning">Button</button>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card ms-border">
+                <div class="ms-card-title">
+                    <h2>Cervin</h2>
+                    <span>France</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline-warning">Button</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card ms-border">
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit</mark>. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card ms-border">
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit</mark>. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -251,28 +259,30 @@ It is also possible to add a border to the card with the `ms-border` classe.
 
 ```html
 <div class="container">
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card ms-border">
-            <div class="ms-card-title">
-                <h2>Cervin</h2>
-                <span>France</span>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline-warning">Button</button>
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card ms-border">
+                <div class="ms-card-title">
+                    <h2>Cervin</h2>
+                    <span>France</span>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline-warning">Button</button>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card ms-border">
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit</mark>. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card ms-border">
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet <mark>consectetur adipisicing elit</mark>. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
             </div>
         </div>
     </div>
@@ -284,71 +294,8 @@ It is also possible to add a border to the card with the `ms-border` classe.
 In order to delimit spaces within the card, it is possible to add one or more sections with `ms-section` and `ms-section-bloc` classes.
 
 <div class="container">
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card">
-            <div class="ms-card-title">
-                <a href="#">Denali National Park</a>
-                <span>Alaska</span>
-            </div>
-            <div class="ms-card-pic">
-                <a href="#" target="_blank">
-                    <img src="https://images.unsplash.com/photo-1515369902974-1ee693ba6ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="...">
-                </a>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
-                </p>
-            </div>
-            <div class="ms-section">
-                <div class="ms-section-bloc">
-                    <p style="margin: 0;">
-                        <b>Section 1</b><br/>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit...
-                    </p>
-                </div>
-                <div class="ms-section-bloc">
-                    <p style="margin: 0;">
-                        <b>Section 2</b><br/>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit...
-                    </p>
-                </div>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline-success">Button</button>
-            </div>
-        </div>
-    </div>
-    <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
-        <div class="ms-card ms-border">
-            <div class="ms-card-title">
-                <h2>Everglades national park</h2>
-                <span>Floride</span>
-            </div>
-            <div class="ms-section">
-                <div class="ms-section-bloc">
-                    <p style="margin: 0;">
-                        <b>Section 1</b><br/>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit...
-                    </p>
-                </div>
-                <div class="ms-section-bloc">
-                    <p style="margin: 0;">
-                        <b>Section 2</b><br/>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit...
-                    </p>
-                </div>
-            </div>
-            <div class="ms-card-btn">
-                <button class="ms-btn ms-outline-info">Button</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-```html
-<div class="container">
-        <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
             <div class="ms-card">
                 <div class="ms-card-title">
                     <a href="#">Denali National Park</a>
@@ -366,13 +313,13 @@ In order to delimit spaces within the card, it is possible to add one or more se
                 </div>
                 <div class="ms-section">
                     <div class="ms-section-bloc">
-                        <p>
+                        <p style="margin: 0;">
                             <b>Section 1</b><br/>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit...
                         </p>
                     </div>
                     <div class="ms-section-bloc">
-                        <p>
+                        <p style="margin: 0;">
                             <b>Section 2</b><br/>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit...
                         </p>
@@ -383,7 +330,7 @@ In order to delimit spaces within the card, it is possible to add one or more se
                 </div>
             </div>
         </div>
-        <div class="ms_col--3-of-6 ms_col--m-4-of-4 ms_col">
+        <div class="col-lg-6 col-sm-12">
             <div class="ms-card ms-border">
                 <div class="ms-card-title">
                     <h2>Everglades national park</h2>
@@ -391,13 +338,13 @@ In order to delimit spaces within the card, it is possible to add one or more se
                 </div>
                 <div class="ms-section">
                     <div class="ms-section-bloc">
-                        <p>
+                        <p style="margin: 0;">
                             <b>Section 1</b><br/>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit...
                         </p>
                     </div>
                     <div class="ms-section-bloc">
-                        <p>
+                        <p style="margin: 0;">
                             <b>Section 2</b><br/>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit...
                         </p>
@@ -409,4 +356,71 @@ In order to delimit spaces within the card, it is possible to add one or more se
             </div>
         </div>
     </div>
+</div>
+
+```html
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card">
+                <div class="ms-card-title">
+                    <a href="#">Denali National Park</a>
+                    <span>Alaska</span>
+                </div>
+                <div class="ms-card-pic">
+                    <a href="#" target="_blank">
+                        <img src="https://images.unsplash.com/photo-1515369902974-1ee693ba6ce8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" alt="...">
+                    </a>
+                </div>
+                <div class="ms-card-content">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum itaque maxime soluta hic? Iure reiciendis facere qui beatae quasi repellendus, nemo incidunt quod! Quae sed odit illo. Amet, rerum et!
+                    </p>
+                </div>
+                <div class="ms-section">
+                    <div class="ms-section-bloc">
+                        <p style="margin: 0;">
+                            <b>Section 1</b><br/>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit...
+                        </p>
+                    </div>
+                    <div class="ms-section-bloc">
+                        <p style="margin: 0;">
+                            <b>Section 2</b><br/>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit...
+                        </p>
+                    </div>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline-success">Button</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+            <div class="ms-card ms-border">
+                <div class="ms-card-title">
+                    <h2>Everglades national park</h2>
+                    <span>Floride</span>
+                </div>
+                <div class="ms-section">
+                    <div class="ms-section-bloc">
+                        <p style="margin: 0;">
+                            <b>Section 1</b><br/>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit...
+                        </p>
+                    </div>
+                    <div class="ms-section-bloc">
+                        <p style="margin: 0;">
+                            <b>Section 2</b><br/>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit...
+                        </p>
+                    </div>
+                </div>
+                <div class="ms-card-btn">
+                    <button class="ms-btn ms-outline-info">Button</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 ```

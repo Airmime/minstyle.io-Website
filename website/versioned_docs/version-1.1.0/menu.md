@@ -12,11 +12,9 @@ A basic element of a web page, the menu allows you to orient your users within y
 
 <div class="ms-browser">
     <div class="ms-tab-browser">
-        <div class="ms_col ms_col--1-of-3">
-            <div class="ms-dot red"></div>
-            <div class="ms-dot yellow"></div>
-            <div class="ms-dot green"></div>
-        </div>
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
     </div>
     <div class="ms-content">
         <div class="ms-menu">

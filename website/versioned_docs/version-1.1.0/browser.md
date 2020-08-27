@@ -6,11 +6,9 @@ original_id: browser
 
 <div class="ms-browser">
     <div class="ms-tab-browser">
-        <div class="ms_col ms_col--3-of-3">
-            <div class="ms-dot red"></div>
-            <div class="ms-dot yellow"></div>
-            <div class="ms-dot green"></div>
-        </div>
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
     </div>
     <div class="ms-content">
     <br/>
@@ -20,11 +18,9 @@ original_id: browser
 ```html
 <div class="ms-browser">
     <div class="ms-tab-browser">
-        <div class="ms_col ms_col--3-of-3">
-            <div class="ms-dot red"></div>
-            <div class="ms-dot yellow"></div>
-            <div class="ms-dot green"></div>
-        </div>
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
     </div>
     <div class="ms-content">
         ...
