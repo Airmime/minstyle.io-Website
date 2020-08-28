@@ -13,7 +13,7 @@ class Index extends React.Component {
               Your web interface<br/> simply and quickly!
             </h2>
             <h1>
-              <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework, whith <span className="color">dark mode</span>.
+              <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework, whith <span className="color">dark theme</span>.
             </h1>
             <p>            
               minstyle.io integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces, for all devices.

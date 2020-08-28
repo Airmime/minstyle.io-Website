@@ -8,9 +8,9 @@ original_id: installation
 
 minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices.
 
-minstyle.io also includes support for **dark mode**, initially set on your OS. A [script](https://www.npmjs.com/package/dark-mode-switcher) also allows you to manually change from one theme to another in a fraction of a second (try it, by clicking on the icon at the bottom right). The working principle is detailed on the [dedicated page](dark.md).
+minstyle.io also includes support for **dark theme**, initially set on your OS. A [script](https://www.npmjs.com/package/dark-mode-switcher) also allows you to manually change from one theme to another in a fraction of a second (try it, by clicking on the icon at the bottom right). The working principle is detailed on the [dedicated page](dark.md).
 
->minstyle.io is entirely designed in CSS (SCSS), no javascript library is developed or required, except for switch in dark mode.
+>minstyle.io is entirely designed in CSS (SCSS), no javascript library is developed or required, except for switch in [dark theme](dark.md).
 
 The architecture of the framework is based on the concatenation of classes. For example, the `ms-btn` classe allows to get the default design of a button, the `ms-success` classe allows to color the button green, and the `ms-rounded` classe allows to round the button angles 
 

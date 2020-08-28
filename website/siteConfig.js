@@ -17,7 +17,7 @@ const users = [
 const siteConfig = {
   /* Infos */
   title: 'minstlye.io',
-  tagline: 'Simple and light open source CSS framework, with dark mode.',
+  tagline: 'Simple and light open source CSS framework, integrating a dark theme.',
   url: 'https://minstyle.io/', // Your website URL
   baseUrl: '/', 
   projectName: 'minstyle.io',
@@ -27,6 +27,7 @@ const siteConfig = {
     {page: 'index', label: 'Home'},
     {doc: 'installation', label: 'Docs'},
     {blog: true, label: 'Blog'},
+    {href: 'https://github.com/Airmime/minstyle.io', label: 'Examples'},
     {href: 'https://github.com/Airmime/minstyle.io', label: 'Contribute'},
     { languages: true },
   ],
