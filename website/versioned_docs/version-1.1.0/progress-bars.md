@@ -10,8 +10,17 @@ The progress bar allows you to display the progress of the completion of a task.
 
 To constitute the loading bar, two HTML tags are required, one to define the background `.ms-progress`, and the other to fill the bar `.ms-progress-fill`.
 
-<div class="ms-progress">
-    <div class="ms-progress-fill" style="width: 20%;">20%</div>
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
+    </div>
+    <div class="ms-content">
+        <div class="ms-progress">
+            <div class="ms-progress-fill" style="width: 20%;">20%</div>
+        </div>
+    </div>
 </div>
 
 ```html

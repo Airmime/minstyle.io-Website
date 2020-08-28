@@ -33,3 +33,6 @@ What's news on minstyle.io ?
 
 #### Labels
 * change padding.
+
+#### Progress bar
+* Fix margin.

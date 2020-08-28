@@ -152,3 +152,43 @@ It is possible to customize the color of the menu with the classes `.ms-info`, `
     ....
 </div>
 ```
+
+## Logo
+
+It is also possible to insert your logo in the menu, it will be automatically resized.
+
+<div class="ms-menu">
+    <div class="ms-menu-logo">
+        <img src="/img/logo.png"/>
+    </div>
+    <nav class="ms-menu-link">
+        <input type="checkbox" id="ms-menu-toggle">
+        <label for="ms-menu-toggle" class="ms-menu-icon"><i class="fa fa-bars"></i></label>
+        <ul>
+            <a href=""><li>Home</li></a>
+            <a href="#"><li>Link 1</li></a>
+            <a href="#"><li>Link 2</li></a>
+            <a href="#"><li>Link 3</li></a>
+            <a href="#"><li>Link 4</li></a>
+        </ul>
+    </nav>
+</div>
+
+```html
+<div class="ms-menu">
+    <div class="ms-menu-logo">
+        <img src="/img/logo.png"/>
+    </div>
+    <nav class="ms-menu-link">
+        <input type="checkbox" id="ms-menu-toggle">
+        <label for="ms-menu-toggle" class="ms-menu-icon"><i class="fa fa-bars"></i></label>
+        <ul>
+            <a href=""><li>Home</li></a>
+            <a href="#"><li>Link 1</li></a>
+            <a href="#"><li>Link 2</li></a>
+            <a href="#"><li>Link 3</li></a>
+            <a href="#"><li>Link 4</li></a>
+        </ul>
+    </nav>
+</div>
+```

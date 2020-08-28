@@ -6,14 +6,23 @@ original_id: tabs
 
 The tab component allows you to display a simple menu, containing several tabs. Different shapes and colours are available.
 
-<div class="ms-tab">
-    <ul style="padding:0;">
-        <li><a href="#" class="ms-active" style="color: inherit; font-weight:normal;">Soccer</a></li>
-        <li><a href="#" style="color: inherit; font-weight:normal;">Basket-ball</a></li>
-        <li><a href="#" style="color: inherit; font-weight:normal;">Golf</a></li>
-        <li><a href="#" style="color: inherit; font-weight:normal;">VTT</a></li>
-        <li><a href="#" style="color: inherit; font-weight:normal;">Baseball</a></li>
-    </ul>
+<div class="ms-browser">
+    <div class="ms-tab-browser">
+        <div class="ms-dot red"></div>
+        <div class="ms-dot yellow"></div>
+        <div class="ms-dot green"></div>
+    </div>
+    <div class="ms-content">
+        <div class="ms-tab">
+            <ul style="padding:0;">
+                <li><a href="#" class="ms-active" style="color: inherit; font-weight:normal;">Soccer</a></li>
+                <li><a href="#" style="color: inherit; font-weight:normal;">Basket-ball</a></li>
+                <li><a href="#" style="color: inherit; font-weight:normal;">Golf</a></li>
+                <li><a href="#" style="color: inherit; font-weight:normal;">VTT</a></li>
+                <li><a href="#" style="color: inherit; font-weight:normal;">Baseball</a></li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 ```html
@@ -121,7 +130,7 @@ To customize the tabs with your logo, the `.ms-logo` classe allows you to **disp
 
 <div class="ms-tab ms-error">
     <ul style="padding:0;">
-        <li class="ms-logo"><a href="#"><img src="_media/logo2.png" alt="Logo"></a></li>
+        <li class="ms-logo"><a href="#"><img src="/img/logo.png" alt="Logo"></a></li>
         <li><a href="#" class="ms-active" style="color: inherit; font-weight:normal;">Soccer</a></li>
         <li><a href="#" style="color: inherit; font-weight:normal;">Basket-ball</a></li>
         <li><a href="#" style="color: inherit; font-weight:normal;">Golf</a></li>
@@ -133,7 +142,7 @@ To customize the tabs with your logo, the `.ms-logo` classe allows you to **disp
 ```html
 <div class="ms-tab ms-error">
     <ul>
-        <li class="ms-logo"><a href="#"><img src="_media/logo2.png" alt="Logo"></a></li>
+        <li class="ms-logo"><a href="#"><img src="/img/logo.png" alt="Logo"></a></li>
         <li><a href="#" class="ms-active">Soccer</a></li>
         <li><a href="#">Basket-ball</a></li>
         <li><a href="#">Golf</a></li>
