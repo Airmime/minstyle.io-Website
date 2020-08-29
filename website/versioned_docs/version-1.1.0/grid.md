@@ -4,160 +4,110 @@ title: Grid
 original_id: grid
 ---
 
-Layout include grid allows to design a responsive interface, for mobile, tablet or PC. We using Toast Framework.
+Today, it is difficult to find a responsive grid as complete and efficient as the one proposed by [boostrap](https://getbootstrap.com). minstyle.io therefore integrates the bootstrap grid (V5). The complete documentation is [available here](https://getbootstrap.com/docs/4.5/layout/grid/).
 
-## Quick-start
+## How it works
 
-Using Toast is easy. To use the grid, you'll need a wrap, for this purpose it is necessary to use `.container` classe. Then, you can add columns with the `.ms_col` and `ms_col--[col-number]-of-[group-number]` classes. `[col-number]` determines the number of columns to be displayed, and `[group-number]` the total number of columns that can be displayed on the line (2, 3, 4, 5, 6, 8, or 12).
-
-<div class="container" style="margin-bottom: 1rem;">
-    <div class="ms_col ms_col--12-of-12" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>ms_col ms_col--12-of-12</code>
-    </div><br/><br/>
-    <div class="ms_col ms_col--3-of-4" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>ms_col ms_col--3-of-4</code>
-    </div><br/><br/>
-    <div class="ms_col ms_col--1-of-2" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>ms_col ms_col--1-of-2</code>
-    </div><br/><br/>
-    <div class="ms_col ms_col--1-of-3" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>ms_col ms_col--1-of-3</code>
-    </div><br/><br/>
-    <div class="ms_col ms_col--2-of-12" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>2--12...</code>
-    </div><br/><br/>
-    <div class="ms_col ms_col--1-of-12" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>1</code>
-    </div>
-</div>
+Bootstrap’s grid system uses a series of containers, rows, and columns to layout and align content. It’s built with flexbox and is fully responsive. Below is an example and an in-depth look at how the grid comes together.
 
 ```html
 <div class="container">
-    <div class="ms_col ms_col--12-of-12">...</div>
-    <div class="ms_col ms_col--3-of-3">...</div>
-    <div class="ms_col ms_col--1-of-2">...</div>
-    <div class="ms_col ms_col--1-of-3">...</div>
-    <div class="ms_col ms_col--2-of-12">...</div>
-    <div class="ms_col ms_col--1-of-12">...</div>
+  <div class="row">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
 </div>
 ```
 
-Samples content :
+The above example creates three equal-width columns on small, medium, large, and extra large devices using our predefined grid classes. Those columns are centered in the page with the parent `.container`.
 
-<div class="container" style="margin-bottom: 1rem;">
-    <div class="ms_col ms_col--3-of-12" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>3-of-12...</code>
-    </div>
-    <div class="ms_col ms_col--9-of-12" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>9-of-12...</code>
-    </div>
-</div>
+<a class="ms-btn ms-info" href="https://getbootstrap.com/docs/4.5/layout/grid/#how-it-works">See more</a>
 
-```html
-<div class="container">
-    <div class="ms_col ms_col--3-of-12">...</div>
-    <div class="ms_col ms_col--9-of-12">...</div>
-</div>
-```
+## Grid options
 
-<div class="container" style="margin-bottom: 1rem;">
-    <div class="ms_col ms_col--1-of-3" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>1-of-3...</code>
-    </div>
-    <div class="ms_col ms_col--1-of-3" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>1-of-3...</code>
-    </div>
-    <div class="ms_col ms_col--1-of-3" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>1-of-3...</code>
-    </div>
-</div>
+While Bootstrap uses ems or rems for defining most sizes, pxs are used for grid breakpoints and container widths. This is because the viewport width is in pixels and does not change with the font size.
 
-```html
-<div class="container">
-    <div class="ms_col ms_col--1-of-3">...</div>
-    <div class="ms_col ms_col--1-of-3">...</div>
-    <div class="ms_col ms_col--1-of-3">...</div>
-</div>
-```
+See how aspects of the Bootstrap grid system work across multiple devices with a handy table.
 
-<div class="container" style="margin-bottom: 1rem;">
-    <div class="ms_col ms_col--1-of-4" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>1-of-4...</code>
-    </div>
-    <div class="ms_col ms_col--1-of-4" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>1-of-4...</code>
-    </div>
-    <div class="ms_col ms_col--1-of-2" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>1-of-2...</code>
-    </div>
-</div>
+<table class="ms-table ms-striped ms-bordered">
+    <thead>
+        <tr>
+            <th></th>
+            <th class="ms-text-center">Extra small<br/> <576px </th>
+            <th class="ms-text-center">Small<br/> ≥576px</th>
+            <th class="ms-text-center">Medium<br/> ≥768px</th>
+            <th class="ms-text-center">Large<br/> ≥992px</th>
+            <th class="ms-text-center">Extra<br/> large ≥1200px</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Max container width</td>
+            <td>None (auto)</td>
+            <td>540px</td>
+            <td>720px</td>
+            <td>960px</td>
+            <td>1140px</td>
+        </tr>
+        <tr>
+            <td>Class prefix</td>
+            <td><code>.col-</code></td>
+            <td><code>.col-sm--</code></td>
+            <td><code>.col-md-</code></td>
+            <td><code>.col-lg-</code></td>
+            <td><code>.col-xl-</code></td>
+        </tr>
+        <tr>
+            <td># of columns</td>
+            <td colspan="5">12</td>
+        </tr>
+        <tr>
+            <td>Gutter width</td>
+            <td colspan="5">30px (15px on each side of a column)</td>
+        </tr>
+        <tr>
+            <td>Nestable</td>
+            <td colspan="5">Yes</td>
+        </tr>
+        <tr>
+            <td>Column ordering</td>
+            <td colspan="5">Yes</td>
+        </tr>
+    </tbody>
+</table>
 
-```html
-<div class="container">
-    <div class="ms_col ms_col--1-of-4">...</div>
-    <div class="ms_col ms_col--1-of-4">...</div>
-    <div class="ms_col ms_col--1-of-2">...</div>
-</div>
-```
+## Auto-layout columns
 
-## Centered
+Utilize breakpoint-specific column classes for easy column sizing without an explicit numbered class like `.col-sm-6`.
 
-In order to adjust your content, the `ms_col--centered` classe allows you to **center the columns**.
+<a class="ms-btn ms-info" href="https://getbootstrap.com/docs/4.5/layout/grid/#auto-layout-columns">See more</a>
 
-<div class="container" style="margin-bottom: 1rem;">
-    <div class="ms_col ms_col--3-of-5 ms_col--centered" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-      <code>ms_col--centered</code>
-    </div>
-</div>
+## Responsive classes
 
-```html
-<div class="container">
-    <div class="ms_col ms_col--3-of-5 ms_col--centered" >...</div>
-</div>
-```
+Bootstrap’s grid includes five tiers of predefined classes for building complex responsive layouts. Customize the size of your columns on extra small, small, medium, large, or extra large devices however you see fit.
 
-## Push & Pull
+<a class="ms-btn ms-info" href="https://getbootstrap.com/docs/4.5/layout/grid/#responsive-classes">See more</a>
 
-The `ms_col--push-[col-number]-of-[group-number]` classe allows you to **push columns**, and `ms_col--pull-[col-number]-of-[group-number]` allows you to **pull columns**.
+## Alignment
+Use flexbox alignment utilities to vertically and horizontally align columns. Internet Explorer 10-11 do not support vertical alignment of flex items when the flex container has a min-height as shown below.
 
-<div class="container" style="margin-bottom: 1rem;">
-    <div class="ms_col ms_col--3-of-5 ms_col--push-2-of-5" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-        <code>ms_col--push-2-of-5</code>
-    </div>
-</div>
+<a class="ms-btn ms-info" href="https://getbootstrap.com/docs/4.5/layout/grid/#alignment">See more</a>
 
-```html
-<div class="container">
-    <div class="ms_col ms_col--3-of-5 ms_col--push-2-of-5">...</div>
-</div>
-```
+## Reordering
 
-## Mobiles & Tablets
+Use .order- classes for controlling the visual order of your content. These classes are responsive, so you can set the order by breakpoint (e.g., `.order-1.order-md-2`). Includes support for 1 through 12 across all five grid tiers.
 
-In order to **adapt your content to mobiles and tablets**, you can use the following two classes : `ms_col--m-[col-number]-of-[group-number]` for tablets, and `ms_col--s-[col-number]-of-[group-number]` for mobiles.
+<a class="ms-btn ms-info" href="https://getbootstrap.com/docs/4.5/layout/grid/#reordering">See more</a>
 
->By default, the mobile version (<560px) takes the entire width, so it is not necessary to specify it in the classe.
+## Nesting
 
-<div class="container" style="margin-bottom: 1rem;">
-    <div class="ms_col--1-of-4 ms_col--m-2-of-4 ms_col" style="background-color:#fdf0f0;background-clip:content-box;height:30px;line-height:25px;text-align:center;">
-        responsive col...
-    </div>
-</div>
+To nest your content with the default grid, add a new .row and set of `.col-sm-*` columns within an existing `.col-sm-*` column. Nested rows should include a set of columns that add up to 12 or fewer (it is not required that you use all 12 available columns).
 
-```html
-<div class="container">
-    <div class="ms_col--1-of-4 ms_col--m-2-of-4 ms_col">...</div>
-</div>
-```
-
-## Source
-
-As mentioned above, we use the CSS [Toast](https://daneden.github.io/Toast) grid, for more information follow the links below :
-
-<form action="https://github.com/daneden/Toast" style="display: inline-block;">
-    <input type="submit" value="GitHub" class="ms-btn"/>
-</form>
-
-<form action="https://daneden.github.io/Toast" style="display: inline-block;">
-    <input type="submit" value="Website" class="ms-btn ms-info"/>
-</form>
+<a class="ms-btn ms-info" href="https://getbootstrap.com/docs/4.5/layout/grid/#nesting">See more</a>

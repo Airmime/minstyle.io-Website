@@ -53,3 +53,29 @@ minstyle.io is also available under [yarn](https://yarnpkg.com/en/package/minsty
 ```bash
 yarn add minstyle.io
 ```
+
+## Dark theme
+
+> For more informations about dark theme, consult the dedicated [page](dark.md).
+
+If you want to use the dark mode, it will be necessary to integrate the [dark-mode-switcher](https://github.com/Airmime/dark-mode-switcher) package on your web page:
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/dark-mode-switcher@0.0.1/dist/dark.min.js"></script>
+```
+
+#### NPM
+
+dark-mode-switcher is also available under [npm](https://www.npmjs.com/package/dark-mode-switcher).
+
+```bash
+npm i minstyle.io
+```
+
+#### Yarn
+
+dark-mode-switcher is also available under [yarn](https://yarnpkg.com/en/package/dark-mode-switcher).
+
+```bash
+yarn add minstyle.io
+```

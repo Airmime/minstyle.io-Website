@@ -36,3 +36,6 @@ What's news on minstyle.io ?
 
 #### Progress bar
 * Fix margin.
+
+#### Menu
+* Added logo on menu.

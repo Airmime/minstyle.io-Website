@@ -44,9 +44,6 @@ function Versions(props) {
                     Documentation
                   </a>
                 </td>
-                <td>
-                  <a href="/docs/changelog">Release Notes</a>
-                </td>
               </tr>
             </tbody>
           </table>
@@ -71,11 +68,6 @@ function Versions(props) {
                             props.language ? props.language + '/' : ''
                           }${version}/installation`}>
                           Documentation
-                        </a>
-                      </td>
-                      <td>
-                        <a href={`${repoUrl}/releases/tag/v${version}`}>
-                          Release Notes
                         </a>
                       </td>
                     </tr>

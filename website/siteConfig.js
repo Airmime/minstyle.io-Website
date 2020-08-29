@@ -27,7 +27,6 @@ const siteConfig = {
     {page: 'index', label: 'Home'},
     {doc: 'installation', label: 'Docs'},
     {blog: true, label: 'Blog'},
-    {href: 'https://github.com/Airmime/minstyle.io', label: 'Examples'},
     {href: 'https://github.com/Airmime/minstyle.io', label: 'Contribute'},
     { languages: true },
   ],
@@ -63,7 +62,7 @@ const siteConfig = {
   usePrism: ['html'],
   
   /* Externals JS */
-  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js','http://localhost/dark-mode-switcher/dist/dark.min.js'],
+  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js','https://cdn.jsdelivr.net/npm/dark-mode-switcher@0.0.1/dist/dark.min.js'],
   
   /* Navigation */
   onPageNav: 'separate',
