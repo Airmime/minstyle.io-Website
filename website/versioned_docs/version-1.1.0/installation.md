@@ -8,7 +8,7 @@ original_id: installation
 
 minstyle.io is a simple and light open source CSS framework. It integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces for all devices.
 
-minstyle.io also includes support for **dark theme**, initially set on your OS. A [script](https://www.npmjs.com/package/dark-mode-switcher) also allows you to manually change from one theme to another in a fraction of a second (try it, by clicking on the icon at the bottom right). The working principle is detailed on the [dedicated page](dark.md).
+**minstyle.io also includes support for dark theme**, initially set on your OS. A [script](https://www.npmjs.com/package/dark-mode-switcher) allows you to manually change from one theme to another in a fraction of a second (try it, by clicking on the icon at the bottom right). The working principle is detailed on the [dedicated page](dark.md).
 
 >minstyle.io is entirely designed in CSS (SCSS), no javascript library is developed or required, except for switch in [dark theme](dark.md).
 
@@ -20,7 +20,7 @@ To install the CSS framework, you have 4 options.
 
 #### Manually
 
-The compiled sources are available for download. You just have to add the `<link>` in between your `head` tags.
+The compiled sources are available for download. You just have to add the `<link>` between your `head` tags.
 
 <form action="https://github.com/Airmime/minstyle.io/blob/master/css/minstyle.io.css" style="display: inline-block;">
     <input type="submit" value="Download" class="ms-btn ms-success"/>
@@ -57,25 +57,3 @@ yarn add minstyle.io
 ## Dark theme
 
 > For more informations about dark theme, consult the dedicated [page](dark.md).
-
-If you want to use the dark mode, it will be necessary to integrate the [dark-mode-switcher](https://github.com/Airmime/dark-mode-switcher) package on your web page:
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/dark-mode-switcher@0.0.1/dist/dark.min.js"></script>
-```
-
-#### NPM
-
-dark-mode-switcher is also available under [npm](https://www.npmjs.com/package/dark-mode-switcher).
-
-```bash
-npm i minstyle.io
-```
-
-#### Yarn
-
-dark-mode-switcher is also available under [yarn](https://yarnpkg.com/en/package/dark-mode-switcher).
-
-```bash
-yarn add minstyle.io
-```

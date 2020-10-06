@@ -13,7 +13,7 @@ class Index extends React.Component {
               Your web interface<br/> simply and quickly!
             </h2>
             <h1>
-              <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework, whith <span className="color">dark theme</span>.
+              <span className="color">Simple</span> & <span className="color">light</span> open source CSS framework, including <span className="color">dark theme</span>.
             </h1>
             <p>            
               minstyle.io integrates a set of pre-designed HTML elements, allowing the rapid and simple development of interfaces, for all devices.
@@ -22,7 +22,7 @@ class Index extends React.Component {
               <a href="/docs/installation" className="ms-btn"><i className="fas fa-book"></i> Doc</a>
               &nbsp;
               <a href="https://github.com/Airmime/minstyle.io" className="ms-btn"><i className="fab fa-github"></i> GitHub</a><br/>
-              <span className="home-version">V1.0.2</span>
+              <span className="home-version">V1.1.0</span>
             </p>
           </div>
         
