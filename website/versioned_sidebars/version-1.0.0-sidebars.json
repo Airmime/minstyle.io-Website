@@ -1,0 +1,31 @@
+{
+  "version-1.0.0-docs": {
+    "Getting started": [
+      "version-1.0.0-installation",
+      "version-1.0.0-browsers-support",
+      "version-1.0.0-changelog"
+    ],
+    "Layout": [
+      "version-1.0.0-grid"
+    ],
+    "Content": [
+      "version-1.0.0-icons",
+      "version-1.0.0-tables",
+      "version-1.0.0-typographie"
+    ],
+    "Components": [
+      "version-1.0.0-alerts",
+      "version-1.0.0-avatars",
+      "version-1.0.0-breadcrumbs",
+      "version-1.0.0-buttons",
+      "version-1.0.0-cards",
+      "version-1.0.0-dropdown",
+      "version-1.0.0-forms",
+      "version-1.0.0-labels",
+      "version-1.0.0-pagination",
+      "version-1.0.0-progress-bars",
+      "version-1.0.0-tabs",
+      "version-1.0.0-users"
+    ]
+  }
+}

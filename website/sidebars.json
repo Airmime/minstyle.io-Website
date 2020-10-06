@@ -3,6 +3,6 @@
     "Getting started": ["installation","browsers-support","changelog"],
     "Layout": ["grid"],
     "Content": ["icons","tables","typographie"],
-    "Components": ["alerts","avatars","articles","breadcrumbs","buttons","cards","dropdown","forms","labels","menu","pagination","progress-bars","tabs","users"]
+    "Components": ["alerts","avatars","articles","breadcrumbs","buttons","cards","dropdown","forms","labels","menu","pagination","progress-bars","tabs","users","browser"]
   }
 }

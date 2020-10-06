@@ -17,7 +17,7 @@ const users = [
 const siteConfig = {
   /* Infos */
   title: 'minstlye.io',
-  tagline: 'Simple and light open source CSS framework',
+  tagline: 'Simple and light open source CSS framework, integrating a dark theme.',
   url: 'https://minstyle.io/', // Your website URL
   baseUrl: '/', 
   projectName: 'minstyle.io',
@@ -26,9 +26,15 @@ const siteConfig = {
   headerLinks: [
     {page: 'index', label: 'Home'},
     {doc: 'installation', label: 'Docs'},
+    {blog: true, label: 'Blog'},
     {href: 'https://github.com/Airmime/minstyle.io', label: 'Contribute'},
     { languages: true },
   ],
+
+  algolia: {
+    apiKey: 'e35a97664bc9cd2ef9b3d3a74c4ed80e',
+    indexName: 'minstyle',
+  },
   
   users,
 
@@ -56,7 +62,7 @@ const siteConfig = {
   usePrism: ['html'],
   
   /* Externals JS */
-  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js'],
+  scripts: ['https://buttons.github.io/buttons.js','https://kit.fontawesome.com/d35975edad.js','https://cdn.jsdelivr.net/npm/dark-mode-switcher@0.0.1/dist/dark.min.js'],
   
   /* Navigation */
   onPageNav: 'separate',
@@ -70,7 +76,7 @@ const siteConfig = {
   
   /* Externals CSS */
   stylesheets: [
-    'https://cdn.jsdelivr.net/npm/minstyle.io@1.0.2/css/minstyle.io.css',
+    'http://localhost/minstyle.io/css/minstyle.io.css',
   ]
 };
 
