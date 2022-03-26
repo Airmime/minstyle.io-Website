@@ -1,5 +1,0 @@
----
-id: browser
-title: Browser
----
-
