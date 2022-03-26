@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "minstyle.io",
   tagline: "Simple and light open source CSS framework, integrating dark mode and Customizer.",
-  url: "https://calm-bublanina-3ca4a6.netlify.app",
+  url: "https://minstyle.io",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
