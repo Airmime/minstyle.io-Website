@@ -1,0 +1,311 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #e04540;
+  --ifm-code-font-size: 95%;
+}
+
+html{
+  font: inherit;
+}
+
+/* Table */
+table tr:nth-child(2n) {
+  background-color: transparent;
+}
+
+table th, table td {
+  border: none;
+  padding: inherit;
+}
+
+table td {
+  color: var(--ifm-table-cell-color);
+}
+
+/* Header */
+.navbar {
+  background-color: rgba(var(--ligth-bg-color), 1);
+  height: 50px;
+  box-shadow: none;
+  padding: 0 20px;
+}
+
+.preview{
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Menu */
+.navbar__link svg{
+  display: none !important;
+}
+
+.navbar__brand{
+  margin: 0 !important;
+}
+
+.generator-link{
+  background: rgb(250,77,96);
+  background: linear-gradient(90deg, rgba(250,77,96,1) 0%, rgba(109,44,179,1) 100%);
+  color: #fff;
+  border-radius: var(--default-border-radius);
+  font-weight: 600;
+  font-size: .95rem;
+  transition: transform .3s ease-out;
+  margin-right: 10px;
+  padding: 4px 10px;
+}
+
+.generator-link:hover{
+  color: #fff;
+  text-decoration: none;
+  transform: translate(0, 2px);
+}
+
+.generator-link svg{
+  display: none;
+}
+
+.pagination-nav__link{
+  border: 2px solid rgba(var(--default-border-color), 1);
+}
+
+/* Search */
+.DocSearch-Button{
+  display: inline-block !important;
+	height: 40px !important;
+  min-width: 150px !important;
+	appearance: none !important;
+	box-sizing: border-box !important;
+	box-shadow: none !important;
+	font-family: Inter, sans-serif !important;
+	color: rgba(var(--light-text-color), 1) !important;
+	font-size: 0.98rem !important;
+	background-color: rgba(var(--main-bg), 1) !important;
+}
+
+.DocSearch-Button-Key{
+  display: none !important;
+}
+
+/* Sidebar */
+.menu__link {
+  color: rgba(var(--main-text-color), 1);
+}
+
+.theme-doc-sidebar-item-link-level-2 .menu__link {
+  font-weight: 400 !important;
+  color: rgba(var(--main-text-color), 0.8);
+}
+
+.menu__link--sublist:after {
+  background: var(--ifm-menu-link-sublist-icon) 50% / 1.5rem 1.5rem;
+}
+
+/* Title */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Inter, sans-serif;
+	padding: 0;
+}
+h1 {
+	font-size: 2.5rem;
+	margin: 1rem 0;
+}
+h2 {
+	font-size: 2rem;
+	margin: 1rem 0;
+}
+h3 {
+	font-size: 1.5rem;
+	margin: 1rem 0;
+}
+h4 {
+	font-size: 1.5rem;
+	margin: 1rem 0;
+}
+h5 {
+	font-size: 1.5rem;
+	margin: 1rem 0;
+}
+h6 {
+	font-size: 1.25rem;
+	margin: 1rem 0;
+}
+
+
+/* Sementic */
+kbd {
+  background-color: #000;
+  border: none;
+  border-radius: var(--default-border-radius);
+  box-shadow: none;
+  color: #ffffff;
+  font: initial;
+  font-family: Courier, monospace;
+  padding: 0.2rem 0.2rem;
+}
+
+/* Markdown content */
+.content_code {
+  margin-bottom: 20px;
+}
+
+code {
+  border: none;
+}
+
+.theme-code-block {
+  background-color: rgba(var(--ligth-bg-color), 1);
+}
+
+/* JSX */
+.codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-next-theme-CodeBlock-styles-module {
+  min-width: auto !important;
+}
+.playgroundPreview_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module {
+  background-color: transparent !important;
+}
+
+.playgroundEditor_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module, .playgroundEditor_Q6Y7 {
+  background-color: rgba(var(--ligth-bg-color), 1) !important;
+}
+
+.playgroundHeader_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module, .playgroundHeader_dyrN {
+  background-color: rgba(var(--ligth-bg-color), 1) !important;
+  color: rgba(var(--main-text-color), 1) !important;
+}
+
+.playgroundContainer_node_modules-\@docusaurus-theme-live-codeblock-lib-theme-Playground-styles-module, .playgroundContainer_X_Ta {
+  border: 3px solid rgba(var(--ligth-bg-color), 1) !important;
+  box-shadow: none !important;
+}
+
+
+/* Progress bar */
+.thirty-percent{
+  width: 30%;
+}
+
+/* Shape */
+.shape{
+  width: 100px;
+  height: 100px;
+  background-color: rgba(var(--primary-bg-color), 1);
+  margin-bottom: 20px;
+}
+
+/* Homepage */
+.home-banner{
+  padding: 20px;
+  background: rgba(var(--main-bg),1);
+}
+
+.home-banner .home-content{
+  display: flex;
+  align-items: center;
+}
+
+.home-banner .ms-alert{
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 7px 10px;
+}
+
+.home-banner .ms-alert p{
+  font-size: .95rem;
+}
+
+.home-banner .home-content-text{
+  padding: 90px 100px 0 100px;
+}
+
+.home-banner .home-content-text h1{
+  width: 100%;
+  font-size: 5.5rem;
+  line-height: 6rem;
+  font-weight: 900;
+  text-align: center;
+}
+.home-banner .home-content-text h2{
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  padding: 10px 0;
+}
+.home-banner .home-content-text p{
+  color: #757575;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 100px;
+}
+.home-banner .home-content-text span{
+  color: #fa4d60;
+}
+
+.home-elements{
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+}
+
+.home-elements{
+  width: 100%;
+  height: auto;
+  padding: 100px 0;
+}
+
+.home-elements .home-elements-title{
+  margin: 0;
+  padding: 0;
+}
+
+.home-elements .home-elements-title h3{
+  text-align: center;
+  font-weight: 800;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.home-elements .home-elements-title p{
+  text-align: center;
+  color: #757575;
+  margin: 20px;
+  padding: 0;
+}
+
+.home-elements .ms-card .ms-card-title h2{
+  font-size: 1.5rem;
+}
+
+.home-infos{
+  width: 100%;
+  background: rgba(var(--main-bg), 1);
+  background: linear-gradient(180deg, rgba(var(--main-bg), 1) 0%, rgba(var(--ligth-bg-color),1) 100%);
+  padding: 60px 0;
+}
+
+.home-infos .home-infos-bloc{
+  margin: 0;
+  padding: 0;
+}
+
+.home-infos .home-infos-bloc .home-infos-picture{
+  max-height: 200px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.home-infos .home-infos-bloc .ms-card{
+  text-align: center;
+}
