@@ -210,9 +210,10 @@ code {
   background: rgba(var(--main-bg),1);
 }
 
-.home-banner .home-content{
+.home-banner{
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 .home-banner .ms-alert{

@@ -4,7 +4,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 function HomeBanner() {
   return (
-    <div className="home-banner ms-display-flex ms-flex-direction-column ms-flex-justify-center">
+    <div className="home-banner">
       <div className="container">
         <div className="ms-alert ms-light ms-small">
           <p>
@@ -17,7 +17,7 @@ function HomeBanner() {
           </p>
         </div>
 
-        <div className="home-content home-content-text ms-flex-direction-column">
+        <div className="home-content-text ms-flex-direction-column">
           <h1>Your web interface simply and quickly.</h1>
           <h2>
             <span>Simple</span> & <span>light</span> open source CSS framework,
