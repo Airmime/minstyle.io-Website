@@ -93,7 +93,7 @@ const config = {
     },
     algolia: {
       appId: "9RMVZ9ZO4X",
-      apiKey: "4789fb89c054176973a5dbff430d21ca",
+      apiKey: "df8deaa34a0d42d8f726bf6989135948",
       indexName: "minstyle",
     },
   },

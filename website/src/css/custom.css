@@ -1,13 +1,11 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
-
-/* You can override the default Infima variables here. */
+/* Root */
 :root {
   --ifm-color-primary: #e04540;
   --ifm-code-font-size: 95%;
+}
+
+* {
+  box-sizing: inherit;
 }
 
 html{
@@ -204,6 +202,8 @@ code {
   margin-bottom: 20px;
 }
 
+/* Home page */
+
 /* Homepage */
 .home-banner{
   padding: 20px;
@@ -231,7 +231,7 @@ code {
 
 .home-banner .home-content-text h1{
   width: 100%;
-  font-size: 5.5rem;
+  font-size: 5rem;
   line-height: 6rem;
   font-weight: 900;
   text-align: center;
@@ -250,12 +250,6 @@ code {
 }
 .home-banner .home-content-text span{
   color: #fa4d60;
-}
-
-.home-elements{
-  width: 100%;
-  height: 400px;
-  box-sizing: border-box;
 }
 
 .home-elements{
@@ -301,6 +295,8 @@ code {
 
 .home-infos .home-infos-bloc .home-infos-picture{
   max-height: 200px;
+  max-width: 100%;
+  overflow: hidden;
   display: block;
   margin: 0 auto;
   padding: 0;
@@ -308,4 +304,40 @@ code {
 
 .home-infos .home-infos-bloc .ms-card{
   text-align: center;
+}
+
+/* Reponsive */
+@media (max-width: 996px){
+  nav .generator-link{
+    display: none;
+  }
+
+  .home-banner .ms-alert{
+    margin-top: 0;
+  }
+
+  .home-banner .home-content-text {
+    padding: 40px 0;
+  }
+  
+  .home-banner .home-content-text h1{
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  .home-banner .home-content-text p {
+    padding: 0;
+}
+
+  .home-infos {
+    padding: 20px 0;
+  }
+
+  .home-infos .home-infos-bloc .home-infos-picture {
+    max-height: 150px;
+  }
+
+  .home-infos .home-infos-bloc .ms-card{
+    padding: 0 20px;
+  }
 }
