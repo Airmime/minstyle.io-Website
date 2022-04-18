@@ -13,21 +13,7 @@ First of all, many elements have been redesigned with a more modern theme. Some 
 
 Finally, and as you can see, the documentation has been revised to be more readable, and interactive with the modifiable code blocks.
 
-## V2.0.1 (current version)
-
-#### General
-
-* Fix global box-sizing.
-
-#### Avatar
-
-* Fix status border color.
-
-#### Footer 
-
-* Fix footer padding, and `<p>` size.
-
-## V2.0.0
+## V2.0.0 (current version)
 
 #### Helpers
 

@@ -6,16 +6,6 @@ function HomeBanner() {
   return (
     <div className="home-banner">
       <div className="container">
-        <div className="ms-alert ms-light ms-small">
-          <p>
-            <div className="ms-label ms-border ms-primary">new</div>&nbsp;
-            <a href="https://minstyle.io/">minstyle.io</a> 2.0.0 version is
-            currently in beta. For a stable version, prefer{" "}
-            <a href="https://v1.minstyle.io/" target="_blank">
-              1.1.0 version -&gt;
-            </a>{" "}
-          </p>
-        </div>
 
         <div className="home-content-text ms-flex-direction-column">
           <h1>Your web interface simply and quickly.</h1>
