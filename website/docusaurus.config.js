@@ -91,11 +91,6 @@ const config = {
       theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
-    algolia: {
-      appId: "9RMVZ9ZO4X",
-      apiKey: "df8deaa34a0d42d8f726bf6989135948",
-      indexName: "minstyle",
-    },
   },
 };
 
