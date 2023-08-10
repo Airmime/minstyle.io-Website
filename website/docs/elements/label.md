@@ -73,7 +73,7 @@ Labels can get a border with the `.ms-border` class.
 </div>
 ```
 
-### Active Label
+## Active Label
 
 A label can be activated using the `.ms-label-active` classe.
 
