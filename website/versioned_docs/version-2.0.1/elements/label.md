@@ -72,16 +72,3 @@ Labels can get a border with the `.ms-border` class.
     <div class="ms-label ms-border ms-action2">label</div>
 </div>
 ```
-
-### Active Label
-
-A label can be activated using the `.ms-label-active` classe.
-
-```jsx live
-<div>
-    <div class="ms-label ms-active ms-primary">label</div>
-    <div class="ms-label ms-active ms-secondary">label</div>
-    <div class="ms-label ms-active ms-action">label</div>
-    <div class="ms-label ms-active ms-action2">label</div>
-</div>
-```

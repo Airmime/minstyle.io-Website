@@ -95,17 +95,6 @@ You can also change the appearance of the buttons, by **changing their angles** 
 </div>
 ```
 
-### Active button
-
-A button can be activated using the `.ms-btn-active` classe.
-
-```jsx live
-<div>
-  <button class="ms-btn ms-rounded ms-primary ms-button-active">.ms-active</button>
-  <button class="ms-btn ms-outline ms-rounded ms-secondary ms-button-active">.ms-active</button>
-</div>
-```
-
 ### Loading button
 
 You can also **add a loader** to the button with the loading components.

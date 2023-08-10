@@ -11,21 +11,6 @@ The helpers allow you to save time in the design of your HTML pages.
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Margin / Padding</h2>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    Easily use margins / paddings.
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <a href="margin-padding" class="ms-btn ms-primary ms-outline">Read -></a>
-            </div>
-        </div> 
-    </div>
-    <div class="col-md-6">
-        <div class="ms-card ms-border">
-            <div class="ms-card-title">
                 <h2>Colors</h2>
             </div>
             <div class="ms-card-content">

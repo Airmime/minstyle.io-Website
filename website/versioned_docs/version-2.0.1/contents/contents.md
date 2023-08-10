@@ -1,115 +1,99 @@
 ---
-id: helpers
-title: Helpers
-description: The helpers allow you to save time in the design of your HTML pages.
-keywords: [Helper, HTML, CSS, CSS Framework, minstyle.io]
+sidebar_position: 1
+id: contents
+Title: Contents
+description: minstyle.io 's Contents.
+keywords: [Contents, HTML, CSS, CSS Framework, minstyle.io]
 ---
-
-The helpers allow you to save time in the design of your HTML pages.
 
 <div class="row">
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Margin / Padding</h2>
+                <h2>Blockquote</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    Easily use margins / paddings.
+                    How to set up and design a blockquote? 
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="margin-padding" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="blockquote" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Colors</h2>
+                <h2>Forms</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use colors helpers?
+                    How to set up and design a complete form? 
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="colors" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="forms" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Display</h2>
+                <h2>Icons</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use display helpers?
+                    Icones on minstyle.io ? 
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="display" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="icons" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Flexbox</h2>
+                <h2>Table</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use flexbox helpers?
+                    How to set up and design a table element? 
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="flexbox" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="blockquote" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Position</h2>
+                <h2>titles</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use position helpers?
+                    How big are the default titles?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="position" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="titles" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Shadow</h2>
+                <h2>Typography</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use shadow helpers?
+                    How is the typography formatted?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="shadow" class="ms-btn ms-primary ms-outline">Read -></a>
-            </div>
-        </div> 
-    </div>
-    <div class="col-md-6">
-        <div class="ms-card ms-border">
-            <div class="ms-card-title">
-                <h2>Shape</h2>
-            </div>
-            <div class="ms-card-content">
-                <p>
-                    How to use Shape helpers?
-                </p>
-            </div>
-            <div class="ms-card-btn">
-                <a href="shape" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="typography" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
