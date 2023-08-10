@@ -1,115 +1,129 @@
 ---
-id: helpers
-title: Helpers
-description: The helpers allow you to save time in the design of your HTML pages.
-keywords: [Helper, HTML, CSS, CSS Framework, minstyle.io]
+sidebar_position: 1
+id: components
+Title: Components
+description: minstyle.io 's Components.
+keywords: [Components, HTML, CSS, CSS Framework, minstyle.io]
 ---
-
-The helpers allow you to save time in the design of your HTML pages.
 
 <div class="row">
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Margin / Padding</h2>
+                <h2>Article</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    Easily use margins / paddings.
+                    How to set up and parameterize an article?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="margin-padding" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="article" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Colors</h2>
+                <h2>Avatar</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use colors helpers?
+                    How to create an avatar?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="colors" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="avatar" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Display</h2>
+                <h2>Browser</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use display helpers?
+                    How to set up an HTML browser?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="display" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="browser" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Flexbox</h2>
+                <h2>Card</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use flexbox helpers?
+                    How to set up and parameterize a card?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="flexbox" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="card" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Position</h2>
+                <h2>Hero</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use position helpers?
+                    How to set up and parameterize a hero component?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="position" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="hero" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Shadow</h2>
+                <h2>Menu</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use shadow helpers?
+                    How to set up a menu?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="shadow" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="menu" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
     <div class="col-md-6">
         <div class="ms-card ms-border">
             <div class="ms-card-title">
-                <h2>Shape</h2>
+                <h2>Tab</h2>
             </div>
             <div class="ms-card-content">
                 <p>
-                    How to use Shape helpers?
+                    How to set up a Tab?
                 </p>
             </div>
             <div class="ms-card-btn">
-                <a href="shape" class="ms-btn ms-primary ms-outline">Read -></a>
+                <a href="tab" class="ms-btn ms-primary ms-outline">Read -></a>
+            </div>
+        </div> 
+    </div>
+    <div class="col-md-6">
+        <div class="ms-card ms-border">
+            <div class="ms-card-title">
+                <h2>User</h2>
+            </div>
+            <div class="ms-card-content">
+                <p>
+                    How to set up a user card?
+                </p>
+            </div>
+            <div class="ms-card-btn">
+                <a href="user" class="ms-btn ms-primary ms-outline">Read -></a>
             </div>
         </div> 
     </div>
