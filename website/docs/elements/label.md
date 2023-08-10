@@ -79,9 +79,9 @@ A label can be activated using the `.ms-label-active` classe.
 
 ```jsx live
 <div>
-    <div class="ms-label ms-active ms-primary">label</div>
-    <div class="ms-label ms-active ms-secondary">label</div>
-    <div class="ms-label ms-active ms-action">label</div>
-    <div class="ms-label ms-active ms-action2">label</div>
+    <div class="ms-label ms-label-active ms-primary">label</div>
+    <div class="ms-label ms-label-active ms-secondary">label</div>
+    <div class="ms-label ms-label-active ms-action">label</div>
+    <div class="ms-label ms-label-active ms-action2">label</div>
 </div>
 ```
